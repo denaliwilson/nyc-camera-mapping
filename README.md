@@ -1,2 +1,8 @@
-# nyc-camera-mapping
-Project mapping surveillance cameras of New York City
+# NYC Transit Security Camera Mapping 
+## 🎯 Project Overview A GIS analysis project mapping security camera locations across New York City transit stations. This project demonstrates geospatial data processing, KML/KMZ file handling, and spatial analysis techniques relevant to public safety and infrastructure monitoring. 
+## 🎨 Project Status 🚧 **In Development** - Active work in progress ## 🛠️ Technologies & Tools - **Python** - GeoPandas, Pandas, Folium - **GIS Software** - ArcGIS Pro / QGIS (TBD) - **Data Formats** - KML, CSV, GeoJSON - **Visualization** - Matplotlib, Folium (interactive maps) 
+## 📁 Project Structure ``` nyc-camera-mapping/ ├── data/ # Raw and processed camera location data ├── scripts/ # Python scripts for data processing ├── maps/ # Output visualizations and maps ├── docs/ # Documentation and methodology └── README.md # This file ``` 
+## 🎯 Project Goals - [ ] Collect and geocode camera location data - [ ] Create KML/KMZ files for visualization - [ ] Analyze coverage patterns and gaps - [ ] Generate interactive web map - [ ] Document georeferencing workflow 
+## 📊 Skills Demonstrated - Geospatial data collection and validation - Coordinate system transformations - KML/KMZ file creation and manipulation - Spatial analysis and coverage calculations - Data visualization for GIS applications - ETL workflows for location data ## 🚀 Getting Started *Instructions will be added as project develops* 
+## 📝 Notes This project is part of my GIS portfolio demonstrating practical skills in location intelligence and geospatial analysis for real-world applications. 
+## 👤 Author **Denali Wilson** - GitHub: [@denaliwilson](https://github.com/denaliwilson) - LinkedIn: (https://www.linkedin.com/in/denali-wilson/) - Email: denaliwilson@gmail.com ## 📄 License This project is licensed under the MIT License - see the LICENSE file for details.
