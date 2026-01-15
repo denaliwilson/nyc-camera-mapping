@@ -201,6 +201,68 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# === GIS-Specific Files to Ignore ===
+
+# ArcGIS 
+*.mxd.bak 
+*.aprx.bak 
+*.gdb/ 
+*.sde 
+*.lock 
+*.tmp 
+
+# QGIS 
+*.qgs~ 
+*.qgz~
+
+# Large spatial data files 
+*.tif 
+*.tiff 
+*.img 
+*.sid 
+*.jp2 
+*.dem 
+*.hgt 
+
+# Shapefiles 
+*.shp 
+*.shx 
+*.dbf 
+*.prj 
+*.sbn 
+*.sbx 
+*.cpg
+
+# Raster files 
+*.asc 
+*.grd 
+*.bil 
+
+# Database files 
+*.sqlite 
+*.db 
+*.mdb 
+
+# Compressed archives 
+*.zip 
+*.7z 
+*.rar 
+
+# macOS 
+.DS_Store 
+
+# Windows 
+Thumbs.db 
+desktop.ini 
+
+# Personal notes 
+notes/ scratch/ personal/ 
+
+# API keys and credentials  
+.env config.ini 
+secrets.json 
+*_credentials.json
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
