@@ -1,0 +1,9 @@
+camera_id,location_name,latitude,longitude,status,installation_date 
+CAM-001,Times Square Station Platform A,40.7580,-73.9855,Active,2023-01-15 
+CAM-002,Times Square Station Platform B,40.7582,-73.9857,Active,2023-01-15 
+CAM-003,Grand Central Terminal Main Concourse,40.7527,-73.9772,Active,2022-11-20 
+CAM-004,Penn Station Entrance 1,40.7506,-73.9935,Active,2023-02-10 
+CAM-005,Union Square Station North,40.7359,-73.9911,Maintenance,2022-09-05 
+CAM-006,Herald Square Platform,40.7505,-73.9885,Active,2023-03-12 
+CAM-007,34th Street Hudson Yards,40.7555,-74.0021,Active,2023-04-01 
+CAM-008,Columbus Circle Station,40.7678,-73.9819,Active,2022-12-18
