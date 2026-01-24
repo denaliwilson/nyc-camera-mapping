@@ -12,13 +12,13 @@ import numpy as np
 from datetime import datetime
 from collections import Counter
 
-# NYC Borough Boundaries (approximate)
+# NYC Borough Boundaries (precise)
 BOROUGH_BOUNDS = {
-    'Manhattan': {'lat_min': 40.700, 'lat_max': 40.883, 'lon_min': -74.020, 'lon_max': -73.907},
-    'Brooklyn': {'lat_min': 40.570, 'lat_max': 40.739, 'lon_min': -74.042, 'lon_max': -73.833},
-    'Queens': {'lat_min': 40.542, 'lat_max': 40.812, 'lon_min': -73.962, 'lon_max': -73.700},
-    'Bronx': {'lat_min': 40.785, 'lat_max': 40.917, 'lon_min': -73.933, 'lon_max': -73.765},
-    'Staten Island': {'lat_min': 40.477, 'lat_max': 40.651, 'lon_min': -74.259, 'lon_max': -74.052}
+    'Manhattan': {'lat_min': 40.7001, 'lat_max': 40.8824, 'lon_min': -74.0250, 'lon_max': -73.9069},
+    'Brooklyn': {'lat_min': 40.5603, 'lat_max': 40.7282, 'lon_min': -74.0420, 'lon_max': -73.8332},
+    'Queens': {'lat_min': 40.5450, 'lat_max': 40.8097, 'lon_min': -73.9628, 'lon_max': -73.6911},
+    'Bronx': {'lat_min': 40.7850, 'lat_max': 40.9176, 'lon_min': -73.9680, 'lon_max': -73.7597},
+    'Staten Island': {'lat_min': 40.4774, 'lat_max': 40.6513, 'lon_min': -74.2591, 'lon_max': -74.0300}
 }
 
 
