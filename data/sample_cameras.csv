@@ -1,4 +1,4 @@
-camera_id,location_name,latitude,longitude,status,installation_date 
+camera_id,location_name,latitude,longitude,status,installation_date
 CAM-001,Times Square Station Platform A,40.7580,-73.9855,Active,2023-01-15 
 CAM-002,Times Square Station Platform B,40.7582,-73.9857,Active,2023-01-15 
 CAM-003,Grand Central Terminal Main Concourse,40.7527,-73.9772,Active,2022-11-20 
