@@ -1,10 +1,6 @@
 # scripts/load_camera_data.py
 import pandas as pd 
 
-if __name__ == "__main__":
-    # Test the function
-    cameras = load_camera_data("data/sample_cameras.csv")
-
 def load_camera_data(filepath):
     """Load camera location data from CSV file."""
     try:
