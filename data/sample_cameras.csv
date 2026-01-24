@@ -1,26 +1,101 @@
 camera_id,location_name,latitude,longitude,status,installation_date
-CAM-001,Times Square Station Platform A,40.7580,-73.9855,Active,2023-01-15 
-CAM-002,Times Square Station Platform B,40.7582,-73.9857,Active,2023-01-15 
-CAM-003,Grand Central Terminal Main Concourse,40.7527,-73.9772,Active,2022-11-20 
-CAM-004,Penn Station Entrance 1,40.7506,-73.9935,Active,2023-02-10 
-CAM-005,Union Square Station North,40.7359,-73.9911,Maintenance,2022-09-05 
-CAM-006,Herald Square Platform,40.7505,-73.9885,Active,2023-03-12 
-CAM-007,34th Street Hudson Yards,40.7555,-74.0021,Active,2023-04-01 
-CAM-008,Columbus Circle Station,40.7678,-73.9819,Active,2022-12-18
-CAM-009,Brooklyn Bridge-City Hall,40.7130,-74.0048,Inactive,2022-10-30 
-CAM-010,Fulton Street Station,40.7104,-74.0072,Active, 2023-05-22
-CAM-011,Wall Street Station,40.7075,-74.0113,Active,2023-06-05 
-CAM-012,Chambers Street Platform,40.7153,-74.0090,Active,2023-01-30
-CAM-013,14th Street-Union Square,40.7340,-73.9903,Active,2022-08-15 
-CAM-014,Astor Place Station,40.7295,-73.9914,Inactive,2023-03-25 
-CAM-015,Canal Street Station,40.7188,-74.0007,Active,2023-04-18
-CAM-016,City Hall Park,40.7127,-74.0060,Maintenance,2022-11-10 
-CAM-017,Roosevelt Island Tramway,40.7615,-73.9496,Active,2023-02-28 
-CAM-018,South Ferry Terminal,40.7012,-74.0131,Active,2023-05-10 
-CAM-019,High Line Park Entrance,40.7479,-74.0048,Active,2023-06-15 
-CAM-020,Staten Island Ferry Terminal,40.6430,-74.0736,Active,2022-12-05
-CAM-021,Washington Square Park,40.7308,-73.9973,Active,2023-01-22 
-CAM-022,Bryant Park,40.7536,-73.9832,Active,2023-03-08 
-CAM-023,Central Park South Entrance,40.7651,-73.9765,Maintenance,2023-04-20 
-CAM-024,Lincoln Center Plaza,40.7725,-73.9835,Maintenance,2022-10-15 
-CAM-025,Metropolitan Museum of Art Entrance,40.7794,-73.9632,Active,2023-05-30
+CAM-001,Times Square Station Platform A,40.7580,-73.9855,Active,2020-03-15
+CAM-002,Times Square Station Platform B,40.7582,-73.9857,Inactive,2020-04-22
+CAM-003,Grand Central Terminal Main Concourse,40.7527,-73.9772,Active,2020-06-10
+CAM-004,Penn Station Entrance 1,40.7506,-73.9935,Active,2020-07-18
+CAM-005,Union Square Station North,40.7359,-73.9911,Maintenance,2020-09-05
+CAM-006,Herald Square Platform,40.7505,-73.9885,Active,2020-10-12
+CAM-007,34th Street Hudson Yards,40.7555,-74.0021,Active,2020-11-20
+CAM-008,Columbus Circle Station,40.7678,-73.9819,Active,2021-01-18
+CAM-009,Brooklyn Bridge-City Hall,40.7130,-74.0048,Inactive,2021-02-25
+CAM-010,Fulton Street Station,40.7104,-74.0072,Active,2021-03-30
+CAM-011,Wall Street Station,40.7075,-74.0113,Active,2021-05-08
+CAM-012,Chambers Street Platform,40.7153,-74.0090,Maintenance,2021-06-14
+CAM-013,14th Street-Union Square,40.7340,-73.9903,Active,2021-07-22
+CAM-014,Astor Place Station,40.7295,-73.9914,Inactive,2021-08-29
+CAM-015,Canal Street Station,40.7188,-74.0007,Active,2021-09-15
+CAM-016,City Hall Park,40.7127,-74.0060,Maintenance,2021-10-20
+CAM-017,Roosevelt Island Tramway,40.7615,-73.9496,Active,2021-11-27
+CAM-018,South Ferry Terminal,40.7012,-74.0131,Active,2021-12-30
+CAM-019,High Line Park Entrance,40.7479,-74.0048,Active,2022-01-28
+CAM-020,Staten Island Ferry Terminal,40.6430,-74.0736,Active,2022-02-25
+CAM-021,Washington Square Park,40.7308,-73.9973,Active,2022-03-30
+CAM-022,Bryant Park,40.7536,-73.9832,Active,2022-04-15
+CAM-023,Central Park South Entrance,40.7651,-73.9765,Maintenance,2022-05-20
+CAM-024,Lincoln Center Plaza,40.7725,-73.9835,Maintenance,2022-06-10
+CAM-025,Metropolitan Museum of Art Entrance,40.7794,-73.9632,Active,2022-07-18
+CAM-026,Museum of Modern Art,40.7614,-73.9776,Active,2022-08-25
+CAM-027,Broadway Theatre District,40.7590,-73.9845,Active,2022-09-12
+CAM-028,Fifth Avenue Shopping District,40.7638,-73.9721,Active,2022-10-20
+CAM-029,SoHo Shopping Area,40.7233,-74.0020,Maintenance,2022-11-08
+CAM-030,Chinatown Plaza,40.7158,-73.9970,Active,2022-12-15
+CAM-031,Little Italy Street,40.7191,-73.9973,Active,2023-01-22
+CAM-032,The High Line Park,40.7479,-74.0049,Active,2023-02-18
+CAM-033,Washington Heights Station,40.8401,-73.9397,Inactive,2023-03-25
+CAM-034,Yankee Stadium Entrance,40.8296,-73.9262,Active,2023-04-20
+CAM-035,Coney Island Boardwalk,40.5749,-73.9850,Active,2023-05-15
+CAM-036,Brooklyn Botanic Garden,40.6694,-73.9624,Maintenance,2023-06-22
+CAM-037,Prospect Park Entrance,40.6602,-73.9690,Active,2023-07-30
+CAM-038,DUMBO Waterfront,40.7033,-73.9881,Active,2023-08-18
+CAM-039,Flushing Meadows Corona Park,40.7340,-73.8369,Active,2023-09-25
+CAM-040,Queensboro Bridge Pedestrian Path,40.7561,-73.9545,Active,2023-10-12
+CAM-041,Bronx Zoo Entrance,40.8506,-73.8769,Active,2023-11-20
+CAM-042,Arthur Avenue Retail Market,40.8549,-73.8880,Inactive,2023-12-08
+CAM-043,St. George Ferry Terminal,40.6437,-74.0731,Active,2024-01-15
+CAM-044,Snug Harbor Cultural Center,40.6439,-74.1045,Maintenance,2024-02-12
+CAM-045,Inwood Hill Park,40.8686,-73.9258,Active,2024-03-20
+CAM-046,Ellis Island Arrival Point,40.6995,-74.0396,Active,2024-04-10
+CAM-047,Battery Park Entrance,40.7033,-74.0170,Active,2024-05-18
+CAM-048,Seaport District Pier 17,40.7075,-74.0030,Active,2024-06-25
+CAM-049,South Street Seaport,40.7060,-74.0037,Active,2024-07-22
+CAM-050,Tribeca Park Area,40.7163,-74.0086,Active,2024-08-30
+CAM-051,East Village Intersection,40.7277,-73.9802,Maintenance,2024-09-15
+CAM-052,Lower East Side Cultural Center,40.7167,-73.9818,Active,2024-10-20
+CAM-053,Tompkins Square Park,40.7302,-73.9773,Active,2024-11-10
+CAM-054,Nolita Shopping District,40.7197,-74.0002,Inactive,2024-12-05
+CAM-055,West Village Pier,40.7381,-74.0074,Active,2025-01-12
+CAM-056,Christopher Street Station,40.7369,-74.0023,Maintenance,2025-01-28
+CAM-057,Hudson River Greenway Mile 3,40.7521,-74.0119,Active,2025-02-10
+CAM-058,Chelsea Market,40.7481,-74.0016,Active,2025-02-25
+CAM-059,Madison Square Garden,40.7505,-73.9934,Active,2025-03-15
+CAM-060,Grand Central Vanderbilt Hall,40.7527,-73.9746,Active,2025-04-05
+CAM-061,Park Avenue At 42nd,40.7548,-73.9710,Maintenance,2025-04-20
+CAM-062,Lexington Avenue Line Platform,40.7614,-73.9776,Active,2025-05-08
+CAM-063,1st Avenue Bus Terminal,40.7528,-73.9760,Active,2025-05-25
+CAM-064,Avenue of Americas,40.7495,-73.9860,Inactive,2025-06-10
+CAM-065,Penn Plaza Concourse,40.7505,-73.9945,Active,2025-06-28
+CAM-066,Madison Avenue Shopping,40.7650,-73.9743,Active,2025-07-15
+CAM-067,Rockefeller Center Plaza,40.7549,-73.9780,Active,2025-08-02
+CAM-068,St Patrick's Cathedral,40.7585,-73.9756,Maintenance,2025-08-20
+CAM-069,Park Avenue South,40.7410,-73.9889,Active,2025-09-05
+CAM-070,Stuyvesant Square,40.7355,-73.9809,Active,2025-09-22
+CAM-071,Williamsburg Bridge Plaza,40.7109,-73.9561,Active,2020-05-10
+CAM-072,McCarren Park,40.7089,-73.9566,Maintenance,2020-08-15
+CAM-073,Greenpoint Landing,40.7225,-73.9516,Active,2021-04-22
+CAM-074,Astoria Park,40.7691,-73.9262,Active,2021-12-08
+CAM-075,Ditmars Boulevard Station,40.7738,-73.9369,Active,2022-03-15
+CAM-076,Long Island City Waterfront,40.7497,-73.9483,Inactive,2022-09-20
+CAM-077,Gantry Plaza State Park,40.7482,-73.9483,Active,2023-01-10
+CAM-078,Court Square,40.7447,-73.9485,Active,2023-08-05
+CAM-079,Forest Hills Gardens,40.7161,-73.8413,Maintenance,2023-10-18
+CAM-080,Kew Gardens Station,40.7070,-73.8256,Active,2023-11-25
+CAM-081,Jamaica Station,40.7018,-73.8081,Active,2024-02-28
+CAM-082,Rockaway Beach,40.5754,-73.8192,Active,2024-05-12
+CAM-083,Myrtle Avenue Station,40.6870,-73.9276,Active,2024-07-30
+CAM-084,Cypress Hills Cemetery,40.6704,-73.8943,Maintenance,2024-09-22
+CAM-085,Highland Park Summit,40.6586,-73.8746,Active,2024-11-05
+CAM-086,Sunset Park Waterfront,40.6347,-74.0089,Active,2025-01-18
+CAM-087,Green Wood Cemetery,40.6417,-74.0211,Inactive,2025-03-10
+CAM-088,Park Slope Prospect Park,40.6610,-73.9750,Active,2025-04-25
+CAM-089,Brooklyn Heights Promenade,40.6942,-73.9901,Active,2020-02-14
+CAM-090,Fulton Ferry Landing,40.7027,-73.9887,Active,2020-10-22
+CAM-091,Jane's Carousel,40.7068,-74.0033,Maintenance,2021-06-30
+CAM-092,Concourse Plaza,40.8241,-73.9251,Active,2022-02-27
+CAM-093,Grand Concourse Station,40.8198,-73.9258,Active,2022-11-08
+CAM-094,Fordham Road Station,40.8619,-73.8979,Active,2023-03-20
+CAM-095,New York Botanical Garden,40.8648,-73.8822,Inactive,2023-07-14
+CAM-096,Pelham Parkway,40.8508,-73.8614,Maintenance,2023-12-12
+CAM-097,Staten Island Greenbelt,40.5826,-74.1505,Active,2024-04-06
+CAM-098,Tompkinsville Park,40.6420,-74.0753,Active,2024-08-15
+CAM-099,Tottenville Ferry Pier,40.5555,-74.2452,Active,2025-02-19
+CAM-100,Fresh Kills Park Overlook,40.5754,-74.1697,Maintenance,2025-05-10

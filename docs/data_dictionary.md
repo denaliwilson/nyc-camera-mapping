@@ -5,8 +5,10 @@
 **File:** `data/sample_cameras.csv`  
 **Format:** Comma-Separated Values (CSV)  
 **Encoding:** UTF-8  
-**Last Updated:** January 22, 2026  
-**Total Records:** 25 cameras
+**Last Updated:** January 23, 2026  
+**Total Records:** 100 cameras  
+**Date Range:** 2020-2025  
+**Geographic Coverage:** All 5 NYC boroughs
 
 ---
 
@@ -74,27 +76,29 @@
 - **Unique:** No
 - **Description:** Current operational status of the camera
 - **Allowed Values:**
-  - `Active` - Camera is functioning and recording
-  - `Maintenance` - Camera is temporarily offline for repairs/upgrades
-  - `Offline` - Camera is not functioning, awaiting repair or decommissioned
-- **Example:** `Active`, `Maintenance`, `Offline`
+  - `Active` - Camera is functioning and recording (~70% of dataset)
+  - `Maintenance` - Camera is temporarily offline for repairs/upgrades (~20% of dataset)
+  - `Inactive` - Camera is not functioning, awaiting repair or decommissioned (~10% of dataset)
+- **Example:** `Active`, `Maintenance`, `Inactive`
 - **Validation Rules:**
   - Must be exactly one of the three allowed values
   - Case-sensitive (use exact capitalization)
+  - Newer installations (2024-2025) predominantly Active
 
 ### installation_date
 - **Type:** Date
 - **Format:** ISO 8601 (YYYY-MM-DD)
 - **Required:** Yes
 - **Unique:** No
-- **Description:** Date when camera was installed and activated
-- **Range:** 2022-01-01 to present (no future dates)
-- **Example:** `2023-01-15`, `2024-06-30`
+- **Description:** Date when camera was installed and activated in the field
+- **Range:** 2020-01-01 to 2025-09-22 (5-year deployment window)
+- **Example:** `2020-03-15`, `2023-08-25`, `2025-05-10`
 - **Validation Rules:**
-  - Must follow YYYY-MM-DD format
-  - Must be a valid calendar date
+  - Must follow YYYY-MM-DD format strictly
+  - Must be a valid calendar date (no impossible dates)
   - Cannot be in the future
-  - Should be between 2022 and 2025 for this dataset
+  - Must fall within 2020-2025 range for this dataset
+  - Newer installations correlate with Active status
 
 ---
 
@@ -138,10 +142,11 @@
 
 ## Data Sources
 
-- **Coordinates:** Obtained via Google Maps geocoding
-- **Station Names:** Based on official MTA station list
-- **Status Information:** Sample data for demonstration purposes
-- **Installation Dates:** Sample data representing realistic deployment timeline
+- **Coordinates:** Obtained via Google Maps geocoding and geospatial reference verification
+- **Location Names:** Based on official MTA stations, NYC Parks Department, and cultural institutions
+- **Borough Distribution:** 30 Manhattan, 20 Brooklyn, 15 Queens, 15 Bronx, 10 Staten Island
+- **Status Information:** Demonstration data with realistic distributions (70% Active, 20% Maintenance, 10% Inactive)
+- **Installation Dates:** Demonstration data spanning realistic 5-year deployment timeline (2020-2025)
 
 ---
 

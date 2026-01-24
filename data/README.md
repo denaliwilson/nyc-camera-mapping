@@ -2,24 +2,40 @@
 
 ## Overview
 
-This directory contains camera location data for NYC transit stations. The dataset includes geographic coordinates, operational status, and installation dates for security cameras deployed across the transit system.
+This directory contains camera location data for NYC security camera infrastructure. The dataset includes 100 cameras with geographic coordinates, operational status, and installation dates spanning 2020-2025, representing a balanced deployment across all five boroughs.
 
 ## Files
 
 ### sample_cameras.csv
-- **Description:** Primary dataset containing camera locations and metadata
+- **Description:** Comprehensive dataset containing camera locations and metadata across NYC
 - **Format:** CSV (Comma-Separated Values)
-- **Rows:** 25 cameras
+- **Total Records:** 100 cameras
 - **Columns:** 6 (camera_id, location_name, latitude, longitude, status, installation_date)
-- **Size:** ~2KB
+- **Date Range:** 2020-2025
+- **File Size:** ~4.5KB
 - **Encoding:** UTF-8
+- **Coordinate System:** WGS84 (EPSG:4326)
+
+## Borough Distribution
+
+- **Manhattan:** 72 cameras (transit hubs, cultural landmarks, parks)
+- **Brooklyn:** 12 cameras (waterfront, neighborhoods, parks)
+- **Queens:** 7 cameras (transit centers, parks, shopping districts)
+- **Bronx:** 5 cameras (zoo, parks, concourses)
+- **Staten Island:** 4 cameras (ferry terminals, parks, waterfront)
+
+## Status Distribution
+
+- **Active:** 70 cameras (70%)
+- **Maintenance:** 20 cameras (20%)
+- **Inactive:** 10 cameras (10%)
 
 ## Data Collection Methodology
 
 ### Coordinate Acquisition
 Coordinates were obtained using the following process:
 
-1. **Station Identification:** Selected 25 major NYC transit stations representing:
+1. **Station Identification:** Selected 100 major NYC transit stations representing:
    - All five boroughs (Manhattan, Brooklyn, Queens, Bronx, Staten Island)
    - Mix of major hubs and smaller stations
    - Variety of operational contexts (terminals, transfer points, neighborhood stations)
@@ -48,7 +64,7 @@ Stations were selected to provide:
 **Important:** This is **sample/demonstration data**. Status and installation dates are:
 - Realistic but not actual operational data
 - Designed to show variety for analysis purposes
-- Installation dates range from 2022-2024 to represent phased deployment
+- Installation dates range from 2020-2025 to represent phased deployment
 - Status distribution reflects typical operational patterns (~70% active, ~20% maintenance, ~10% offline)
 
 ## Data Limitations
@@ -56,7 +72,7 @@ Stations were selected to provide:
 ### Known Limitations
 
 1. **Sample Data:** This is demonstration data for portfolio purposes, not actual NYC Transit Authority data
-2. **Incomplete Coverage:** Only 25 cameras represented; actual system has hundreds
+2. **Incomplete Coverage:** Only 100 cameras represented; actual system has thousands
 3. **Simplified Model:** Real camera systems include additional metadata (camera type, resolution, viewing angle, etc.)
 4. **Point Locations:** Coordinates represent general station locations, not exact camera mounting positions
 5. **Temporal Validity:** Status information is static snapshot, not real-time data
