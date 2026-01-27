@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ### Running Analysis
 ```bash
-python scripts/load_camera_data.py          # Load and validate data
+python scripts/load_cameras.py              # Load and validate data
 python scripts/analyze_data.py              # Generate comprehensive analysis
 ```
 

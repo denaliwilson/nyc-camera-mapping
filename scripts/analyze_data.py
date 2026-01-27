@@ -12,7 +12,7 @@ import numpy as np
 from datetime import datetime
 from collections import Counter
 
-# NYC Borough Boundaries (precise)
+# NYC Borough Boundaries
 BOROUGH_BOUNDS = {
     'Manhattan': {'lat_min': 40.7001, 'lat_max': 40.8824, 'lon_min': -74.0250, 'lon_max': -73.9069},
     'Brooklyn': {'lat_min': 40.5603, 'lat_max': 40.7282, 'lon_min': -74.0420, 'lon_max': -73.8332},
