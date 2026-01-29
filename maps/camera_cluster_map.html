@@ -1,0 +1,4913 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_75bf2e35e8e4454dde5fa9114d44a37e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_75bf2e35e8e4454dde5fa9114d44a37e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_75bf2e35e8e4454dde5fa9114d44a37e = L.map(
+                "map_75bf2e35e8e4454dde5fa9114d44a37e",
+                {
+                    center: [40.729363, -73.977253],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_77ba0d2f96c2874f2b539f8a7ee68df2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_77ba0d2f96c2874f2b539f8a7ee68df2.addTo(map_75bf2e35e8e4454dde5fa9114d44a37e);
+        
+    
+            var marker_cluster_894ac3c401de5a441f124dd91b945d88 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_7a7699efaab32931fb3385747c8f0bf5 = L.marker(
+                [40.758, -73.9855],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_bda30ef4c65ce09ad7281f9746bcf982 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6ddac96476f3b76f5540a67bef78bb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14871f3a082c327a59d4668c8f779e25 = $(`<div id="html_14871f3a082c327a59d4668c8f779e25" style="width: 100.0%; height: 100.0%;"> <b>CAM-001</b><br> Times Square Station Platform A<br> Status: Active </div>`)[0];
+                popup_e6ddac96476f3b76f5540a67bef78bb9.setContent(html_14871f3a082c327a59d4668c8f779e25);
+            
+        
+
+        marker_7a7699efaab32931fb3385747c8f0bf5.bindPopup(popup_e6ddac96476f3b76f5540a67bef78bb9)
+        ;
+
+        
+    
+    
+            marker_7a7699efaab32931fb3385747c8f0bf5.bindTooltip(
+                `<div>
+                     CAM-001
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7a7699efaab32931fb3385747c8f0bf5.setIcon(icon_bda30ef4c65ce09ad7281f9746bcf982);
+            
+    
+            var marker_7296c98472b128a872c48db9c3de50d3 = L.marker(
+                [40.7582, -73.9857],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_48d3d83e78a90bec29d8d990a57058c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9940349e176ec31531e713b1a5f03517 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8978dda76d8a2e0b68864dd7cd179f3 = $(`<div id="html_e8978dda76d8a2e0b68864dd7cd179f3" style="width: 100.0%; height: 100.0%;"> <b>CAM-002</b><br> Times Square Station Platform B<br> Status: Inactive </div>`)[0];
+                popup_9940349e176ec31531e713b1a5f03517.setContent(html_e8978dda76d8a2e0b68864dd7cd179f3);
+            
+        
+
+        marker_7296c98472b128a872c48db9c3de50d3.bindPopup(popup_9940349e176ec31531e713b1a5f03517)
+        ;
+
+        
+    
+    
+            marker_7296c98472b128a872c48db9c3de50d3.bindTooltip(
+                `<div>
+                     CAM-002
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7296c98472b128a872c48db9c3de50d3.setIcon(icon_48d3d83e78a90bec29d8d990a57058c0);
+            
+    
+            var marker_043873073f814ae487d099e50fb32692 = L.marker(
+                [40.7527, -73.9772],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_1dc52ddd48efd4c9b0f1ccf33991700b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2245c3dd9e8290ab5ed6eadb74949f7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0872362881843bba9db610917e3e607b = $(`<div id="html_0872362881843bba9db610917e3e607b" style="width: 100.0%; height: 100.0%;"> <b>CAM-003</b><br> Grand Central Terminal Main Concourse<br> Status: Active </div>`)[0];
+                popup_2245c3dd9e8290ab5ed6eadb74949f7f.setContent(html_0872362881843bba9db610917e3e607b);
+            
+        
+
+        marker_043873073f814ae487d099e50fb32692.bindPopup(popup_2245c3dd9e8290ab5ed6eadb74949f7f)
+        ;
+
+        
+    
+    
+            marker_043873073f814ae487d099e50fb32692.bindTooltip(
+                `<div>
+                     CAM-003
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_043873073f814ae487d099e50fb32692.setIcon(icon_1dc52ddd48efd4c9b0f1ccf33991700b);
+            
+    
+            var marker_445b223fb177c738eee691e0500c42b2 = L.marker(
+                [40.7506, -73.9935],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_3352ce31e4494de1dff03793fd85d2b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f02aa0fe38b819402889ee6c97281bf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_007b69e7af97d4f1f8714f3ece78ce21 = $(`<div id="html_007b69e7af97d4f1f8714f3ece78ce21" style="width: 100.0%; height: 100.0%;"> <b>CAM-004</b><br> Penn Station Entrance 1<br> Status: Active </div>`)[0];
+                popup_f02aa0fe38b819402889ee6c97281bf7.setContent(html_007b69e7af97d4f1f8714f3ece78ce21);
+            
+        
+
+        marker_445b223fb177c738eee691e0500c42b2.bindPopup(popup_f02aa0fe38b819402889ee6c97281bf7)
+        ;
+
+        
+    
+    
+            marker_445b223fb177c738eee691e0500c42b2.bindTooltip(
+                `<div>
+                     CAM-004
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_445b223fb177c738eee691e0500c42b2.setIcon(icon_3352ce31e4494de1dff03793fd85d2b5);
+            
+    
+            var marker_eedde861bf3bd871c1e2ac94f19f40cf = L.marker(
+                [40.7359, -73.9911],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_1a5e07f55f2bc4318dee72f490fe12df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8f898e67e790a57af0f69fcc0d35c5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_310e8f831a67879cb893e4530ff83490 = $(`<div id="html_310e8f831a67879cb893e4530ff83490" style="width: 100.0%; height: 100.0%;"> <b>CAM-005</b><br> Union Square Station North<br> Status: Maintenance </div>`)[0];
+                popup_c8f898e67e790a57af0f69fcc0d35c5e.setContent(html_310e8f831a67879cb893e4530ff83490);
+            
+        
+
+        marker_eedde861bf3bd871c1e2ac94f19f40cf.bindPopup(popup_c8f898e67e790a57af0f69fcc0d35c5e)
+        ;
+
+        
+    
+    
+            marker_eedde861bf3bd871c1e2ac94f19f40cf.bindTooltip(
+                `<div>
+                     CAM-005
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eedde861bf3bd871c1e2ac94f19f40cf.setIcon(icon_1a5e07f55f2bc4318dee72f490fe12df);
+            
+    
+            var marker_944b070bd249d020ae64e3cc49ba1583 = L.marker(
+                [40.7505, -73.9885],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_763bfa99bb1e23d4ee53049e08ddedca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bef4307b77be16642452fc0b9744e096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_292e978f0cd593249272cb5f02ae6a04 = $(`<div id="html_292e978f0cd593249272cb5f02ae6a04" style="width: 100.0%; height: 100.0%;"> <b>CAM-006</b><br> Herald Square Platform<br> Status: Active </div>`)[0];
+                popup_bef4307b77be16642452fc0b9744e096.setContent(html_292e978f0cd593249272cb5f02ae6a04);
+            
+        
+
+        marker_944b070bd249d020ae64e3cc49ba1583.bindPopup(popup_bef4307b77be16642452fc0b9744e096)
+        ;
+
+        
+    
+    
+            marker_944b070bd249d020ae64e3cc49ba1583.bindTooltip(
+                `<div>
+                     CAM-006
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_944b070bd249d020ae64e3cc49ba1583.setIcon(icon_763bfa99bb1e23d4ee53049e08ddedca);
+            
+    
+            var marker_9907366173c5971bf12ef1c7c752dbaf = L.marker(
+                [40.7555, -74.0021],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_5d1196bb5645e55937442710b80012de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_50880f6a831c06df8cebe06b05bfbd34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62bb9d53ad20309a4d9fcf050319c361 = $(`<div id="html_62bb9d53ad20309a4d9fcf050319c361" style="width: 100.0%; height: 100.0%;"> <b>CAM-007</b><br> 34th Street Hudson Yards<br> Status: Active </div>`)[0];
+                popup_50880f6a831c06df8cebe06b05bfbd34.setContent(html_62bb9d53ad20309a4d9fcf050319c361);
+            
+        
+
+        marker_9907366173c5971bf12ef1c7c752dbaf.bindPopup(popup_50880f6a831c06df8cebe06b05bfbd34)
+        ;
+
+        
+    
+    
+            marker_9907366173c5971bf12ef1c7c752dbaf.bindTooltip(
+                `<div>
+                     CAM-007
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9907366173c5971bf12ef1c7c752dbaf.setIcon(icon_5d1196bb5645e55937442710b80012de);
+            
+    
+            var marker_cafbce8401ab19548191ad92854b8112 = L.marker(
+                [40.7678, -73.9819],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_650729657e786b5a4a68e6b518e6703b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04fa5c35543be87b4ae68534784b1a97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2e037d44f09ea20ad7e1877743cce17 = $(`<div id="html_f2e037d44f09ea20ad7e1877743cce17" style="width: 100.0%; height: 100.0%;"> <b>CAM-008</b><br> Columbus Circle Station<br> Status: Active </div>`)[0];
+                popup_04fa5c35543be87b4ae68534784b1a97.setContent(html_f2e037d44f09ea20ad7e1877743cce17);
+            
+        
+
+        marker_cafbce8401ab19548191ad92854b8112.bindPopup(popup_04fa5c35543be87b4ae68534784b1a97)
+        ;
+
+        
+    
+    
+            marker_cafbce8401ab19548191ad92854b8112.bindTooltip(
+                `<div>
+                     CAM-008
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cafbce8401ab19548191ad92854b8112.setIcon(icon_650729657e786b5a4a68e6b518e6703b);
+            
+    
+            var marker_9b4c83beda176a2563fdfe2e02a64011 = L.marker(
+                [40.713, -74.0048],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_6e73749946666c108596dc68e2b02470 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68abdbe755bd81acb61fb504e49aac2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85125febc2c496b2d02a4a464909383c = $(`<div id="html_85125febc2c496b2d02a4a464909383c" style="width: 100.0%; height: 100.0%;"> <b>CAM-009</b><br> Brooklyn Bridge-City Hall<br> Status: Inactive </div>`)[0];
+                popup_68abdbe755bd81acb61fb504e49aac2b.setContent(html_85125febc2c496b2d02a4a464909383c);
+            
+        
+
+        marker_9b4c83beda176a2563fdfe2e02a64011.bindPopup(popup_68abdbe755bd81acb61fb504e49aac2b)
+        ;
+
+        
+    
+    
+            marker_9b4c83beda176a2563fdfe2e02a64011.bindTooltip(
+                `<div>
+                     CAM-009
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b4c83beda176a2563fdfe2e02a64011.setIcon(icon_6e73749946666c108596dc68e2b02470);
+            
+    
+            var marker_a8c0100d22f6ede73d0812491d7b3500 = L.marker(
+                [40.7104, -74.0072],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_df05d323086c782332abfb5cd6e26342 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08ec615534de877b7968ec4875c36541 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f118cb7a6875044dc09602ddcbe995b = $(`<div id="html_9f118cb7a6875044dc09602ddcbe995b" style="width: 100.0%; height: 100.0%;"> <b>CAM-010</b><br> Fulton Street Station<br> Status: Active </div>`)[0];
+                popup_08ec615534de877b7968ec4875c36541.setContent(html_9f118cb7a6875044dc09602ddcbe995b);
+            
+        
+
+        marker_a8c0100d22f6ede73d0812491d7b3500.bindPopup(popup_08ec615534de877b7968ec4875c36541)
+        ;
+
+        
+    
+    
+            marker_a8c0100d22f6ede73d0812491d7b3500.bindTooltip(
+                `<div>
+                     CAM-010
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a8c0100d22f6ede73d0812491d7b3500.setIcon(icon_df05d323086c782332abfb5cd6e26342);
+            
+    
+            var marker_5da2219799d104864e4547bb04d9e096 = L.marker(
+                [40.7075, -74.0113],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_c080901fb90af030fee2e5a6580a534a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5de94c8da60704ba12291bec9d54b444 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_733bcb7b1e1439baca797f7233b61d12 = $(`<div id="html_733bcb7b1e1439baca797f7233b61d12" style="width: 100.0%; height: 100.0%;"> <b>CAM-011</b><br> Wall Street Station<br> Status: Active </div>`)[0];
+                popup_5de94c8da60704ba12291bec9d54b444.setContent(html_733bcb7b1e1439baca797f7233b61d12);
+            
+        
+
+        marker_5da2219799d104864e4547bb04d9e096.bindPopup(popup_5de94c8da60704ba12291bec9d54b444)
+        ;
+
+        
+    
+    
+            marker_5da2219799d104864e4547bb04d9e096.bindTooltip(
+                `<div>
+                     CAM-011
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5da2219799d104864e4547bb04d9e096.setIcon(icon_c080901fb90af030fee2e5a6580a534a);
+            
+    
+            var marker_7fe3676544231b0f24399073a3b53380 = L.marker(
+                [40.7153, -74.009],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_5b168bbef459ac5712b5f5d67fec6292 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7cb62a3f7f3d24be562214accd240d02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62d6d3f2efa32a0e8d9b8fc6c0d63586 = $(`<div id="html_62d6d3f2efa32a0e8d9b8fc6c0d63586" style="width: 100.0%; height: 100.0%;"> <b>CAM-012</b><br> Chambers Street Platform<br> Status: Maintenance </div>`)[0];
+                popup_7cb62a3f7f3d24be562214accd240d02.setContent(html_62d6d3f2efa32a0e8d9b8fc6c0d63586);
+            
+        
+
+        marker_7fe3676544231b0f24399073a3b53380.bindPopup(popup_7cb62a3f7f3d24be562214accd240d02)
+        ;
+
+        
+    
+    
+            marker_7fe3676544231b0f24399073a3b53380.bindTooltip(
+                `<div>
+                     CAM-012
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7fe3676544231b0f24399073a3b53380.setIcon(icon_5b168bbef459ac5712b5f5d67fec6292);
+            
+    
+            var marker_5a9df47d3a97846d17c5d50c70e084e5 = L.marker(
+                [40.734, -73.9903],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_c34eb6fd811fc40f8f41f4341718e233 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e7ca44d0433a8e909bd7f74e3cb0b30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cafb7bab46bc74c80c879576b3005b7b = $(`<div id="html_cafb7bab46bc74c80c879576b3005b7b" style="width: 100.0%; height: 100.0%;"> <b>CAM-013</b><br> 14th Street-Union Square<br> Status: Active </div>`)[0];
+                popup_3e7ca44d0433a8e909bd7f74e3cb0b30.setContent(html_cafb7bab46bc74c80c879576b3005b7b);
+            
+        
+
+        marker_5a9df47d3a97846d17c5d50c70e084e5.bindPopup(popup_3e7ca44d0433a8e909bd7f74e3cb0b30)
+        ;
+
+        
+    
+    
+            marker_5a9df47d3a97846d17c5d50c70e084e5.bindTooltip(
+                `<div>
+                     CAM-013
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a9df47d3a97846d17c5d50c70e084e5.setIcon(icon_c34eb6fd811fc40f8f41f4341718e233);
+            
+    
+            var marker_d97f0eebc10828a5c6b16bc2109c5066 = L.marker(
+                [40.7295, -73.9914],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_9171a8306ff5bfc24aef54c9951aed4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a700e3d8a232b7b93acc19a7c2963ddb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9da0d02ea2cbe0ff5512f0ca7f6534f2 = $(`<div id="html_9da0d02ea2cbe0ff5512f0ca7f6534f2" style="width: 100.0%; height: 100.0%;"> <b>CAM-014</b><br> Astor Place Station<br> Status: Inactive </div>`)[0];
+                popup_a700e3d8a232b7b93acc19a7c2963ddb.setContent(html_9da0d02ea2cbe0ff5512f0ca7f6534f2);
+            
+        
+
+        marker_d97f0eebc10828a5c6b16bc2109c5066.bindPopup(popup_a700e3d8a232b7b93acc19a7c2963ddb)
+        ;
+
+        
+    
+    
+            marker_d97f0eebc10828a5c6b16bc2109c5066.bindTooltip(
+                `<div>
+                     CAM-014
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d97f0eebc10828a5c6b16bc2109c5066.setIcon(icon_9171a8306ff5bfc24aef54c9951aed4a);
+            
+    
+            var marker_838ca0d9284bb672e15fd6abf433768e = L.marker(
+                [40.7188, -74.0007],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_0a66fbd9c7523b24739cccdfb3b6fee9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4918e469ffe6d4a09952069c7a579f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e894d642b2e0bf7cf5c71155bd306e9 = $(`<div id="html_5e894d642b2e0bf7cf5c71155bd306e9" style="width: 100.0%; height: 100.0%;"> <b>CAM-015</b><br> Canal Street Station<br> Status: Active </div>`)[0];
+                popup_b4918e469ffe6d4a09952069c7a579f7.setContent(html_5e894d642b2e0bf7cf5c71155bd306e9);
+            
+        
+
+        marker_838ca0d9284bb672e15fd6abf433768e.bindPopup(popup_b4918e469ffe6d4a09952069c7a579f7)
+        ;
+
+        
+    
+    
+            marker_838ca0d9284bb672e15fd6abf433768e.bindTooltip(
+                `<div>
+                     CAM-015
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_838ca0d9284bb672e15fd6abf433768e.setIcon(icon_0a66fbd9c7523b24739cccdfb3b6fee9);
+            
+    
+            var marker_21a0fa28d15e706945e33694e07a7d87 = L.marker(
+                [40.7127, -74.006],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_ab82fb8f6fe8c6e9d3223cefed13ea35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cc976ea1861085f3ba46d451b1197a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_481df1bd48ab3664ca681418f7f523b0 = $(`<div id="html_481df1bd48ab3664ca681418f7f523b0" style="width: 100.0%; height: 100.0%;"> <b>CAM-016</b><br> City Hall Park<br> Status: Maintenance </div>`)[0];
+                popup_8cc976ea1861085f3ba46d451b1197a5.setContent(html_481df1bd48ab3664ca681418f7f523b0);
+            
+        
+
+        marker_21a0fa28d15e706945e33694e07a7d87.bindPopup(popup_8cc976ea1861085f3ba46d451b1197a5)
+        ;
+
+        
+    
+    
+            marker_21a0fa28d15e706945e33694e07a7d87.bindTooltip(
+                `<div>
+                     CAM-016
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_21a0fa28d15e706945e33694e07a7d87.setIcon(icon_ab82fb8f6fe8c6e9d3223cefed13ea35);
+            
+    
+            var marker_6ff274917c925b10c8a47c5cc1b29c03 = L.marker(
+                [40.7615, -73.9496],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_1f9e373b363f7d82f12089f662d7024f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1758da3069a54ab8e565f11dd69a02a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9523cbbd2f9b7113bc4a98f197f06d3a = $(`<div id="html_9523cbbd2f9b7113bc4a98f197f06d3a" style="width: 100.0%; height: 100.0%;"> <b>CAM-017</b><br> Roosevelt Island Tramway<br> Status: Active </div>`)[0];
+                popup_1758da3069a54ab8e565f11dd69a02a7.setContent(html_9523cbbd2f9b7113bc4a98f197f06d3a);
+            
+        
+
+        marker_6ff274917c925b10c8a47c5cc1b29c03.bindPopup(popup_1758da3069a54ab8e565f11dd69a02a7)
+        ;
+
+        
+    
+    
+            marker_6ff274917c925b10c8a47c5cc1b29c03.bindTooltip(
+                `<div>
+                     CAM-017
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6ff274917c925b10c8a47c5cc1b29c03.setIcon(icon_1f9e373b363f7d82f12089f662d7024f);
+            
+    
+            var marker_57dbcd8f9affde3846f0b544f4785626 = L.marker(
+                [40.7012, -74.0131],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_62a93a140e998a2d9318a408eecb9e47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38e649473983656c9405dec107eb3b65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a39a2d5842b40b0a98e3a13f81b871c = $(`<div id="html_3a39a2d5842b40b0a98e3a13f81b871c" style="width: 100.0%; height: 100.0%;"> <b>CAM-018</b><br> South Ferry Terminal<br> Status: Active </div>`)[0];
+                popup_38e649473983656c9405dec107eb3b65.setContent(html_3a39a2d5842b40b0a98e3a13f81b871c);
+            
+        
+
+        marker_57dbcd8f9affde3846f0b544f4785626.bindPopup(popup_38e649473983656c9405dec107eb3b65)
+        ;
+
+        
+    
+    
+            marker_57dbcd8f9affde3846f0b544f4785626.bindTooltip(
+                `<div>
+                     CAM-018
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_57dbcd8f9affde3846f0b544f4785626.setIcon(icon_62a93a140e998a2d9318a408eecb9e47);
+            
+    
+            var marker_76b13c0c0f069f31850ca20cef661f7e = L.marker(
+                [40.7479, -74.0048],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_5c432e348576ef8c64004b1ffd7f341b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_659ee227ee47e29322941d085e115a9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33e0c7e496b0733879345d8d588e20b8 = $(`<div id="html_33e0c7e496b0733879345d8d588e20b8" style="width: 100.0%; height: 100.0%;"> <b>CAM-019</b><br> High Line Park Entrance<br> Status: Active </div>`)[0];
+                popup_659ee227ee47e29322941d085e115a9d.setContent(html_33e0c7e496b0733879345d8d588e20b8);
+            
+        
+
+        marker_76b13c0c0f069f31850ca20cef661f7e.bindPopup(popup_659ee227ee47e29322941d085e115a9d)
+        ;
+
+        
+    
+    
+            marker_76b13c0c0f069f31850ca20cef661f7e.bindTooltip(
+                `<div>
+                     CAM-019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_76b13c0c0f069f31850ca20cef661f7e.setIcon(icon_5c432e348576ef8c64004b1ffd7f341b);
+            
+    
+            var marker_ee37845deddb9f4824b88922b0286920 = L.marker(
+                [40.643, -74.0736],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_69c5e7ccdc62f59ee6e25dcb4869c020 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8f1350559e5bf93b77f1bc1a9a696c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc7592ea83bde3d5db9bfed567cebf6f = $(`<div id="html_dc7592ea83bde3d5db9bfed567cebf6f" style="width: 100.0%; height: 100.0%;"> <b>CAM-020</b><br> Staten Island Ferry Terminal<br> Status: Active </div>`)[0];
+                popup_e8f1350559e5bf93b77f1bc1a9a696c7.setContent(html_dc7592ea83bde3d5db9bfed567cebf6f);
+            
+        
+
+        marker_ee37845deddb9f4824b88922b0286920.bindPopup(popup_e8f1350559e5bf93b77f1bc1a9a696c7)
+        ;
+
+        
+    
+    
+            marker_ee37845deddb9f4824b88922b0286920.bindTooltip(
+                `<div>
+                     CAM-020
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee37845deddb9f4824b88922b0286920.setIcon(icon_69c5e7ccdc62f59ee6e25dcb4869c020);
+            
+    
+            var marker_a47030c9f2dba555e3449f6f1f6fec73 = L.marker(
+                [40.7308, -73.9973],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_778db03a9e6ab27daed46dc7f1b79ee9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5a8de6baf5b52e73f6654f084259c1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03df30ef1c41ff3d61cdc0fc1b283468 = $(`<div id="html_03df30ef1c41ff3d61cdc0fc1b283468" style="width: 100.0%; height: 100.0%;"> <b>CAM-021</b><br> Washington Square Park<br> Status: Active </div>`)[0];
+                popup_b5a8de6baf5b52e73f6654f084259c1f.setContent(html_03df30ef1c41ff3d61cdc0fc1b283468);
+            
+        
+
+        marker_a47030c9f2dba555e3449f6f1f6fec73.bindPopup(popup_b5a8de6baf5b52e73f6654f084259c1f)
+        ;
+
+        
+    
+    
+            marker_a47030c9f2dba555e3449f6f1f6fec73.bindTooltip(
+                `<div>
+                     CAM-021
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a47030c9f2dba555e3449f6f1f6fec73.setIcon(icon_778db03a9e6ab27daed46dc7f1b79ee9);
+            
+    
+            var marker_b75863dd48aaf84981ae49ed8b5ac906 = L.marker(
+                [40.7536, -73.9832],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_97ba0ae36ef2889db2a1be463917edb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1548b951231721143f255f6bdf04644 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23b4540635c92f502a8cf534f549efcb = $(`<div id="html_23b4540635c92f502a8cf534f549efcb" style="width: 100.0%; height: 100.0%;"> <b>CAM-022</b><br> Bryant Park<br> Status: Active </div>`)[0];
+                popup_d1548b951231721143f255f6bdf04644.setContent(html_23b4540635c92f502a8cf534f549efcb);
+            
+        
+
+        marker_b75863dd48aaf84981ae49ed8b5ac906.bindPopup(popup_d1548b951231721143f255f6bdf04644)
+        ;
+
+        
+    
+    
+            marker_b75863dd48aaf84981ae49ed8b5ac906.bindTooltip(
+                `<div>
+                     CAM-022
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b75863dd48aaf84981ae49ed8b5ac906.setIcon(icon_97ba0ae36ef2889db2a1be463917edb2);
+            
+    
+            var marker_8e2488554085ed10d07a373b0ddee4d4 = L.marker(
+                [40.7651, -73.9765],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_dc5aa8ffc4f5d8f704ef04fa9c05a376 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_221df5de668ab96dc8459b143510c9e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55c4fadfbea08c7819f1c45d70fbbbc6 = $(`<div id="html_55c4fadfbea08c7819f1c45d70fbbbc6" style="width: 100.0%; height: 100.0%;"> <b>CAM-023</b><br> Central Park South Entrance<br> Status: Maintenance </div>`)[0];
+                popup_221df5de668ab96dc8459b143510c9e3.setContent(html_55c4fadfbea08c7819f1c45d70fbbbc6);
+            
+        
+
+        marker_8e2488554085ed10d07a373b0ddee4d4.bindPopup(popup_221df5de668ab96dc8459b143510c9e3)
+        ;
+
+        
+    
+    
+            marker_8e2488554085ed10d07a373b0ddee4d4.bindTooltip(
+                `<div>
+                     CAM-023
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8e2488554085ed10d07a373b0ddee4d4.setIcon(icon_dc5aa8ffc4f5d8f704ef04fa9c05a376);
+            
+    
+            var marker_1a7459cdac9f8c82e7897a67b8b788ea = L.marker(
+                [40.7725, -73.9835],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_6f583d8c2b3be30657185662c67c8278 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a673810fe8777f2ad256da7e198fceef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a59305614228fbcf9938670843b75aa1 = $(`<div id="html_a59305614228fbcf9938670843b75aa1" style="width: 100.0%; height: 100.0%;"> <b>CAM-024</b><br> Lincoln Center Plaza<br> Status: Maintenance </div>`)[0];
+                popup_a673810fe8777f2ad256da7e198fceef.setContent(html_a59305614228fbcf9938670843b75aa1);
+            
+        
+
+        marker_1a7459cdac9f8c82e7897a67b8b788ea.bindPopup(popup_a673810fe8777f2ad256da7e198fceef)
+        ;
+
+        
+    
+    
+            marker_1a7459cdac9f8c82e7897a67b8b788ea.bindTooltip(
+                `<div>
+                     CAM-024
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1a7459cdac9f8c82e7897a67b8b788ea.setIcon(icon_6f583d8c2b3be30657185662c67c8278);
+            
+    
+            var marker_1d2b7361c70a14520d9ae78350e50e01 = L.marker(
+                [40.7794, -73.9632],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_0294d110aaa1261d4b733fb17f8bc350 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29fe6c5c327c6f34957f78be04f6a617 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07b05cdeaf3b101642047b69dec22f09 = $(`<div id="html_07b05cdeaf3b101642047b69dec22f09" style="width: 100.0%; height: 100.0%;"> <b>CAM-025</b><br> Metropolitan Museum of Art Entrance<br> Status: Active </div>`)[0];
+                popup_29fe6c5c327c6f34957f78be04f6a617.setContent(html_07b05cdeaf3b101642047b69dec22f09);
+            
+        
+
+        marker_1d2b7361c70a14520d9ae78350e50e01.bindPopup(popup_29fe6c5c327c6f34957f78be04f6a617)
+        ;
+
+        
+    
+    
+            marker_1d2b7361c70a14520d9ae78350e50e01.bindTooltip(
+                `<div>
+                     CAM-025
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d2b7361c70a14520d9ae78350e50e01.setIcon(icon_0294d110aaa1261d4b733fb17f8bc350);
+            
+    
+            var marker_95c90b0961579bb6442d3bf92b4da930 = L.marker(
+                [40.7614, -73.9776],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_934aced6e0a7736057f1f1436f41716d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f014bdd042ece72d0c89b0ce70e3858c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27ee2bd6ee83462741ad9442ed2a593b = $(`<div id="html_27ee2bd6ee83462741ad9442ed2a593b" style="width: 100.0%; height: 100.0%;"> <b>CAM-026</b><br> Museum of Modern Art<br> Status: Active </div>`)[0];
+                popup_f014bdd042ece72d0c89b0ce70e3858c.setContent(html_27ee2bd6ee83462741ad9442ed2a593b);
+            
+        
+
+        marker_95c90b0961579bb6442d3bf92b4da930.bindPopup(popup_f014bdd042ece72d0c89b0ce70e3858c)
+        ;
+
+        
+    
+    
+            marker_95c90b0961579bb6442d3bf92b4da930.bindTooltip(
+                `<div>
+                     CAM-026
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_95c90b0961579bb6442d3bf92b4da930.setIcon(icon_934aced6e0a7736057f1f1436f41716d);
+            
+    
+            var marker_05fe63f5bb6a64fd675e83635d19b27c = L.marker(
+                [40.759, -73.9845],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_247c6ba6b5e0a9674678a0a52387aba4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84818d63f3467818a4d140404437bc34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_972cb49c2db6c106e6b30ac5b3306d8e = $(`<div id="html_972cb49c2db6c106e6b30ac5b3306d8e" style="width: 100.0%; height: 100.0%;"> <b>CAM-027</b><br> Broadway Theatre District<br> Status: Active </div>`)[0];
+                popup_84818d63f3467818a4d140404437bc34.setContent(html_972cb49c2db6c106e6b30ac5b3306d8e);
+            
+        
+
+        marker_05fe63f5bb6a64fd675e83635d19b27c.bindPopup(popup_84818d63f3467818a4d140404437bc34)
+        ;
+
+        
+    
+    
+            marker_05fe63f5bb6a64fd675e83635d19b27c.bindTooltip(
+                `<div>
+                     CAM-027
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_05fe63f5bb6a64fd675e83635d19b27c.setIcon(icon_247c6ba6b5e0a9674678a0a52387aba4);
+            
+    
+            var marker_564ab3ecfb57eca7ef8150636f614ebe = L.marker(
+                [40.7638, -73.9721],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_16cb0669dc6c216776b7c592a083f620 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b16aed13f3596fa5e42ad0806878402 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7848d59edf13891b3df22e52dee90cd = $(`<div id="html_b7848d59edf13891b3df22e52dee90cd" style="width: 100.0%; height: 100.0%;"> <b>CAM-028</b><br> Fifth Avenue Shopping District<br> Status: Active </div>`)[0];
+                popup_4b16aed13f3596fa5e42ad0806878402.setContent(html_b7848d59edf13891b3df22e52dee90cd);
+            
+        
+
+        marker_564ab3ecfb57eca7ef8150636f614ebe.bindPopup(popup_4b16aed13f3596fa5e42ad0806878402)
+        ;
+
+        
+    
+    
+            marker_564ab3ecfb57eca7ef8150636f614ebe.bindTooltip(
+                `<div>
+                     CAM-028
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_564ab3ecfb57eca7ef8150636f614ebe.setIcon(icon_16cb0669dc6c216776b7c592a083f620);
+            
+    
+            var marker_de49bd0aae2e4b0e8c74ba39cb2352dd = L.marker(
+                [40.7233, -74.002],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_614032f2ed530991cb27b9414b827caa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2091111d656612237e4e617b71b488f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ac9a37002686156678c9e939c11d142 = $(`<div id="html_5ac9a37002686156678c9e939c11d142" style="width: 100.0%; height: 100.0%;"> <b>CAM-029</b><br> SoHo Shopping Area<br> Status: Maintenance </div>`)[0];
+                popup_2091111d656612237e4e617b71b488f4.setContent(html_5ac9a37002686156678c9e939c11d142);
+            
+        
+
+        marker_de49bd0aae2e4b0e8c74ba39cb2352dd.bindPopup(popup_2091111d656612237e4e617b71b488f4)
+        ;
+
+        
+    
+    
+            marker_de49bd0aae2e4b0e8c74ba39cb2352dd.bindTooltip(
+                `<div>
+                     CAM-029
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de49bd0aae2e4b0e8c74ba39cb2352dd.setIcon(icon_614032f2ed530991cb27b9414b827caa);
+            
+    
+            var marker_bc2443bc691b46558afa8dead0209141 = L.marker(
+                [40.7158, -73.997],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_ee7b01f4b9b0a7abb6110922c991dce9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4633b273c99afeffae9f6d5554920b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8f7fd3d6f7f1b92848c70da004af904 = $(`<div id="html_b8f7fd3d6f7f1b92848c70da004af904" style="width: 100.0%; height: 100.0%;"> <b>CAM-030</b><br> Chinatown Plaza<br> Status: Active </div>`)[0];
+                popup_d4633b273c99afeffae9f6d5554920b2.setContent(html_b8f7fd3d6f7f1b92848c70da004af904);
+            
+        
+
+        marker_bc2443bc691b46558afa8dead0209141.bindPopup(popup_d4633b273c99afeffae9f6d5554920b2)
+        ;
+
+        
+    
+    
+            marker_bc2443bc691b46558afa8dead0209141.bindTooltip(
+                `<div>
+                     CAM-030
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bc2443bc691b46558afa8dead0209141.setIcon(icon_ee7b01f4b9b0a7abb6110922c991dce9);
+            
+    
+            var marker_addba8218a32d6db82837fd02173b6cb = L.marker(
+                [40.7191, -73.9973],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_5cc3dd6738d866204cb165a21f513c96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c5c9949b235e30b65cd0e134ef3bc9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5179470418b615bb8f9586e941506bb = $(`<div id="html_a5179470418b615bb8f9586e941506bb" style="width: 100.0%; height: 100.0%;"> <b>CAM-031</b><br> Little Italy Street<br> Status: Active </div>`)[0];
+                popup_8c5c9949b235e30b65cd0e134ef3bc9c.setContent(html_a5179470418b615bb8f9586e941506bb);
+            
+        
+
+        marker_addba8218a32d6db82837fd02173b6cb.bindPopup(popup_8c5c9949b235e30b65cd0e134ef3bc9c)
+        ;
+
+        
+    
+    
+            marker_addba8218a32d6db82837fd02173b6cb.bindTooltip(
+                `<div>
+                     CAM-031
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_addba8218a32d6db82837fd02173b6cb.setIcon(icon_5cc3dd6738d866204cb165a21f513c96);
+            
+    
+            var marker_98e3c4f4f6642fdc6b83a2714f793501 = L.marker(
+                [40.7479, -74.0049],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_42fc0a031a8fad29688723dfadad9890 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b359c78a5adb9377436d7efe16421d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23d6995e57399ff9c3aee1c745468a58 = $(`<div id="html_23d6995e57399ff9c3aee1c745468a58" style="width: 100.0%; height: 100.0%;"> <b>CAM-032</b><br> The High Line Park<br> Status: Active </div>`)[0];
+                popup_7b359c78a5adb9377436d7efe16421d5.setContent(html_23d6995e57399ff9c3aee1c745468a58);
+            
+        
+
+        marker_98e3c4f4f6642fdc6b83a2714f793501.bindPopup(popup_7b359c78a5adb9377436d7efe16421d5)
+        ;
+
+        
+    
+    
+            marker_98e3c4f4f6642fdc6b83a2714f793501.bindTooltip(
+                `<div>
+                     CAM-032
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_98e3c4f4f6642fdc6b83a2714f793501.setIcon(icon_42fc0a031a8fad29688723dfadad9890);
+            
+    
+            var marker_2bd1b7ad0ea3d3215552afbd662154d5 = L.marker(
+                [40.8401, -73.9397],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_f48d5636687154b49ecc8f6be7645ae4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11ae439fd1ec2ce538a37448033cd498 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac6276962e241cce52d168994d4fb0b7 = $(`<div id="html_ac6276962e241cce52d168994d4fb0b7" style="width: 100.0%; height: 100.0%;"> <b>CAM-033</b><br> Washington Heights Station<br> Status: Inactive </div>`)[0];
+                popup_11ae439fd1ec2ce538a37448033cd498.setContent(html_ac6276962e241cce52d168994d4fb0b7);
+            
+        
+
+        marker_2bd1b7ad0ea3d3215552afbd662154d5.bindPopup(popup_11ae439fd1ec2ce538a37448033cd498)
+        ;
+
+        
+    
+    
+            marker_2bd1b7ad0ea3d3215552afbd662154d5.bindTooltip(
+                `<div>
+                     CAM-033
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2bd1b7ad0ea3d3215552afbd662154d5.setIcon(icon_f48d5636687154b49ecc8f6be7645ae4);
+            
+    
+            var marker_93a6e8fa1ac8990e1e247d45b9ee4434 = L.marker(
+                [40.8296, -73.9262],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_c74ee03fec2416da3f5ded046a09e368 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1df5f8d955ae73ae2c4bf46b4be40dfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_745550a613efc0d06219ec5d9a3b04a0 = $(`<div id="html_745550a613efc0d06219ec5d9a3b04a0" style="width: 100.0%; height: 100.0%;"> <b>CAM-034</b><br> Yankee Stadium Entrance<br> Status: Active </div>`)[0];
+                popup_1df5f8d955ae73ae2c4bf46b4be40dfe.setContent(html_745550a613efc0d06219ec5d9a3b04a0);
+            
+        
+
+        marker_93a6e8fa1ac8990e1e247d45b9ee4434.bindPopup(popup_1df5f8d955ae73ae2c4bf46b4be40dfe)
+        ;
+
+        
+    
+    
+            marker_93a6e8fa1ac8990e1e247d45b9ee4434.bindTooltip(
+                `<div>
+                     CAM-034
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_93a6e8fa1ac8990e1e247d45b9ee4434.setIcon(icon_c74ee03fec2416da3f5ded046a09e368);
+            
+    
+            var marker_620b946f1201d0c8c0df41ba44ff8431 = L.marker(
+                [40.5749, -73.985],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_6f5f9f0ab5daa1c2de811999ddd3300a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ba6d8a66038c6f8e7479a0fc9eb7102 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eb52365de1e1108946a56df40d552ed = $(`<div id="html_4eb52365de1e1108946a56df40d552ed" style="width: 100.0%; height: 100.0%;"> <b>CAM-035</b><br> Coney Island Boardwalk<br> Status: Active </div>`)[0];
+                popup_8ba6d8a66038c6f8e7479a0fc9eb7102.setContent(html_4eb52365de1e1108946a56df40d552ed);
+            
+        
+
+        marker_620b946f1201d0c8c0df41ba44ff8431.bindPopup(popup_8ba6d8a66038c6f8e7479a0fc9eb7102)
+        ;
+
+        
+    
+    
+            marker_620b946f1201d0c8c0df41ba44ff8431.bindTooltip(
+                `<div>
+                     CAM-035
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_620b946f1201d0c8c0df41ba44ff8431.setIcon(icon_6f5f9f0ab5daa1c2de811999ddd3300a);
+            
+    
+            var marker_d83a8b9c417abee104252c836fbf675e = L.marker(
+                [40.6694, -73.9624],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_8ffbfd8b628d49cd5452ebd17918bd2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b245a65538256a428428697f48564a01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea797f411c42b3d5c093fb390f0e62da = $(`<div id="html_ea797f411c42b3d5c093fb390f0e62da" style="width: 100.0%; height: 100.0%;"> <b>CAM-036</b><br> Brooklyn Botanic Garden<br> Status: Maintenance </div>`)[0];
+                popup_b245a65538256a428428697f48564a01.setContent(html_ea797f411c42b3d5c093fb390f0e62da);
+            
+        
+
+        marker_d83a8b9c417abee104252c836fbf675e.bindPopup(popup_b245a65538256a428428697f48564a01)
+        ;
+
+        
+    
+    
+            marker_d83a8b9c417abee104252c836fbf675e.bindTooltip(
+                `<div>
+                     CAM-036
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d83a8b9c417abee104252c836fbf675e.setIcon(icon_8ffbfd8b628d49cd5452ebd17918bd2a);
+            
+    
+            var marker_084ce3671ef6f74b369fc577dcbb2cba = L.marker(
+                [40.6602, -73.969],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_29a5dbac145ae170562a4d66c0638222 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c240c747e36aab0ce394942ae3cf37bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d82c7153a78267a7de57f508db14c6d7 = $(`<div id="html_d82c7153a78267a7de57f508db14c6d7" style="width: 100.0%; height: 100.0%;"> <b>CAM-037</b><br> Prospect Park Entrance<br> Status: Active </div>`)[0];
+                popup_c240c747e36aab0ce394942ae3cf37bf.setContent(html_d82c7153a78267a7de57f508db14c6d7);
+            
+        
+
+        marker_084ce3671ef6f74b369fc577dcbb2cba.bindPopup(popup_c240c747e36aab0ce394942ae3cf37bf)
+        ;
+
+        
+    
+    
+            marker_084ce3671ef6f74b369fc577dcbb2cba.bindTooltip(
+                `<div>
+                     CAM-037
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_084ce3671ef6f74b369fc577dcbb2cba.setIcon(icon_29a5dbac145ae170562a4d66c0638222);
+            
+    
+            var marker_ee43fde18eaa3ce24c6450a3c472fe9a = L.marker(
+                [40.7033, -73.9881],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_dd7022c838fe881a02f9164fa3a12304 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e9e85ee813a69a57b7ff2de94653fd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a98928fa2763ce29d043ec00ef7dbd5c = $(`<div id="html_a98928fa2763ce29d043ec00ef7dbd5c" style="width: 100.0%; height: 100.0%;"> <b>CAM-038</b><br> DUMBO Waterfront<br> Status: Active </div>`)[0];
+                popup_0e9e85ee813a69a57b7ff2de94653fd3.setContent(html_a98928fa2763ce29d043ec00ef7dbd5c);
+            
+        
+
+        marker_ee43fde18eaa3ce24c6450a3c472fe9a.bindPopup(popup_0e9e85ee813a69a57b7ff2de94653fd3)
+        ;
+
+        
+    
+    
+            marker_ee43fde18eaa3ce24c6450a3c472fe9a.bindTooltip(
+                `<div>
+                     CAM-038
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee43fde18eaa3ce24c6450a3c472fe9a.setIcon(icon_dd7022c838fe881a02f9164fa3a12304);
+            
+    
+            var marker_5a346192c2f39788aaa53b85dfe9f09f = L.marker(
+                [40.734, -73.8369],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_1554f6adb450e00172dce40bb24b9eac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_605080f6b898c0c0f50b6d9d8ad386b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fc071ce3c6b0ef47201280777e9bd34 = $(`<div id="html_1fc071ce3c6b0ef47201280777e9bd34" style="width: 100.0%; height: 100.0%;"> <b>CAM-039</b><br> Flushing Meadows Corona Park<br> Status: Active </div>`)[0];
+                popup_605080f6b898c0c0f50b6d9d8ad386b1.setContent(html_1fc071ce3c6b0ef47201280777e9bd34);
+            
+        
+
+        marker_5a346192c2f39788aaa53b85dfe9f09f.bindPopup(popup_605080f6b898c0c0f50b6d9d8ad386b1)
+        ;
+
+        
+    
+    
+            marker_5a346192c2f39788aaa53b85dfe9f09f.bindTooltip(
+                `<div>
+                     CAM-039
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a346192c2f39788aaa53b85dfe9f09f.setIcon(icon_1554f6adb450e00172dce40bb24b9eac);
+            
+    
+            var marker_c19c387708a3bacd3c6fa6da3e66885a = L.marker(
+                [40.7561, -73.9545],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_0e21a5ae4716da2da30eaa6f3ada8447 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42e503463c46021e42e84cdd2e16f94d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_835af2d63944a7a220c55ebaa047faac = $(`<div id="html_835af2d63944a7a220c55ebaa047faac" style="width: 100.0%; height: 100.0%;"> <b>CAM-040</b><br> Queensboro Bridge Pedestrian Path<br> Status: Active </div>`)[0];
+                popup_42e503463c46021e42e84cdd2e16f94d.setContent(html_835af2d63944a7a220c55ebaa047faac);
+            
+        
+
+        marker_c19c387708a3bacd3c6fa6da3e66885a.bindPopup(popup_42e503463c46021e42e84cdd2e16f94d)
+        ;
+
+        
+    
+    
+            marker_c19c387708a3bacd3c6fa6da3e66885a.bindTooltip(
+                `<div>
+                     CAM-040
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c19c387708a3bacd3c6fa6da3e66885a.setIcon(icon_0e21a5ae4716da2da30eaa6f3ada8447);
+            
+    
+            var marker_47d20b72103747b1497e2d8170f3d6de = L.marker(
+                [40.8506, -73.8769],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_cd01c75f446f83fb815235f111891990 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8bb94845eac2aaf243a491da4eb15784 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f48a4fba56666c84322bd55c455721c2 = $(`<div id="html_f48a4fba56666c84322bd55c455721c2" style="width: 100.0%; height: 100.0%;"> <b>CAM-041</b><br> Bronx Zoo Entrance<br> Status: Active </div>`)[0];
+                popup_8bb94845eac2aaf243a491da4eb15784.setContent(html_f48a4fba56666c84322bd55c455721c2);
+            
+        
+
+        marker_47d20b72103747b1497e2d8170f3d6de.bindPopup(popup_8bb94845eac2aaf243a491da4eb15784)
+        ;
+
+        
+    
+    
+            marker_47d20b72103747b1497e2d8170f3d6de.bindTooltip(
+                `<div>
+                     CAM-041
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_47d20b72103747b1497e2d8170f3d6de.setIcon(icon_cd01c75f446f83fb815235f111891990);
+            
+    
+            var marker_b8272be94ccf89e31e1db7b0de1dcb2f = L.marker(
+                [40.8549, -73.888],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_149afd29cd1145e64c81766d2d4d5aab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a7c02bf7ff6e246e58a6f5675e91ac3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f25218b6a939112d134762a5e167c5ab = $(`<div id="html_f25218b6a939112d134762a5e167c5ab" style="width: 100.0%; height: 100.0%;"> <b>CAM-042</b><br> Arthur Avenue Retail Market<br> Status: Inactive </div>`)[0];
+                popup_4a7c02bf7ff6e246e58a6f5675e91ac3.setContent(html_f25218b6a939112d134762a5e167c5ab);
+            
+        
+
+        marker_b8272be94ccf89e31e1db7b0de1dcb2f.bindPopup(popup_4a7c02bf7ff6e246e58a6f5675e91ac3)
+        ;
+
+        
+    
+    
+            marker_b8272be94ccf89e31e1db7b0de1dcb2f.bindTooltip(
+                `<div>
+                     CAM-042
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8272be94ccf89e31e1db7b0de1dcb2f.setIcon(icon_149afd29cd1145e64c81766d2d4d5aab);
+            
+    
+            var marker_5b9d48fa470519353b715b82e5c3d5a1 = L.marker(
+                [40.6437, -74.0731],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_5e6ccf8c5ea124e59337a52a4848f8d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad5283c766fdc839743d776f23ddbd43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b128485f9323c2de6d63cabd16502fb4 = $(`<div id="html_b128485f9323c2de6d63cabd16502fb4" style="width: 100.0%; height: 100.0%;"> <b>CAM-043</b><br> St. George Ferry Terminal<br> Status: Active </div>`)[0];
+                popup_ad5283c766fdc839743d776f23ddbd43.setContent(html_b128485f9323c2de6d63cabd16502fb4);
+            
+        
+
+        marker_5b9d48fa470519353b715b82e5c3d5a1.bindPopup(popup_ad5283c766fdc839743d776f23ddbd43)
+        ;
+
+        
+    
+    
+            marker_5b9d48fa470519353b715b82e5c3d5a1.bindTooltip(
+                `<div>
+                     CAM-043
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b9d48fa470519353b715b82e5c3d5a1.setIcon(icon_5e6ccf8c5ea124e59337a52a4848f8d4);
+            
+    
+            var marker_6246441d3932960143d696b458ad1299 = L.marker(
+                [40.6439, -74.1045],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_1554936b96c52c4f90610daa44d292c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d809ad15ed3d5ef08af075836b9d52b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cd0f0d44f31fe720089b18c1bba502f = $(`<div id="html_0cd0f0d44f31fe720089b18c1bba502f" style="width: 100.0%; height: 100.0%;"> <b>CAM-044</b><br> Snug Harbor Cultural Center<br> Status: Maintenance </div>`)[0];
+                popup_d809ad15ed3d5ef08af075836b9d52b4.setContent(html_0cd0f0d44f31fe720089b18c1bba502f);
+            
+        
+
+        marker_6246441d3932960143d696b458ad1299.bindPopup(popup_d809ad15ed3d5ef08af075836b9d52b4)
+        ;
+
+        
+    
+    
+            marker_6246441d3932960143d696b458ad1299.bindTooltip(
+                `<div>
+                     CAM-044
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6246441d3932960143d696b458ad1299.setIcon(icon_1554936b96c52c4f90610daa44d292c2);
+            
+    
+            var marker_09697531d85c3c58f395203914519558 = L.marker(
+                [40.8686, -73.9258],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_13d448ea6e9b2a96862589489d5c446f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f26c8a12e7628809cfa16f77bf959733 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a79b55bba8c55102727137ffc444ceb = $(`<div id="html_7a79b55bba8c55102727137ffc444ceb" style="width: 100.0%; height: 100.0%;"> <b>CAM-045</b><br> Inwood Hill Park<br> Status: Active </div>`)[0];
+                popup_f26c8a12e7628809cfa16f77bf959733.setContent(html_7a79b55bba8c55102727137ffc444ceb);
+            
+        
+
+        marker_09697531d85c3c58f395203914519558.bindPopup(popup_f26c8a12e7628809cfa16f77bf959733)
+        ;
+
+        
+    
+    
+            marker_09697531d85c3c58f395203914519558.bindTooltip(
+                `<div>
+                     CAM-045
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_09697531d85c3c58f395203914519558.setIcon(icon_13d448ea6e9b2a96862589489d5c446f);
+            
+    
+            var marker_03bf44c10457ab7c06c4eed895fce7fc = L.marker(
+                [40.6995, -74.0396],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_95f43c24968deec5be02c81305b2ebe4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cefbc78efb5b670f5896a192e84491fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a67a45d5067c77aaec30cc9320f708d7 = $(`<div id="html_a67a45d5067c77aaec30cc9320f708d7" style="width: 100.0%; height: 100.0%;"> <b>CAM-046</b><br> Ellis Island Arrival Point<br> Status: Active </div>`)[0];
+                popup_cefbc78efb5b670f5896a192e84491fd.setContent(html_a67a45d5067c77aaec30cc9320f708d7);
+            
+        
+
+        marker_03bf44c10457ab7c06c4eed895fce7fc.bindPopup(popup_cefbc78efb5b670f5896a192e84491fd)
+        ;
+
+        
+    
+    
+            marker_03bf44c10457ab7c06c4eed895fce7fc.bindTooltip(
+                `<div>
+                     CAM-046
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_03bf44c10457ab7c06c4eed895fce7fc.setIcon(icon_95f43c24968deec5be02c81305b2ebe4);
+            
+    
+            var marker_bdfad717ad241c79ed32f481b1827004 = L.marker(
+                [40.7033, -74.017],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_2d19f06fdac34a8648399fae201631b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b87550552dc7f23ca5617bfa5d09b90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebe3b7b0e795e175cfcf189cbdf0538e = $(`<div id="html_ebe3b7b0e795e175cfcf189cbdf0538e" style="width: 100.0%; height: 100.0%;"> <b>CAM-047</b><br> Battery Park Entrance<br> Status: Active </div>`)[0];
+                popup_2b87550552dc7f23ca5617bfa5d09b90.setContent(html_ebe3b7b0e795e175cfcf189cbdf0538e);
+            
+        
+
+        marker_bdfad717ad241c79ed32f481b1827004.bindPopup(popup_2b87550552dc7f23ca5617bfa5d09b90)
+        ;
+
+        
+    
+    
+            marker_bdfad717ad241c79ed32f481b1827004.bindTooltip(
+                `<div>
+                     CAM-047
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bdfad717ad241c79ed32f481b1827004.setIcon(icon_2d19f06fdac34a8648399fae201631b4);
+            
+    
+            var marker_03665b777d9bf0b7269334d267ed7c96 = L.marker(
+                [40.7075, -74.003],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_6cddc2241ed2633a527d4b3d689539f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_340ba575911dbcd46e90d93b8258cd3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0120ba89e7edafd0e00fcb4ac6b079b8 = $(`<div id="html_0120ba89e7edafd0e00fcb4ac6b079b8" style="width: 100.0%; height: 100.0%;"> <b>CAM-048</b><br> Seaport District Pier 17<br> Status: Active </div>`)[0];
+                popup_340ba575911dbcd46e90d93b8258cd3e.setContent(html_0120ba89e7edafd0e00fcb4ac6b079b8);
+            
+        
+
+        marker_03665b777d9bf0b7269334d267ed7c96.bindPopup(popup_340ba575911dbcd46e90d93b8258cd3e)
+        ;
+
+        
+    
+    
+            marker_03665b777d9bf0b7269334d267ed7c96.bindTooltip(
+                `<div>
+                     CAM-048
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_03665b777d9bf0b7269334d267ed7c96.setIcon(icon_6cddc2241ed2633a527d4b3d689539f8);
+            
+    
+            var marker_541b1496fa0a1cd488c399bafa6bb255 = L.marker(
+                [40.706, -74.0037],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_8859183bdb0c3aea44c63e8d3b402a5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a661fabb39aaa3c2ea39126ca289cc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6901bc87bcbad007fd5cb705b15db110 = $(`<div id="html_6901bc87bcbad007fd5cb705b15db110" style="width: 100.0%; height: 100.0%;"> <b>CAM-049</b><br> South Street Seaport<br> Status: Active </div>`)[0];
+                popup_2a661fabb39aaa3c2ea39126ca289cc1.setContent(html_6901bc87bcbad007fd5cb705b15db110);
+            
+        
+
+        marker_541b1496fa0a1cd488c399bafa6bb255.bindPopup(popup_2a661fabb39aaa3c2ea39126ca289cc1)
+        ;
+
+        
+    
+    
+            marker_541b1496fa0a1cd488c399bafa6bb255.bindTooltip(
+                `<div>
+                     CAM-049
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_541b1496fa0a1cd488c399bafa6bb255.setIcon(icon_8859183bdb0c3aea44c63e8d3b402a5d);
+            
+    
+            var marker_b5dc94811b702038df14ab56fe69ae15 = L.marker(
+                [40.7163, -74.0086],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_012ffa0a2494bfea2d1a40488a8d4e96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a92e4bbd5addc9a47ae15409cc66677e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfe46ec23d0d668c61303eec954b58dd = $(`<div id="html_bfe46ec23d0d668c61303eec954b58dd" style="width: 100.0%; height: 100.0%;"> <b>CAM-050</b><br> Tribeca Park Area<br> Status: Active </div>`)[0];
+                popup_a92e4bbd5addc9a47ae15409cc66677e.setContent(html_bfe46ec23d0d668c61303eec954b58dd);
+            
+        
+
+        marker_b5dc94811b702038df14ab56fe69ae15.bindPopup(popup_a92e4bbd5addc9a47ae15409cc66677e)
+        ;
+
+        
+    
+    
+            marker_b5dc94811b702038df14ab56fe69ae15.bindTooltip(
+                `<div>
+                     CAM-050
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5dc94811b702038df14ab56fe69ae15.setIcon(icon_012ffa0a2494bfea2d1a40488a8d4e96);
+            
+    
+            var marker_1b14b8fe99a0e8f95461d5a7ae3c3628 = L.marker(
+                [40.7277, -73.9802],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_181373a007eb393439abdc18b7dea459 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81d31ecc6162c981627a9a01b0391a03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05c4734e4bf5732aea1d5715937dc5e2 = $(`<div id="html_05c4734e4bf5732aea1d5715937dc5e2" style="width: 100.0%; height: 100.0%;"> <b>CAM-051</b><br> East Village Intersection<br> Status: Maintenance </div>`)[0];
+                popup_81d31ecc6162c981627a9a01b0391a03.setContent(html_05c4734e4bf5732aea1d5715937dc5e2);
+            
+        
+
+        marker_1b14b8fe99a0e8f95461d5a7ae3c3628.bindPopup(popup_81d31ecc6162c981627a9a01b0391a03)
+        ;
+
+        
+    
+    
+            marker_1b14b8fe99a0e8f95461d5a7ae3c3628.bindTooltip(
+                `<div>
+                     CAM-051
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1b14b8fe99a0e8f95461d5a7ae3c3628.setIcon(icon_181373a007eb393439abdc18b7dea459);
+            
+    
+            var marker_dc001c376d6cd0fa08e9065bbea208fc = L.marker(
+                [40.7167, -73.9818],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_6b2dba798ae27a20a7cb186c76e7153a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f359c5ff8d82d0e326615e8ea7e19cb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c06de8d7c8c1470fcc8ec1883c118e8f = $(`<div id="html_c06de8d7c8c1470fcc8ec1883c118e8f" style="width: 100.0%; height: 100.0%;"> <b>CAM-052</b><br> Lower East Side Cultural Center<br> Status: Active </div>`)[0];
+                popup_f359c5ff8d82d0e326615e8ea7e19cb9.setContent(html_c06de8d7c8c1470fcc8ec1883c118e8f);
+            
+        
+
+        marker_dc001c376d6cd0fa08e9065bbea208fc.bindPopup(popup_f359c5ff8d82d0e326615e8ea7e19cb9)
+        ;
+
+        
+    
+    
+            marker_dc001c376d6cd0fa08e9065bbea208fc.bindTooltip(
+                `<div>
+                     CAM-052
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc001c376d6cd0fa08e9065bbea208fc.setIcon(icon_6b2dba798ae27a20a7cb186c76e7153a);
+            
+    
+            var marker_61b0f681148afaf3e4abb1577ce77562 = L.marker(
+                [40.7302, -73.9773],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_e47972942669274632ad5fda41df1211 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea1ef02adb66abd6c3df9250cc4bf819 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfe06787f6ee3b414e4a07c5e6937d92 = $(`<div id="html_cfe06787f6ee3b414e4a07c5e6937d92" style="width: 100.0%; height: 100.0%;"> <b>CAM-053</b><br> Tompkins Square Park<br> Status: Active </div>`)[0];
+                popup_ea1ef02adb66abd6c3df9250cc4bf819.setContent(html_cfe06787f6ee3b414e4a07c5e6937d92);
+            
+        
+
+        marker_61b0f681148afaf3e4abb1577ce77562.bindPopup(popup_ea1ef02adb66abd6c3df9250cc4bf819)
+        ;
+
+        
+    
+    
+            marker_61b0f681148afaf3e4abb1577ce77562.bindTooltip(
+                `<div>
+                     CAM-053
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_61b0f681148afaf3e4abb1577ce77562.setIcon(icon_e47972942669274632ad5fda41df1211);
+            
+    
+            var marker_5a561abe5b15633146a1d4d20472eed0 = L.marker(
+                [40.7197, -74.0002],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_4a9c4c60d11e20dabd6e57f5a16fa9f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a9672610fb82f5fd7de09b8bac70cd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad9bee732b474b59800734c9b43c9620 = $(`<div id="html_ad9bee732b474b59800734c9b43c9620" style="width: 100.0%; height: 100.0%;"> <b>CAM-054</b><br> Nolita Shopping District<br> Status: Inactive </div>`)[0];
+                popup_2a9672610fb82f5fd7de09b8bac70cd5.setContent(html_ad9bee732b474b59800734c9b43c9620);
+            
+        
+
+        marker_5a561abe5b15633146a1d4d20472eed0.bindPopup(popup_2a9672610fb82f5fd7de09b8bac70cd5)
+        ;
+
+        
+    
+    
+            marker_5a561abe5b15633146a1d4d20472eed0.bindTooltip(
+                `<div>
+                     CAM-054
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a561abe5b15633146a1d4d20472eed0.setIcon(icon_4a9c4c60d11e20dabd6e57f5a16fa9f3);
+            
+    
+            var marker_77d60e20768b7d47a7523bf245a2b6fc = L.marker(
+                [40.7381, -74.0074],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_06a229a64ca22eef9cf5f900db331cf0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fb088f11e56ae010b88b6162e859c50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8bd9216c334db0b8f7c75d069f95850 = $(`<div id="html_f8bd9216c334db0b8f7c75d069f95850" style="width: 100.0%; height: 100.0%;"> <b>CAM-055</b><br> West Village Pier<br> Status: Active </div>`)[0];
+                popup_4fb088f11e56ae010b88b6162e859c50.setContent(html_f8bd9216c334db0b8f7c75d069f95850);
+            
+        
+
+        marker_77d60e20768b7d47a7523bf245a2b6fc.bindPopup(popup_4fb088f11e56ae010b88b6162e859c50)
+        ;
+
+        
+    
+    
+            marker_77d60e20768b7d47a7523bf245a2b6fc.bindTooltip(
+                `<div>
+                     CAM-055
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_77d60e20768b7d47a7523bf245a2b6fc.setIcon(icon_06a229a64ca22eef9cf5f900db331cf0);
+            
+    
+            var marker_66ddc979ebd3d8173bd017502e619308 = L.marker(
+                [40.7369, -74.0023],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_30350f3d77d44a4349271ae3d1ac341b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bbe737a76b9f6eea3fd75e3ad195fc7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef4ba138c329396fa8e5adfb6cd5a166 = $(`<div id="html_ef4ba138c329396fa8e5adfb6cd5a166" style="width: 100.0%; height: 100.0%;"> <b>CAM-056</b><br> Christopher Street Station<br> Status: Maintenance </div>`)[0];
+                popup_bbe737a76b9f6eea3fd75e3ad195fc7a.setContent(html_ef4ba138c329396fa8e5adfb6cd5a166);
+            
+        
+
+        marker_66ddc979ebd3d8173bd017502e619308.bindPopup(popup_bbe737a76b9f6eea3fd75e3ad195fc7a)
+        ;
+
+        
+    
+    
+            marker_66ddc979ebd3d8173bd017502e619308.bindTooltip(
+                `<div>
+                     CAM-056
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_66ddc979ebd3d8173bd017502e619308.setIcon(icon_30350f3d77d44a4349271ae3d1ac341b);
+            
+    
+            var marker_0ba98c5efced2ea294e69b2aaa584d15 = L.marker(
+                [40.7521, -74.0119],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_11eccdb8bf8601514150fc516f61490f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_248f042e4417982a338e3864fa19ebd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_822921e4aac36fa8caea398004ca8cb0 = $(`<div id="html_822921e4aac36fa8caea398004ca8cb0" style="width: 100.0%; height: 100.0%;"> <b>CAM-057</b><br> Hudson River Greenway Mile 3<br> Status: Active </div>`)[0];
+                popup_248f042e4417982a338e3864fa19ebd5.setContent(html_822921e4aac36fa8caea398004ca8cb0);
+            
+        
+
+        marker_0ba98c5efced2ea294e69b2aaa584d15.bindPopup(popup_248f042e4417982a338e3864fa19ebd5)
+        ;
+
+        
+    
+    
+            marker_0ba98c5efced2ea294e69b2aaa584d15.bindTooltip(
+                `<div>
+                     CAM-057
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0ba98c5efced2ea294e69b2aaa584d15.setIcon(icon_11eccdb8bf8601514150fc516f61490f);
+            
+    
+            var marker_dda39515389fc3e290d1a58dfd804be0 = L.marker(
+                [40.7481, -74.0016],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_2a8750327dd8b7febf7dce40328858db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab3b4a20af3ea1c7030033518d4eba8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb18ca75e9b74909ac355d21d4d0a570 = $(`<div id="html_eb18ca75e9b74909ac355d21d4d0a570" style="width: 100.0%; height: 100.0%;"> <b>CAM-058</b><br> Chelsea Market<br> Status: Active </div>`)[0];
+                popup_ab3b4a20af3ea1c7030033518d4eba8d.setContent(html_eb18ca75e9b74909ac355d21d4d0a570);
+            
+        
+
+        marker_dda39515389fc3e290d1a58dfd804be0.bindPopup(popup_ab3b4a20af3ea1c7030033518d4eba8d)
+        ;
+
+        
+    
+    
+            marker_dda39515389fc3e290d1a58dfd804be0.bindTooltip(
+                `<div>
+                     CAM-058
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dda39515389fc3e290d1a58dfd804be0.setIcon(icon_2a8750327dd8b7febf7dce40328858db);
+            
+    
+            var marker_90fe358e955f9c67e69bdafaface1345 = L.marker(
+                [40.7505, -73.9934],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_d61d602ba1c95d9bec1130347e12beb7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb2cd08a8001385d59d0b1e454405e48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eac484cdce60336fba3cd296f9cd9312 = $(`<div id="html_eac484cdce60336fba3cd296f9cd9312" style="width: 100.0%; height: 100.0%;"> <b>CAM-059</b><br> Madison Square Garden<br> Status: Active </div>`)[0];
+                popup_eb2cd08a8001385d59d0b1e454405e48.setContent(html_eac484cdce60336fba3cd296f9cd9312);
+            
+        
+
+        marker_90fe358e955f9c67e69bdafaface1345.bindPopup(popup_eb2cd08a8001385d59d0b1e454405e48)
+        ;
+
+        
+    
+    
+            marker_90fe358e955f9c67e69bdafaface1345.bindTooltip(
+                `<div>
+                     CAM-059
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_90fe358e955f9c67e69bdafaface1345.setIcon(icon_d61d602ba1c95d9bec1130347e12beb7);
+            
+    
+            var marker_2caaa1537750505b63dcc90d9cc9f946 = L.marker(
+                [40.7527, -73.9746],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_0bb15ad00bf1261dd7fd2863467aff20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_103f8855087552073c3da5481aae9b58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7a747d015449ca3c72373e57e6c8dfe = $(`<div id="html_c7a747d015449ca3c72373e57e6c8dfe" style="width: 100.0%; height: 100.0%;"> <b>CAM-060</b><br> Grand Central Vanderbilt Hall<br> Status: Active </div>`)[0];
+                popup_103f8855087552073c3da5481aae9b58.setContent(html_c7a747d015449ca3c72373e57e6c8dfe);
+            
+        
+
+        marker_2caaa1537750505b63dcc90d9cc9f946.bindPopup(popup_103f8855087552073c3da5481aae9b58)
+        ;
+
+        
+    
+    
+            marker_2caaa1537750505b63dcc90d9cc9f946.bindTooltip(
+                `<div>
+                     CAM-060
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2caaa1537750505b63dcc90d9cc9f946.setIcon(icon_0bb15ad00bf1261dd7fd2863467aff20);
+            
+    
+            var marker_ed9e411fc839459dfe71cd438945049d = L.marker(
+                [40.7548, -73.971],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_b118137b8cdf1cb0bbc1b3d772e9d8f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8715927abdcc9e00c7adacbd8e50a274 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_069901de2e4e4adc63d6cc45306577da = $(`<div id="html_069901de2e4e4adc63d6cc45306577da" style="width: 100.0%; height: 100.0%;"> <b>CAM-061</b><br> Park Avenue At 42nd<br> Status: Maintenance </div>`)[0];
+                popup_8715927abdcc9e00c7adacbd8e50a274.setContent(html_069901de2e4e4adc63d6cc45306577da);
+            
+        
+
+        marker_ed9e411fc839459dfe71cd438945049d.bindPopup(popup_8715927abdcc9e00c7adacbd8e50a274)
+        ;
+
+        
+    
+    
+            marker_ed9e411fc839459dfe71cd438945049d.bindTooltip(
+                `<div>
+                     CAM-061
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed9e411fc839459dfe71cd438945049d.setIcon(icon_b118137b8cdf1cb0bbc1b3d772e9d8f8);
+            
+    
+            var marker_05f142186c22f22dc471e5f9e2f81800 = L.marker(
+                [40.7614, -73.9776],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_a12539455423309402a884b6e1cc75e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de898f73f5eee77f975335b06f308493 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e7349e0aa30b537099af531dbcf3ca0 = $(`<div id="html_3e7349e0aa30b537099af531dbcf3ca0" style="width: 100.0%; height: 100.0%;"> <b>CAM-062</b><br> Lexington Avenue Line Platform<br> Status: Active </div>`)[0];
+                popup_de898f73f5eee77f975335b06f308493.setContent(html_3e7349e0aa30b537099af531dbcf3ca0);
+            
+        
+
+        marker_05f142186c22f22dc471e5f9e2f81800.bindPopup(popup_de898f73f5eee77f975335b06f308493)
+        ;
+
+        
+    
+    
+            marker_05f142186c22f22dc471e5f9e2f81800.bindTooltip(
+                `<div>
+                     CAM-062
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_05f142186c22f22dc471e5f9e2f81800.setIcon(icon_a12539455423309402a884b6e1cc75e5);
+            
+    
+            var marker_b9549e48c62190de61e0f57103451ef8 = L.marker(
+                [40.7528, -73.976],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_3c8a6bfed7fbdef2e3725c4952803323 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_deccfde378c1e2cccc86391bbb6328be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f88bd5f65b4cda89b9cd983b5c54d02e = $(`<div id="html_f88bd5f65b4cda89b9cd983b5c54d02e" style="width: 100.0%; height: 100.0%;"> <b>CAM-063</b><br> 1st Avenue Bus Terminal<br> Status: Active </div>`)[0];
+                popup_deccfde378c1e2cccc86391bbb6328be.setContent(html_f88bd5f65b4cda89b9cd983b5c54d02e);
+            
+        
+
+        marker_b9549e48c62190de61e0f57103451ef8.bindPopup(popup_deccfde378c1e2cccc86391bbb6328be)
+        ;
+
+        
+    
+    
+            marker_b9549e48c62190de61e0f57103451ef8.bindTooltip(
+                `<div>
+                     CAM-063
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9549e48c62190de61e0f57103451ef8.setIcon(icon_3c8a6bfed7fbdef2e3725c4952803323);
+            
+    
+            var marker_6e2b90cce3a72744754b6039a45ded27 = L.marker(
+                [40.7495, -73.986],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_c5f825803b9ffb93022feaa48b6b6452 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17bd0a73e0e116d29b51c9f5b461753b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2deb3688efa7f45f287f7129dc530cf6 = $(`<div id="html_2deb3688efa7f45f287f7129dc530cf6" style="width: 100.0%; height: 100.0%;"> <b>CAM-064</b><br> Avenue of Americas<br> Status: Inactive </div>`)[0];
+                popup_17bd0a73e0e116d29b51c9f5b461753b.setContent(html_2deb3688efa7f45f287f7129dc530cf6);
+            
+        
+
+        marker_6e2b90cce3a72744754b6039a45ded27.bindPopup(popup_17bd0a73e0e116d29b51c9f5b461753b)
+        ;
+
+        
+    
+    
+            marker_6e2b90cce3a72744754b6039a45ded27.bindTooltip(
+                `<div>
+                     CAM-064
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e2b90cce3a72744754b6039a45ded27.setIcon(icon_c5f825803b9ffb93022feaa48b6b6452);
+            
+    
+            var marker_60f885b92aeb2f3d4c529cf27a5b799a = L.marker(
+                [40.7505, -73.9945],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_7d5c94b08abdeecff7c30d7f6e5746c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_987d2c010305653c959544f7929c1ba6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34c2473d9bbce92fe739d84d78051733 = $(`<div id="html_34c2473d9bbce92fe739d84d78051733" style="width: 100.0%; height: 100.0%;"> <b>CAM-065</b><br> Penn Plaza Concourse<br> Status: Active </div>`)[0];
+                popup_987d2c010305653c959544f7929c1ba6.setContent(html_34c2473d9bbce92fe739d84d78051733);
+            
+        
+
+        marker_60f885b92aeb2f3d4c529cf27a5b799a.bindPopup(popup_987d2c010305653c959544f7929c1ba6)
+        ;
+
+        
+    
+    
+            marker_60f885b92aeb2f3d4c529cf27a5b799a.bindTooltip(
+                `<div>
+                     CAM-065
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_60f885b92aeb2f3d4c529cf27a5b799a.setIcon(icon_7d5c94b08abdeecff7c30d7f6e5746c8);
+            
+    
+            var marker_9d1a6e37f46d16fe3e69bc8167e95185 = L.marker(
+                [40.765, -73.9743],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_fe0c1624e7a3babc3380a8886266fb09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_033e0a0f2ac4c71547a0fc9e47b9c200 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ede54ee0e91dd7733cb4bde17717eaae = $(`<div id="html_ede54ee0e91dd7733cb4bde17717eaae" style="width: 100.0%; height: 100.0%;"> <b>CAM-066</b><br> Madison Avenue Shopping<br> Status: Active </div>`)[0];
+                popup_033e0a0f2ac4c71547a0fc9e47b9c200.setContent(html_ede54ee0e91dd7733cb4bde17717eaae);
+            
+        
+
+        marker_9d1a6e37f46d16fe3e69bc8167e95185.bindPopup(popup_033e0a0f2ac4c71547a0fc9e47b9c200)
+        ;
+
+        
+    
+    
+            marker_9d1a6e37f46d16fe3e69bc8167e95185.bindTooltip(
+                `<div>
+                     CAM-066
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9d1a6e37f46d16fe3e69bc8167e95185.setIcon(icon_fe0c1624e7a3babc3380a8886266fb09);
+            
+    
+            var marker_06081690b3c1b5ff80524ebe268d19d9 = L.marker(
+                [40.7549, -73.978],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_fe0609512f30d7fd0691a14d0690ef53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eba57882b13c3b7938573b32e421606a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b15365e3e4d50fb6b252d20f81d5387f = $(`<div id="html_b15365e3e4d50fb6b252d20f81d5387f" style="width: 100.0%; height: 100.0%;"> <b>CAM-067</b><br> Rockefeller Center Plaza<br> Status: Active </div>`)[0];
+                popup_eba57882b13c3b7938573b32e421606a.setContent(html_b15365e3e4d50fb6b252d20f81d5387f);
+            
+        
+
+        marker_06081690b3c1b5ff80524ebe268d19d9.bindPopup(popup_eba57882b13c3b7938573b32e421606a)
+        ;
+
+        
+    
+    
+            marker_06081690b3c1b5ff80524ebe268d19d9.bindTooltip(
+                `<div>
+                     CAM-067
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_06081690b3c1b5ff80524ebe268d19d9.setIcon(icon_fe0609512f30d7fd0691a14d0690ef53);
+            
+    
+            var marker_c36542025bba849e99c13b8f8f0755e4 = L.marker(
+                [40.7585, -73.9756],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_1117b5ccc6681583dc0fcdd3f8c259a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b69c8d749fc666f8ddbe2d5e1aa0b043 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1698f7cdfaaba45cff83819b57a5af2f = $(`<div id="html_1698f7cdfaaba45cff83819b57a5af2f" style="width: 100.0%; height: 100.0%;"> <b>CAM-068</b><br> St Patrick's Cathedral<br> Status: Maintenance </div>`)[0];
+                popup_b69c8d749fc666f8ddbe2d5e1aa0b043.setContent(html_1698f7cdfaaba45cff83819b57a5af2f);
+            
+        
+
+        marker_c36542025bba849e99c13b8f8f0755e4.bindPopup(popup_b69c8d749fc666f8ddbe2d5e1aa0b043)
+        ;
+
+        
+    
+    
+            marker_c36542025bba849e99c13b8f8f0755e4.bindTooltip(
+                `<div>
+                     CAM-068
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c36542025bba849e99c13b8f8f0755e4.setIcon(icon_1117b5ccc6681583dc0fcdd3f8c259a5);
+            
+    
+            var marker_3a7c3b50711781e76eea5a3f49cd42e3 = L.marker(
+                [40.741, -73.9889],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_b3f3d3b1877fc9eeaf11551d967ba876 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2bc9d7738c43287e71f4c44b97188a71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff2bee818364ab8a6225c1673fc2898e = $(`<div id="html_ff2bee818364ab8a6225c1673fc2898e" style="width: 100.0%; height: 100.0%;"> <b>CAM-069</b><br> Park Avenue South<br> Status: Active </div>`)[0];
+                popup_2bc9d7738c43287e71f4c44b97188a71.setContent(html_ff2bee818364ab8a6225c1673fc2898e);
+            
+        
+
+        marker_3a7c3b50711781e76eea5a3f49cd42e3.bindPopup(popup_2bc9d7738c43287e71f4c44b97188a71)
+        ;
+
+        
+    
+    
+            marker_3a7c3b50711781e76eea5a3f49cd42e3.bindTooltip(
+                `<div>
+                     CAM-069
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3a7c3b50711781e76eea5a3f49cd42e3.setIcon(icon_b3f3d3b1877fc9eeaf11551d967ba876);
+            
+    
+            var marker_e6142e09097635192d7a279602023cf5 = L.marker(
+                [40.7355, -73.9809],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_74fad36a9a3a34aa7652a06cd5992c8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c16b5cebf98c0d3cc10544d97e7dea99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2970ce7d7588d01e4ea2ef9a4113b48 = $(`<div id="html_a2970ce7d7588d01e4ea2ef9a4113b48" style="width: 100.0%; height: 100.0%;"> <b>CAM-070</b><br> Stuyvesant Square<br> Status: Active </div>`)[0];
+                popup_c16b5cebf98c0d3cc10544d97e7dea99.setContent(html_a2970ce7d7588d01e4ea2ef9a4113b48);
+            
+        
+
+        marker_e6142e09097635192d7a279602023cf5.bindPopup(popup_c16b5cebf98c0d3cc10544d97e7dea99)
+        ;
+
+        
+    
+    
+            marker_e6142e09097635192d7a279602023cf5.bindTooltip(
+                `<div>
+                     CAM-070
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e6142e09097635192d7a279602023cf5.setIcon(icon_74fad36a9a3a34aa7652a06cd5992c8a);
+            
+    
+            var marker_c5ea7fb94ba5aadc9a17cca39a0be548 = L.marker(
+                [40.7109, -73.9561],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_217bf9cd14a4dffc6dd9c25a31df84d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61810b9ebd0a7eb16615f474e4e4427a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbd1dcca0d922bae3aace9541cc2f0f6 = $(`<div id="html_bbd1dcca0d922bae3aace9541cc2f0f6" style="width: 100.0%; height: 100.0%;"> <b>CAM-071</b><br> Williamsburg Bridge Plaza<br> Status: Active </div>`)[0];
+                popup_61810b9ebd0a7eb16615f474e4e4427a.setContent(html_bbd1dcca0d922bae3aace9541cc2f0f6);
+            
+        
+
+        marker_c5ea7fb94ba5aadc9a17cca39a0be548.bindPopup(popup_61810b9ebd0a7eb16615f474e4e4427a)
+        ;
+
+        
+    
+    
+            marker_c5ea7fb94ba5aadc9a17cca39a0be548.bindTooltip(
+                `<div>
+                     CAM-071
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c5ea7fb94ba5aadc9a17cca39a0be548.setIcon(icon_217bf9cd14a4dffc6dd9c25a31df84d9);
+            
+    
+            var marker_91705859d00074e40efd490c96ca081e = L.marker(
+                [40.7089, -73.9566],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_527120d9a3b90a641284060b4d502474 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_148b44f5df2e99e529088595fb22c7de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9106ec0a135dafd09069b04aa3b1f42b = $(`<div id="html_9106ec0a135dafd09069b04aa3b1f42b" style="width: 100.0%; height: 100.0%;"> <b>CAM-072</b><br> McCarren Park<br> Status: Maintenance </div>`)[0];
+                popup_148b44f5df2e99e529088595fb22c7de.setContent(html_9106ec0a135dafd09069b04aa3b1f42b);
+            
+        
+
+        marker_91705859d00074e40efd490c96ca081e.bindPopup(popup_148b44f5df2e99e529088595fb22c7de)
+        ;
+
+        
+    
+    
+            marker_91705859d00074e40efd490c96ca081e.bindTooltip(
+                `<div>
+                     CAM-072
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_91705859d00074e40efd490c96ca081e.setIcon(icon_527120d9a3b90a641284060b4d502474);
+            
+    
+            var marker_69bcf4653f6111db1a3e606445a4b0ed = L.marker(
+                [40.7225, -73.9516],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_a793c805d3f04dd1d7e4328bf86ba69a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b447e5bfb6e0c4558bf269cde0ed1af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39e7a0be3922a7e7a8572c9d2266bbdb = $(`<div id="html_39e7a0be3922a7e7a8572c9d2266bbdb" style="width: 100.0%; height: 100.0%;"> <b>CAM-073</b><br> Greenpoint Landing<br> Status: Active </div>`)[0];
+                popup_7b447e5bfb6e0c4558bf269cde0ed1af.setContent(html_39e7a0be3922a7e7a8572c9d2266bbdb);
+            
+        
+
+        marker_69bcf4653f6111db1a3e606445a4b0ed.bindPopup(popup_7b447e5bfb6e0c4558bf269cde0ed1af)
+        ;
+
+        
+    
+    
+            marker_69bcf4653f6111db1a3e606445a4b0ed.bindTooltip(
+                `<div>
+                     CAM-073
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69bcf4653f6111db1a3e606445a4b0ed.setIcon(icon_a793c805d3f04dd1d7e4328bf86ba69a);
+            
+    
+            var marker_2a0997064401332bfde1fc5b6787a7e1 = L.marker(
+                [40.7691, -73.9262],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_ed326707521026c706de3acb2fa135f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3f0ad295263b771ad92ab28c1491c5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a44d66c4bebf348c0745c0db3126faba = $(`<div id="html_a44d66c4bebf348c0745c0db3126faba" style="width: 100.0%; height: 100.0%;"> <b>CAM-074</b><br> Astoria Park<br> Status: Active </div>`)[0];
+                popup_a3f0ad295263b771ad92ab28c1491c5b.setContent(html_a44d66c4bebf348c0745c0db3126faba);
+            
+        
+
+        marker_2a0997064401332bfde1fc5b6787a7e1.bindPopup(popup_a3f0ad295263b771ad92ab28c1491c5b)
+        ;
+
+        
+    
+    
+            marker_2a0997064401332bfde1fc5b6787a7e1.bindTooltip(
+                `<div>
+                     CAM-074
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2a0997064401332bfde1fc5b6787a7e1.setIcon(icon_ed326707521026c706de3acb2fa135f4);
+            
+    
+            var marker_7f674503fd8cc14c094a860312bfecf9 = L.marker(
+                [40.7738, -73.9369],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_a24a0dec4bbd88352e4d29b70eeb8a3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31477f1bfb63d26d93dbabd746990b08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fb51d56160d4e6c1c91e6cefbda1bcb = $(`<div id="html_3fb51d56160d4e6c1c91e6cefbda1bcb" style="width: 100.0%; height: 100.0%;"> <b>CAM-075</b><br> Ditmars Boulevard Station<br> Status: Active </div>`)[0];
+                popup_31477f1bfb63d26d93dbabd746990b08.setContent(html_3fb51d56160d4e6c1c91e6cefbda1bcb);
+            
+        
+
+        marker_7f674503fd8cc14c094a860312bfecf9.bindPopup(popup_31477f1bfb63d26d93dbabd746990b08)
+        ;
+
+        
+    
+    
+            marker_7f674503fd8cc14c094a860312bfecf9.bindTooltip(
+                `<div>
+                     CAM-075
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7f674503fd8cc14c094a860312bfecf9.setIcon(icon_a24a0dec4bbd88352e4d29b70eeb8a3c);
+            
+    
+            var marker_75ca83892eb7336a05d1ce87030c547c = L.marker(
+                [40.7497, -73.9483],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_17d4c753661874641f0553762dbd7e69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3536f5fff81904aa422a6129381c065 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0659f53e925bdcc923a6868309a8b9d0 = $(`<div id="html_0659f53e925bdcc923a6868309a8b9d0" style="width: 100.0%; height: 100.0%;"> <b>CAM-076</b><br> Long Island City Waterfront<br> Status: Inactive </div>`)[0];
+                popup_d3536f5fff81904aa422a6129381c065.setContent(html_0659f53e925bdcc923a6868309a8b9d0);
+            
+        
+
+        marker_75ca83892eb7336a05d1ce87030c547c.bindPopup(popup_d3536f5fff81904aa422a6129381c065)
+        ;
+
+        
+    
+    
+            marker_75ca83892eb7336a05d1ce87030c547c.bindTooltip(
+                `<div>
+                     CAM-076
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_75ca83892eb7336a05d1ce87030c547c.setIcon(icon_17d4c753661874641f0553762dbd7e69);
+            
+    
+            var marker_c5b9ad421db006680bf75cda2f93bd5e = L.marker(
+                [40.7482, -73.9483],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_62d51462669f0b0bb96a9d80149de8f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acc25654aac553041986907055bab85e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_417995ce1b4d830e6deec3e7418f9df3 = $(`<div id="html_417995ce1b4d830e6deec3e7418f9df3" style="width: 100.0%; height: 100.0%;"> <b>CAM-077</b><br> Gantry Plaza State Park<br> Status: Active </div>`)[0];
+                popup_acc25654aac553041986907055bab85e.setContent(html_417995ce1b4d830e6deec3e7418f9df3);
+            
+        
+
+        marker_c5b9ad421db006680bf75cda2f93bd5e.bindPopup(popup_acc25654aac553041986907055bab85e)
+        ;
+
+        
+    
+    
+            marker_c5b9ad421db006680bf75cda2f93bd5e.bindTooltip(
+                `<div>
+                     CAM-077
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c5b9ad421db006680bf75cda2f93bd5e.setIcon(icon_62d51462669f0b0bb96a9d80149de8f1);
+            
+    
+            var marker_fa46d2d401f3f17b37ebc6b1d31d290e = L.marker(
+                [40.7447, -73.9485],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_8de7799a34e16388d4c6172c068c1da6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_86432c9be5db20e8796f36bf27c33b6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3154dd4c0cf8ad094d2cbc8670074e0d = $(`<div id="html_3154dd4c0cf8ad094d2cbc8670074e0d" style="width: 100.0%; height: 100.0%;"> <b>CAM-078</b><br> Court Square<br> Status: Active </div>`)[0];
+                popup_86432c9be5db20e8796f36bf27c33b6e.setContent(html_3154dd4c0cf8ad094d2cbc8670074e0d);
+            
+        
+
+        marker_fa46d2d401f3f17b37ebc6b1d31d290e.bindPopup(popup_86432c9be5db20e8796f36bf27c33b6e)
+        ;
+
+        
+    
+    
+            marker_fa46d2d401f3f17b37ebc6b1d31d290e.bindTooltip(
+                `<div>
+                     CAM-078
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fa46d2d401f3f17b37ebc6b1d31d290e.setIcon(icon_8de7799a34e16388d4c6172c068c1da6);
+            
+    
+            var marker_704eab2e7fc0e23709dab78c11d8fb00 = L.marker(
+                [40.7161, -73.8413],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_3f1022e787689283ab3919beedbc2628 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b595c2d80bba696ebc924bedcf879790 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4aec8b04b806db232c33f2c37f5f03b = $(`<div id="html_f4aec8b04b806db232c33f2c37f5f03b" style="width: 100.0%; height: 100.0%;"> <b>CAM-079</b><br> Forest Hills Gardens<br> Status: Maintenance </div>`)[0];
+                popup_b595c2d80bba696ebc924bedcf879790.setContent(html_f4aec8b04b806db232c33f2c37f5f03b);
+            
+        
+
+        marker_704eab2e7fc0e23709dab78c11d8fb00.bindPopup(popup_b595c2d80bba696ebc924bedcf879790)
+        ;
+
+        
+    
+    
+            marker_704eab2e7fc0e23709dab78c11d8fb00.bindTooltip(
+                `<div>
+                     CAM-079
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_704eab2e7fc0e23709dab78c11d8fb00.setIcon(icon_3f1022e787689283ab3919beedbc2628);
+            
+    
+            var marker_4917c850a8c583fc476ccdb127db889b = L.marker(
+                [40.707, -73.8256],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_7f2c32bf2017eedad047e5726e0dd07a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9c00992c9cf0dd62a57a7c0e0da9551 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_025d9502f8fd745593b529dcbf92ba06 = $(`<div id="html_025d9502f8fd745593b529dcbf92ba06" style="width: 100.0%; height: 100.0%;"> <b>CAM-080</b><br> Kew Gardens Station<br> Status: Active </div>`)[0];
+                popup_c9c00992c9cf0dd62a57a7c0e0da9551.setContent(html_025d9502f8fd745593b529dcbf92ba06);
+            
+        
+
+        marker_4917c850a8c583fc476ccdb127db889b.bindPopup(popup_c9c00992c9cf0dd62a57a7c0e0da9551)
+        ;
+
+        
+    
+    
+            marker_4917c850a8c583fc476ccdb127db889b.bindTooltip(
+                `<div>
+                     CAM-080
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4917c850a8c583fc476ccdb127db889b.setIcon(icon_7f2c32bf2017eedad047e5726e0dd07a);
+            
+    
+            var marker_417dbd6925e00284a25684977cc7268f = L.marker(
+                [40.7018, -73.8081],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_203687eaf5d53d5aa1d057fdea8dd515 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94c35c6f56d7f77ad14d7be230ae6e99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5df6b7a311a3ea4fe4fd97097ca1672 = $(`<div id="html_d5df6b7a311a3ea4fe4fd97097ca1672" style="width: 100.0%; height: 100.0%;"> <b>CAM-081</b><br> Jamaica Station<br> Status: Active </div>`)[0];
+                popup_94c35c6f56d7f77ad14d7be230ae6e99.setContent(html_d5df6b7a311a3ea4fe4fd97097ca1672);
+            
+        
+
+        marker_417dbd6925e00284a25684977cc7268f.bindPopup(popup_94c35c6f56d7f77ad14d7be230ae6e99)
+        ;
+
+        
+    
+    
+            marker_417dbd6925e00284a25684977cc7268f.bindTooltip(
+                `<div>
+                     CAM-081
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_417dbd6925e00284a25684977cc7268f.setIcon(icon_203687eaf5d53d5aa1d057fdea8dd515);
+            
+    
+            var marker_e938c0ab0dcfaecb67b0a0ec9f61a8a1 = L.marker(
+                [40.5754, -73.8192],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_f16bfdcf5c1f0a50c36eb30bbc90ca42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_491f6d2748ae4415f60f4a04cbbe3daa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b60826408a4f5a04e8213b02e0cb464c = $(`<div id="html_b60826408a4f5a04e8213b02e0cb464c" style="width: 100.0%; height: 100.0%;"> <b>CAM-082</b><br> Rockaway Beach<br> Status: Active </div>`)[0];
+                popup_491f6d2748ae4415f60f4a04cbbe3daa.setContent(html_b60826408a4f5a04e8213b02e0cb464c);
+            
+        
+
+        marker_e938c0ab0dcfaecb67b0a0ec9f61a8a1.bindPopup(popup_491f6d2748ae4415f60f4a04cbbe3daa)
+        ;
+
+        
+    
+    
+            marker_e938c0ab0dcfaecb67b0a0ec9f61a8a1.bindTooltip(
+                `<div>
+                     CAM-082
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e938c0ab0dcfaecb67b0a0ec9f61a8a1.setIcon(icon_f16bfdcf5c1f0a50c36eb30bbc90ca42);
+            
+    
+            var marker_b257bcf5758e0576a632bf9461142db2 = L.marker(
+                [40.687, -73.9276],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_464b0889e8c8bb5fb026d1a0cb099ee9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce09d998397ab78e98c8a65ca38a024b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34fdcbcc00c3c18609336508cd2c79d6 = $(`<div id="html_34fdcbcc00c3c18609336508cd2c79d6" style="width: 100.0%; height: 100.0%;"> <b>CAM-083</b><br> Myrtle Avenue Station<br> Status: Active </div>`)[0];
+                popup_ce09d998397ab78e98c8a65ca38a024b.setContent(html_34fdcbcc00c3c18609336508cd2c79d6);
+            
+        
+
+        marker_b257bcf5758e0576a632bf9461142db2.bindPopup(popup_ce09d998397ab78e98c8a65ca38a024b)
+        ;
+
+        
+    
+    
+            marker_b257bcf5758e0576a632bf9461142db2.bindTooltip(
+                `<div>
+                     CAM-083
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b257bcf5758e0576a632bf9461142db2.setIcon(icon_464b0889e8c8bb5fb026d1a0cb099ee9);
+            
+    
+            var marker_0703e59154f17d8c901c15815a9126e2 = L.marker(
+                [40.6704, -73.8943],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_025be910c22371c51051df4cee85bdfb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9215cfa7ff7ed0f0cabb2818e04f8b6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e187d1b3dfddf49d224c1397cb51826e = $(`<div id="html_e187d1b3dfddf49d224c1397cb51826e" style="width: 100.0%; height: 100.0%;"> <b>CAM-084</b><br> Cypress Hills Cemetery<br> Status: Maintenance </div>`)[0];
+                popup_9215cfa7ff7ed0f0cabb2818e04f8b6b.setContent(html_e187d1b3dfddf49d224c1397cb51826e);
+            
+        
+
+        marker_0703e59154f17d8c901c15815a9126e2.bindPopup(popup_9215cfa7ff7ed0f0cabb2818e04f8b6b)
+        ;
+
+        
+    
+    
+            marker_0703e59154f17d8c901c15815a9126e2.bindTooltip(
+                `<div>
+                     CAM-084
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0703e59154f17d8c901c15815a9126e2.setIcon(icon_025be910c22371c51051df4cee85bdfb);
+            
+    
+            var marker_fa3a699a2aaa12732566ec71a5a6f1c5 = L.marker(
+                [40.6586, -73.8746],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_e859687c573ea3f604ebca0eb8536649 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5cd4b0cc93392358ca3fa10d8f73add4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c5cb59bf458db9c74155ec8599ed2bd = $(`<div id="html_3c5cb59bf458db9c74155ec8599ed2bd" style="width: 100.0%; height: 100.0%;"> <b>CAM-085</b><br> Highland Park Summit<br> Status: Active </div>`)[0];
+                popup_5cd4b0cc93392358ca3fa10d8f73add4.setContent(html_3c5cb59bf458db9c74155ec8599ed2bd);
+            
+        
+
+        marker_fa3a699a2aaa12732566ec71a5a6f1c5.bindPopup(popup_5cd4b0cc93392358ca3fa10d8f73add4)
+        ;
+
+        
+    
+    
+            marker_fa3a699a2aaa12732566ec71a5a6f1c5.bindTooltip(
+                `<div>
+                     CAM-085
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fa3a699a2aaa12732566ec71a5a6f1c5.setIcon(icon_e859687c573ea3f604ebca0eb8536649);
+            
+    
+            var marker_755e8aa6304e23ecd5ae512bff77d2d1 = L.marker(
+                [40.6347, -74.0089],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_2c18d5570a74567e621f4c224e4b53fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a95c9b4ff230dd83859385d2ea1f3483 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05074d2391007aa36b554e0dd150ff66 = $(`<div id="html_05074d2391007aa36b554e0dd150ff66" style="width: 100.0%; height: 100.0%;"> <b>CAM-086</b><br> Sunset Park Waterfront<br> Status: Active </div>`)[0];
+                popup_a95c9b4ff230dd83859385d2ea1f3483.setContent(html_05074d2391007aa36b554e0dd150ff66);
+            
+        
+
+        marker_755e8aa6304e23ecd5ae512bff77d2d1.bindPopup(popup_a95c9b4ff230dd83859385d2ea1f3483)
+        ;
+
+        
+    
+    
+            marker_755e8aa6304e23ecd5ae512bff77d2d1.bindTooltip(
+                `<div>
+                     CAM-086
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_755e8aa6304e23ecd5ae512bff77d2d1.setIcon(icon_2c18d5570a74567e621f4c224e4b53fe);
+            
+    
+            var marker_c4dd7ec9ca0e065323ecbba4de4851ce = L.marker(
+                [40.6417, -74.0211],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_25f849a33599b48145ed87d2b39a953e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b99169b003f48d7eec200daf3806348 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bfbfa5af035b11bf34b2f284870e936 = $(`<div id="html_1bfbfa5af035b11bf34b2f284870e936" style="width: 100.0%; height: 100.0%;"> <b>CAM-087</b><br> Green Wood Cemetery<br> Status: Inactive </div>`)[0];
+                popup_2b99169b003f48d7eec200daf3806348.setContent(html_1bfbfa5af035b11bf34b2f284870e936);
+            
+        
+
+        marker_c4dd7ec9ca0e065323ecbba4de4851ce.bindPopup(popup_2b99169b003f48d7eec200daf3806348)
+        ;
+
+        
+    
+    
+            marker_c4dd7ec9ca0e065323ecbba4de4851ce.bindTooltip(
+                `<div>
+                     CAM-087
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c4dd7ec9ca0e065323ecbba4de4851ce.setIcon(icon_25f849a33599b48145ed87d2b39a953e);
+            
+    
+            var marker_a94820995a8280ec77cd5b4b1e73ab1e = L.marker(
+                [40.661, -73.975],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_21b81b1559ae30b4333faedc6f6bc3b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2a00a701613360b253d0f51f6c76075 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7505098bb8b236635876f5f1b4877773 = $(`<div id="html_7505098bb8b236635876f5f1b4877773" style="width: 100.0%; height: 100.0%;"> <b>CAM-088</b><br> Park Slope Prospect Park<br> Status: Active </div>`)[0];
+                popup_b2a00a701613360b253d0f51f6c76075.setContent(html_7505098bb8b236635876f5f1b4877773);
+            
+        
+
+        marker_a94820995a8280ec77cd5b4b1e73ab1e.bindPopup(popup_b2a00a701613360b253d0f51f6c76075)
+        ;
+
+        
+    
+    
+            marker_a94820995a8280ec77cd5b4b1e73ab1e.bindTooltip(
+                `<div>
+                     CAM-088
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a94820995a8280ec77cd5b4b1e73ab1e.setIcon(icon_21b81b1559ae30b4333faedc6f6bc3b4);
+            
+    
+            var marker_89f91c92d48fe313b1aa11d1dfc98554 = L.marker(
+                [40.6942, -73.9901],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_88798a68d80e534c8b2c3dba3d780bb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a4c5cd92dcd49896a34631ee8bfb4bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63f689fc8fd4c58509f45146d6a1ff38 = $(`<div id="html_63f689fc8fd4c58509f45146d6a1ff38" style="width: 100.0%; height: 100.0%;"> <b>CAM-089</b><br> Brooklyn Heights Promenade<br> Status: Active </div>`)[0];
+                popup_2a4c5cd92dcd49896a34631ee8bfb4bb.setContent(html_63f689fc8fd4c58509f45146d6a1ff38);
+            
+        
+
+        marker_89f91c92d48fe313b1aa11d1dfc98554.bindPopup(popup_2a4c5cd92dcd49896a34631ee8bfb4bb)
+        ;
+
+        
+    
+    
+            marker_89f91c92d48fe313b1aa11d1dfc98554.bindTooltip(
+                `<div>
+                     CAM-089
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_89f91c92d48fe313b1aa11d1dfc98554.setIcon(icon_88798a68d80e534c8b2c3dba3d780bb4);
+            
+    
+            var marker_8935bb7b8b206b90bdff1403414505f7 = L.marker(
+                [40.7027, -73.9887],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_278c4a5154f17c597cd11b3923b66137 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f473eeb244ef32bae8e716865d13e0f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a5e6242d2c031543857e4563e1b2aa6 = $(`<div id="html_7a5e6242d2c031543857e4563e1b2aa6" style="width: 100.0%; height: 100.0%;"> <b>CAM-090</b><br> Fulton Ferry Landing<br> Status: Active </div>`)[0];
+                popup_f473eeb244ef32bae8e716865d13e0f7.setContent(html_7a5e6242d2c031543857e4563e1b2aa6);
+            
+        
+
+        marker_8935bb7b8b206b90bdff1403414505f7.bindPopup(popup_f473eeb244ef32bae8e716865d13e0f7)
+        ;
+
+        
+    
+    
+            marker_8935bb7b8b206b90bdff1403414505f7.bindTooltip(
+                `<div>
+                     CAM-090
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8935bb7b8b206b90bdff1403414505f7.setIcon(icon_278c4a5154f17c597cd11b3923b66137);
+            
+    
+            var marker_93252207dbd69a81c83d3940f0e27070 = L.marker(
+                [40.7068, -74.0033],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_d64da6c8d8a6f086f0ef626d1449b348 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd741ab6ceadc051bd635e1bb100dc1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22443c91e2f664f7842b7e95be54787c = $(`<div id="html_22443c91e2f664f7842b7e95be54787c" style="width: 100.0%; height: 100.0%;"> <b>CAM-091</b><br> Jane's Carousel<br> Status: Maintenance </div>`)[0];
+                popup_bd741ab6ceadc051bd635e1bb100dc1e.setContent(html_22443c91e2f664f7842b7e95be54787c);
+            
+        
+
+        marker_93252207dbd69a81c83d3940f0e27070.bindPopup(popup_bd741ab6ceadc051bd635e1bb100dc1e)
+        ;
+
+        
+    
+    
+            marker_93252207dbd69a81c83d3940f0e27070.bindTooltip(
+                `<div>
+                     CAM-091
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_93252207dbd69a81c83d3940f0e27070.setIcon(icon_d64da6c8d8a6f086f0ef626d1449b348);
+            
+    
+            var marker_ce0eca45c54bba1031b7d22eb881f8be = L.marker(
+                [40.8241, -73.9251],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_615601b3c641d5d27574f5343fa13c3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd4c437789361a167d80599505a9ef32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eeec50a0d29d3ce4a0e73e05a603e3a4 = $(`<div id="html_eeec50a0d29d3ce4a0e73e05a603e3a4" style="width: 100.0%; height: 100.0%;"> <b>CAM-092</b><br> Concourse Plaza<br> Status: Active </div>`)[0];
+                popup_fd4c437789361a167d80599505a9ef32.setContent(html_eeec50a0d29d3ce4a0e73e05a603e3a4);
+            
+        
+
+        marker_ce0eca45c54bba1031b7d22eb881f8be.bindPopup(popup_fd4c437789361a167d80599505a9ef32)
+        ;
+
+        
+    
+    
+            marker_ce0eca45c54bba1031b7d22eb881f8be.bindTooltip(
+                `<div>
+                     CAM-092
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce0eca45c54bba1031b7d22eb881f8be.setIcon(icon_615601b3c641d5d27574f5343fa13c3d);
+            
+    
+            var marker_c8b4cdfaf056e15e80e6497f48192d8c = L.marker(
+                [40.8198, -73.9258],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_f17aa316a86f9b294f5d63fc6b010dbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c3ae8099ff8719e739d28d2e3729024 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f52031b7e1699d0a655afea6cdfc346 = $(`<div id="html_0f52031b7e1699d0a655afea6cdfc346" style="width: 100.0%; height: 100.0%;"> <b>CAM-093</b><br> Grand Concourse Station<br> Status: Active </div>`)[0];
+                popup_5c3ae8099ff8719e739d28d2e3729024.setContent(html_0f52031b7e1699d0a655afea6cdfc346);
+            
+        
+
+        marker_c8b4cdfaf056e15e80e6497f48192d8c.bindPopup(popup_5c3ae8099ff8719e739d28d2e3729024)
+        ;
+
+        
+    
+    
+            marker_c8b4cdfaf056e15e80e6497f48192d8c.bindTooltip(
+                `<div>
+                     CAM-093
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c8b4cdfaf056e15e80e6497f48192d8c.setIcon(icon_f17aa316a86f9b294f5d63fc6b010dbd);
+            
+    
+            var marker_d638e2798d1cf12c7b46ea4df4afabcf = L.marker(
+                [40.8619, -73.8979],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_5dd72f4734f88ae705f86bdacc901b00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc53e9cb6adeb0097fc20dfd5c16160a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22c64f366df844a4d86fdda50778424a = $(`<div id="html_22c64f366df844a4d86fdda50778424a" style="width: 100.0%; height: 100.0%;"> <b>CAM-094</b><br> Fordham Road Station<br> Status: Active </div>`)[0];
+                popup_bc53e9cb6adeb0097fc20dfd5c16160a.setContent(html_22c64f366df844a4d86fdda50778424a);
+            
+        
+
+        marker_d638e2798d1cf12c7b46ea4df4afabcf.bindPopup(popup_bc53e9cb6adeb0097fc20dfd5c16160a)
+        ;
+
+        
+    
+    
+            marker_d638e2798d1cf12c7b46ea4df4afabcf.bindTooltip(
+                `<div>
+                     CAM-094
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d638e2798d1cf12c7b46ea4df4afabcf.setIcon(icon_5dd72f4734f88ae705f86bdacc901b00);
+            
+    
+            var marker_faf26d17e792ddb44c38c6b43c94d7b6 = L.marker(
+                [40.8648, -73.8822],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_fb9a22ec118b2199ce148b5a6c987b53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8a5f8e0f10bd4f75729f8425d5a827d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7893d2ee33bb18a096c7f138c736ba2c = $(`<div id="html_7893d2ee33bb18a096c7f138c736ba2c" style="width: 100.0%; height: 100.0%;"> <b>CAM-095</b><br> New York Botanical Garden<br> Status: Inactive </div>`)[0];
+                popup_f8a5f8e0f10bd4f75729f8425d5a827d.setContent(html_7893d2ee33bb18a096c7f138c736ba2c);
+            
+        
+
+        marker_faf26d17e792ddb44c38c6b43c94d7b6.bindPopup(popup_f8a5f8e0f10bd4f75729f8425d5a827d)
+        ;
+
+        
+    
+    
+            marker_faf26d17e792ddb44c38c6b43c94d7b6.bindTooltip(
+                `<div>
+                     CAM-095
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_faf26d17e792ddb44c38c6b43c94d7b6.setIcon(icon_fb9a22ec118b2199ce148b5a6c987b53);
+            
+    
+            var marker_dcceef4585c281f4a7ae168622e40a34 = L.marker(
+                [40.8508, -73.8614],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_6230a8fc02d6a8cf8eb1bdb12937d498 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e234415ddc10e40322da48a002e597e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19eeee9acbdef495ee031b144ff6eb49 = $(`<div id="html_19eeee9acbdef495ee031b144ff6eb49" style="width: 100.0%; height: 100.0%;"> <b>CAM-096</b><br> Pelham Parkway<br> Status: Maintenance </div>`)[0];
+                popup_e234415ddc10e40322da48a002e597e2.setContent(html_19eeee9acbdef495ee031b144ff6eb49);
+            
+        
+
+        marker_dcceef4585c281f4a7ae168622e40a34.bindPopup(popup_e234415ddc10e40322da48a002e597e2)
+        ;
+
+        
+    
+    
+            marker_dcceef4585c281f4a7ae168622e40a34.bindTooltip(
+                `<div>
+                     CAM-096
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dcceef4585c281f4a7ae168622e40a34.setIcon(icon_6230a8fc02d6a8cf8eb1bdb12937d498);
+            
+    
+            var marker_a4a82b759dc1554d8bfaf083bfa46f58 = L.marker(
+                [40.5826, -74.1505],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_e223c00c1f48a221985a42494b0df3fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_100496ca413b3e6dd6cbadf5ea8bf01c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_921320ede45e2623005dd46d1bfe8fd9 = $(`<div id="html_921320ede45e2623005dd46d1bfe8fd9" style="width: 100.0%; height: 100.0%;"> <b>CAM-097</b><br> Staten Island Greenbelt<br> Status: Active </div>`)[0];
+                popup_100496ca413b3e6dd6cbadf5ea8bf01c.setContent(html_921320ede45e2623005dd46d1bfe8fd9);
+            
+        
+
+        marker_a4a82b759dc1554d8bfaf083bfa46f58.bindPopup(popup_100496ca413b3e6dd6cbadf5ea8bf01c)
+        ;
+
+        
+    
+    
+            marker_a4a82b759dc1554d8bfaf083bfa46f58.bindTooltip(
+                `<div>
+                     CAM-097
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a4a82b759dc1554d8bfaf083bfa46f58.setIcon(icon_e223c00c1f48a221985a42494b0df3fe);
+            
+    
+            var marker_95a13b1f24119a6a86f4f23445f64cc8 = L.marker(
+                [40.642, -74.0753],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_827cdc7c0c43898d0ce80b34c586821d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_303a345dd519af415f5bb17edbd7f112 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_324582519410a19ae094a82da07501d5 = $(`<div id="html_324582519410a19ae094a82da07501d5" style="width: 100.0%; height: 100.0%;"> <b>CAM-098</b><br> Tompkinsville Park<br> Status: Active </div>`)[0];
+                popup_303a345dd519af415f5bb17edbd7f112.setContent(html_324582519410a19ae094a82da07501d5);
+            
+        
+
+        marker_95a13b1f24119a6a86f4f23445f64cc8.bindPopup(popup_303a345dd519af415f5bb17edbd7f112)
+        ;
+
+        
+    
+    
+            marker_95a13b1f24119a6a86f4f23445f64cc8.bindTooltip(
+                `<div>
+                     CAM-098
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_95a13b1f24119a6a86f4f23445f64cc8.setIcon(icon_827cdc7c0c43898d0ce80b34c586821d);
+            
+    
+            var marker_f3c8306460de1a5c4d173aec7bb1efec = L.marker(
+                [40.5555, -74.2452],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_61a24c27b90e27232d3d9db7ba328924 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9fcbadef022e38545b73c83356c2e8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bc5d7f51aa80770f55ec8564ed25214 = $(`<div id="html_0bc5d7f51aa80770f55ec8564ed25214" style="width: 100.0%; height: 100.0%;"> <b>CAM-099</b><br> Tottenville Ferry Pier<br> Status: Active </div>`)[0];
+                popup_d9fcbadef022e38545b73c83356c2e8f.setContent(html_0bc5d7f51aa80770f55ec8564ed25214);
+            
+        
+
+        marker_f3c8306460de1a5c4d173aec7bb1efec.bindPopup(popup_d9fcbadef022e38545b73c83356c2e8f)
+        ;
+
+        
+    
+    
+            marker_f3c8306460de1a5c4d173aec7bb1efec.bindTooltip(
+                `<div>
+                     CAM-099
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f3c8306460de1a5c4d173aec7bb1efec.setIcon(icon_61a24c27b90e27232d3d9db7ba328924);
+            
+    
+            var marker_7ae33d4c131afb94abb497d68fa54014 = L.marker(
+                [40.5754, -74.1697],
+                {
+}
+            ).addTo(marker_cluster_894ac3c401de5a441f124dd91b945d88);
+        
+    
+            var icon_a487e18a8232faf2db037e1b3c9d5a52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dba3c4016600b29e0f6e68a29d0c560a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f1ee0913c23d92e6516bf536f42ca80 = $(`<div id="html_3f1ee0913c23d92e6516bf536f42ca80" style="width: 100.0%; height: 100.0%;"> <b>CAM-100</b><br> Fresh Kills Park Overlook<br> Status: Maintenance </div>`)[0];
+                popup_dba3c4016600b29e0f6e68a29d0c560a.setContent(html_3f1ee0913c23d92e6516bf536f42ca80);
+            
+        
+
+        marker_7ae33d4c131afb94abb497d68fa54014.bindPopup(popup_dba3c4016600b29e0f6e68a29d0c560a)
+        ;
+
+        
+    
+    
+            marker_7ae33d4c131afb94abb497d68fa54014.bindTooltip(
+                `<div>
+                     CAM-100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7ae33d4c131afb94abb497d68fa54014.setIcon(icon_a487e18a8232faf2db037e1b3c9d5a52);
+            
+    
+            marker_cluster_894ac3c401de5a441f124dd91b945d88.addTo(map_75bf2e35e8e4454dde5fa9114d44a37e);
+        
+</script>
+</html>
