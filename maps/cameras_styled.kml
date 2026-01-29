@@ -1,0 +1,3215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="13">
+            <IconStyle id="14">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="15">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="16">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="55">
+            <IconStyle id="56">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="57">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="58">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="85">
+            <IconStyle id="86">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="87">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="88">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="199">
+            <IconStyle id="200">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="201">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="202">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="253">
+            <IconStyle id="254">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="255">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="256">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="325">
+            <IconStyle id="326">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="327">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="328">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="385">
+            <IconStyle id="386">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="387">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="388">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="457">
+            <IconStyle id="458">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="459">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="460">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="523">
+            <IconStyle id="524">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="525">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="526">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="571">
+            <IconStyle id="572">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.2</scale>
+                <heading>0</heading>
+                <Icon id="573">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="574">
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+            </LabelStyle>
+        </Style>
+        <name>NYC Camera Network (Styled)</name>
+        <Folder id="2">
+            <Style id="7">
+                <IconStyle id="8">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="9">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="10">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="19">
+                <IconStyle id="20">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="21">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="22">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="25">
+                <IconStyle id="26">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="27">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="28">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="37">
+                <IconStyle id="38">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="39">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="40">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="43">
+                <IconStyle id="44">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="45">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="46">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="49">
+                <IconStyle id="50">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="51">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="52">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="61">
+                <IconStyle id="62">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="63">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="64">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="67">
+                <IconStyle id="68">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="69">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="70">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="79">
+                <IconStyle id="80">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="81">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="82">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="91">
+                <IconStyle id="92">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="93">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="94">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="103">
+                <IconStyle id="104">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="105">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="106">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="109">
+                <IconStyle id="110">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="111">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="112">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="115">
+                <IconStyle id="116">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="117">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="118">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="121">
+                <IconStyle id="122">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="123">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="124">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="127">
+                <IconStyle id="128">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="129">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="130">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="133">
+                <IconStyle id="134">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="135">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="136">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="151">
+                <IconStyle id="152">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="153">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="154">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="157">
+                <IconStyle id="158">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="159">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="160">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="163">
+                <IconStyle id="164">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="165">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="166">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="169">
+                <IconStyle id="170">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="171">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="172">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="181">
+                <IconStyle id="182">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="183">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="184">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="187">
+                <IconStyle id="188">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="189">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="190">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="193">
+                <IconStyle id="194">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="195">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="196">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="205">
+                <IconStyle id="206">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="207">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="208">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="211">
+                <IconStyle id="212">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="213">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="214">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="223">
+                <IconStyle id="224">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="225">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="226">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="229">
+                <IconStyle id="230">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="231">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="232">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="235">
+                <IconStyle id="236">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="237">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="238">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="241">
+                <IconStyle id="242">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="243">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="244">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="247">
+                <IconStyle id="248">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="249">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="250">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="259">
+                <IconStyle id="260">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="261">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="262">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="271">
+                <IconStyle id="272">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="273">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="274">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="277">
+                <IconStyle id="278">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="279">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="280">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="283">
+                <IconStyle id="284">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="285">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="286">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="289">
+                <IconStyle id="290">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="291">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="292">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="295">
+                <IconStyle id="296">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="297">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="298">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="301">
+                <IconStyle id="302">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="303">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="304">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="313">
+                <IconStyle id="314">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="315">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="316">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="319">
+                <IconStyle id="320">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="321">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="322">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="331">
+                <IconStyle id="332">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="333">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="334">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="343">
+                <IconStyle id="344">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="345">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="346">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="349">
+                <IconStyle id="350">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="351">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="352">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="355">
+                <IconStyle id="356">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="357">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="358">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="361">
+                <IconStyle id="362">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="363">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="364">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="373">
+                <IconStyle id="374">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="375">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="376">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="379">
+                <IconStyle id="380">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="381">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="382">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="391">
+                <IconStyle id="392">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="393">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="394">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="397">
+                <IconStyle id="398">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="399">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="400">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="403">
+                <IconStyle id="404">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="405">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="406">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="415">
+                <IconStyle id="416">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="417">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="418">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="421">
+                <IconStyle id="422">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="423">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="424">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="427">
+                <IconStyle id="428">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="429">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="430">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="439">
+                <IconStyle id="440">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="441">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="442">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="445">
+                <IconStyle id="446">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="447">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="448">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="451">
+                <IconStyle id="452">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="453">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="454">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="463">
+                <IconStyle id="464">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="465">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="466">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="469">
+                <IconStyle id="470">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="471">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="472">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="481">
+                <IconStyle id="482">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="483">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="484">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="487">
+                <IconStyle id="488">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="489">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="490">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="493">
+                <IconStyle id="494">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="495">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="496">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="499">
+                <IconStyle id="500">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="501">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="502">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="511">
+                <IconStyle id="512">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="513">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="514">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="517">
+                <IconStyle id="518">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="519">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="520">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="529">
+                <IconStyle id="530">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="531">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="532">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="535">
+                <IconStyle id="536">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="537">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="538">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="541">
+                <IconStyle id="542">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="543">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="544">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="553">
+                <IconStyle id="554">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="555">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="556">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="559">
+                <IconStyle id="560">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="561">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="562">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="565">
+                <IconStyle id="566">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="567">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="568">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="583">
+                <IconStyle id="584">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="585">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="586">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="589">
+                <IconStyle id="590">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="591">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="592">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="595">
+                <IconStyle id="596">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="597">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="598">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <name>Active Cameras</name>
+            <Placemark id="6">
+                <name>CAM-001 - Times Square Station Platform </name>
+                <description>
+            &lt;h2&gt;🟢 CAM-001&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Times Square Station Platform A&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-03-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7580°N, 73.9855°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#7</styleUrl>
+                <Point id="5">
+                    <coordinates>-73.9855,40.758,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="18">
+                <name>CAM-003 - Grand Central Terminal Main Co</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-003&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Grand Central Terminal Main Concourse&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-06-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7527°N, 73.9772°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#19</styleUrl>
+                <Point id="17">
+                    <coordinates>-73.9772,40.7527,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="24">
+                <name>CAM-004 - Penn Station Entrance 1</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-004&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Penn Station Entrance 1&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-07-18&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7506°N, 73.9935°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#25</styleUrl>
+                <Point id="23">
+                    <coordinates>-73.9935,40.7506,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="36">
+                <name>CAM-006 - Herald Square Platform</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-006&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Herald Square Platform&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-10-12&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7505°N, 73.9885°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#37</styleUrl>
+                <Point id="35">
+                    <coordinates>-73.9885,40.7505,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="42">
+                <name>CAM-007 - 34th Street Hudson Yards</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-007&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; 34th Street Hudson Yards&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-11-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7555°N, 74.0021°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#43</styleUrl>
+                <Point id="41">
+                    <coordinates>-74.0021,40.7555,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="48">
+                <name>CAM-008 - Columbus Circle Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-008&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Columbus Circle Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-01-18&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7678°N, 73.9819°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#49</styleUrl>
+                <Point id="47">
+                    <coordinates>-73.9819,40.7678,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="60">
+                <name>CAM-010 - Fulton Street Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-010&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fulton Street Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-03-30&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7104°N, 74.0072°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#61</styleUrl>
+                <Point id="59">
+                    <coordinates>-74.0072,40.7104,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="66">
+                <name>CAM-011 - Wall Street Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-011&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Wall Street Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-05-08&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7075°N, 74.0113°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#67</styleUrl>
+                <Point id="65">
+                    <coordinates>-74.0113,40.7075,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="78">
+                <name>CAM-013 - 14th Street-Union Square</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-013&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; 14th Street-Union Square&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-07-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7340°N, 73.9903°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#79</styleUrl>
+                <Point id="77">
+                    <coordinates>-73.9903,40.734,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="90">
+                <name>CAM-015 - Canal Street Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-015&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Canal Street Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-09-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7188°N, 74.0007°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#91</styleUrl>
+                <Point id="89">
+                    <coordinates>-74.0007,40.7188,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="102">
+                <name>CAM-017 - Roosevelt Island Tramway</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-017&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Roosevelt Island Tramway&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-11-27&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7615°N, 73.9496°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#103</styleUrl>
+                <Point id="101">
+                    <coordinates>-73.9496,40.7615,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="108">
+                <name>CAM-018 - South Ferry Terminal</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-018&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; South Ferry Terminal&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-12-30&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7012°N, 74.0131°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#109</styleUrl>
+                <Point id="107">
+                    <coordinates>-74.0131,40.7012,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="114">
+                <name>CAM-019 - High Line Park Entrance</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-019&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; High Line Park Entrance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-01-28&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7479°N, 74.0048°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#115</styleUrl>
+                <Point id="113">
+                    <coordinates>-74.0048,40.7479,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="120">
+                <name>CAM-020 - Staten Island Ferry Terminal</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-020&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Staten Island Ferry Terminal&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-02-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6430°N, 74.0736°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#121</styleUrl>
+                <Point id="119">
+                    <coordinates>-74.0736,40.643,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="126">
+                <name>CAM-021 - Washington Square Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-021&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Washington Square Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-03-30&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7308°N, 73.9973°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#127</styleUrl>
+                <Point id="125">
+                    <coordinates>-73.9973,40.7308,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="132">
+                <name>CAM-022 - Bryant Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-022&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Bryant Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-04-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7536°N, 73.9832°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#133</styleUrl>
+                <Point id="131">
+                    <coordinates>-73.9832,40.7536,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="150">
+                <name>CAM-025 - Metropolitan Museum of Art Ent</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-025&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Metropolitan Museum of Art Entrance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-07-18&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7794°N, 73.9632°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#151</styleUrl>
+                <Point id="149">
+                    <coordinates>-73.9632,40.7794,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="156">
+                <name>CAM-026 - Museum of Modern Art</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-026&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Museum of Modern Art&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-08-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7614°N, 73.9776°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#157</styleUrl>
+                <Point id="155">
+                    <coordinates>-73.9776,40.7614,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="162">
+                <name>CAM-027 - Broadway Theatre District</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-027&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Broadway Theatre District&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-09-12&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7590°N, 73.9845°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#163</styleUrl>
+                <Point id="161">
+                    <coordinates>-73.9845,40.759,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="168">
+                <name>CAM-028 - Fifth Avenue Shopping District</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-028&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fifth Avenue Shopping District&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-10-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7638°N, 73.9721°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#169</styleUrl>
+                <Point id="167">
+                    <coordinates>-73.9721,40.7638,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="180">
+                <name>CAM-030 - Chinatown Plaza</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-030&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Chinatown Plaza&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-12-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7158°N, 73.9970°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#181</styleUrl>
+                <Point id="179">
+                    <coordinates>-73.997,40.7158,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="186">
+                <name>CAM-031 - Little Italy Street</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-031&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Little Italy Street&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-01-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7191°N, 73.9973°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#187</styleUrl>
+                <Point id="185">
+                    <coordinates>-73.9973,40.7191,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="192">
+                <name>CAM-032 - The High Line Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-032&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; The High Line Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-02-18&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7479°N, 74.0049°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#193</styleUrl>
+                <Point id="191">
+                    <coordinates>-74.0049,40.7479,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="204">
+                <name>CAM-034 - Yankee Stadium Entrance</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-034&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Yankee Stadium Entrance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-04-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8296°N, 73.9262°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#205</styleUrl>
+                <Point id="203">
+                    <coordinates>-73.9262,40.8296,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="210">
+                <name>CAM-035 - Coney Island Boardwalk</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-035&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Coney Island Boardwalk&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-05-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.5749°N, 73.9850°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#211</styleUrl>
+                <Point id="209">
+                    <coordinates>-73.985,40.5749,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="222">
+                <name>CAM-037 - Prospect Park Entrance</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-037&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Prospect Park Entrance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-07-30&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6602°N, 73.9690°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#223</styleUrl>
+                <Point id="221">
+                    <coordinates>-73.969,40.6602,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="228">
+                <name>CAM-038 - DUMBO Waterfront</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-038&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; DUMBO Waterfront&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-08-18&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7033°N, 73.9881°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#229</styleUrl>
+                <Point id="227">
+                    <coordinates>-73.9881,40.7033,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="234">
+                <name>CAM-039 - Flushing Meadows Corona Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-039&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Flushing Meadows Corona Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-09-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7340°N, 73.8369°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#235</styleUrl>
+                <Point id="233">
+                    <coordinates>-73.8369,40.734,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="240">
+                <name>CAM-040 - Queensboro Bridge Pedestrian P</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-040&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Queensboro Bridge Pedestrian Path&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-10-12&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7561°N, 73.9545°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#241</styleUrl>
+                <Point id="239">
+                    <coordinates>-73.9545,40.7561,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="246">
+                <name>CAM-041 - Bronx Zoo Entrance</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-041&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Bronx Zoo Entrance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-11-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8506°N, 73.8769°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#247</styleUrl>
+                <Point id="245">
+                    <coordinates>-73.8769,40.8506,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="258">
+                <name>CAM-043 - St. George Ferry Terminal</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-043&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; St. George Ferry Terminal&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-01-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6437°N, 74.0731°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#259</styleUrl>
+                <Point id="257">
+                    <coordinates>-74.0731,40.6437,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="270">
+                <name>CAM-045 - Inwood Hill Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-045&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Inwood Hill Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-03-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8686°N, 73.9258°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#271</styleUrl>
+                <Point id="269">
+                    <coordinates>-73.9258,40.8686,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="276">
+                <name>CAM-046 - Ellis Island Arrival Point</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-046&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Ellis Island Arrival Point&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-04-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6995°N, 74.0396°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#277</styleUrl>
+                <Point id="275">
+                    <coordinates>-74.0396,40.6995,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="282">
+                <name>CAM-047 - Battery Park Entrance</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-047&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Battery Park Entrance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-05-18&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7033°N, 74.0170°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#283</styleUrl>
+                <Point id="281">
+                    <coordinates>-74.017,40.7033,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="288">
+                <name>CAM-048 - Seaport District Pier 17</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-048&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Seaport District Pier 17&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-06-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7075°N, 74.0030°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#289</styleUrl>
+                <Point id="287">
+                    <coordinates>-74.003,40.7075,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="294">
+                <name>CAM-049 - South Street Seaport</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-049&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; South Street Seaport&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-07-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7060°N, 74.0037°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#295</styleUrl>
+                <Point id="293">
+                    <coordinates>-74.0037,40.706,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="300">
+                <name>CAM-050 - Tribeca Park Area</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-050&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Tribeca Park Area&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-08-30&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7163°N, 74.0086°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#301</styleUrl>
+                <Point id="299">
+                    <coordinates>-74.0086,40.7163,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="312">
+                <name>CAM-052 - Lower East Side Cultural Cente</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-052&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Lower East Side Cultural Center&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-10-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7167°N, 73.9818°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#313</styleUrl>
+                <Point id="311">
+                    <coordinates>-73.9818,40.7167,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="318">
+                <name>CAM-053 - Tompkins Square Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-053&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Tompkins Square Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-11-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7302°N, 73.9773°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#319</styleUrl>
+                <Point id="317">
+                    <coordinates>-73.9773,40.7302,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="330">
+                <name>CAM-055 - West Village Pier</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-055&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; West Village Pier&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-01-12&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7381°N, 74.0074°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#331</styleUrl>
+                <Point id="329">
+                    <coordinates>-74.0074,40.7381,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="342">
+                <name>CAM-057 - Hudson River Greenway Mile 3</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-057&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Hudson River Greenway Mile 3&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-02-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7521°N, 74.0119°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#343</styleUrl>
+                <Point id="341">
+                    <coordinates>-74.0119,40.7521,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="348">
+                <name>CAM-058 - Chelsea Market</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-058&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Chelsea Market&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-02-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7481°N, 74.0016°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#349</styleUrl>
+                <Point id="347">
+                    <coordinates>-74.0016,40.7481,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="354">
+                <name>CAM-059 - Madison Square Garden</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-059&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Madison Square Garden&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-03-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7505°N, 73.9934°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#355</styleUrl>
+                <Point id="353">
+                    <coordinates>-73.9934,40.7505,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="360">
+                <name>CAM-060 - Grand Central Vanderbilt Hall</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-060&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Grand Central Vanderbilt Hall&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-04-05&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7527°N, 73.9746°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#361</styleUrl>
+                <Point id="359">
+                    <coordinates>-73.9746,40.7527,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="372">
+                <name>CAM-062 - Lexington Avenue Line Platform</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-062&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Lexington Avenue Line Platform&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-05-08&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7614°N, 73.9776°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#373</styleUrl>
+                <Point id="371">
+                    <coordinates>-73.9776,40.7614,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="378">
+                <name>CAM-063 - 1st Avenue Bus Terminal</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-063&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; 1st Avenue Bus Terminal&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-05-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7528°N, 73.9760°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#379</styleUrl>
+                <Point id="377">
+                    <coordinates>-73.976,40.7528,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="390">
+                <name>CAM-065 - Penn Plaza Concourse</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-065&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Penn Plaza Concourse&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-06-28&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7505°N, 73.9945°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#391</styleUrl>
+                <Point id="389">
+                    <coordinates>-73.9945,40.7505,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="396">
+                <name>CAM-066 - Madison Avenue Shopping</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-066&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Madison Avenue Shopping&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-07-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7650°N, 73.9743°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#397</styleUrl>
+                <Point id="395">
+                    <coordinates>-73.9743,40.765,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="402">
+                <name>CAM-067 - Rockefeller Center Plaza</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-067&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Rockefeller Center Plaza&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-08-02&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7549°N, 73.9780°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#403</styleUrl>
+                <Point id="401">
+                    <coordinates>-73.978,40.7549,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="414">
+                <name>CAM-069 - Park Avenue South</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-069&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Park Avenue South&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-09-05&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7410°N, 73.9889°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#415</styleUrl>
+                <Point id="413">
+                    <coordinates>-73.9889,40.741,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="420">
+                <name>CAM-070 - Stuyvesant Square</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-070&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Stuyvesant Square&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-09-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7355°N, 73.9809°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#421</styleUrl>
+                <Point id="419">
+                    <coordinates>-73.9809,40.7355,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="426">
+                <name>CAM-071 - Williamsburg Bridge Plaza</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-071&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Williamsburg Bridge Plaza&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-05-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7109°N, 73.9561°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#427</styleUrl>
+                <Point id="425">
+                    <coordinates>-73.9561,40.7109,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="438">
+                <name>CAM-073 - Greenpoint Landing</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-073&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Greenpoint Landing&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-04-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7225°N, 73.9516°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#439</styleUrl>
+                <Point id="437">
+                    <coordinates>-73.9516,40.7225,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="444">
+                <name>CAM-074 - Astoria Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-074&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Astoria Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-12-08&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7691°N, 73.9262°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#445</styleUrl>
+                <Point id="443">
+                    <coordinates>-73.9262,40.7691,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="450">
+                <name>CAM-075 - Ditmars Boulevard Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-075&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Ditmars Boulevard Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-03-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7738°N, 73.9369°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#451</styleUrl>
+                <Point id="449">
+                    <coordinates>-73.9369,40.7738,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="462">
+                <name>CAM-077 - Gantry Plaza State Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-077&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Gantry Plaza State Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-01-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7482°N, 73.9483°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#463</styleUrl>
+                <Point id="461">
+                    <coordinates>-73.9483,40.7482,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="468">
+                <name>CAM-078 - Court Square</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-078&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Court Square&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-08-05&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7447°N, 73.9485°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#469</styleUrl>
+                <Point id="467">
+                    <coordinates>-73.9485,40.7447,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="480">
+                <name>CAM-080 - Kew Gardens Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-080&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Kew Gardens Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-11-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7070°N, 73.8256°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#481</styleUrl>
+                <Point id="479">
+                    <coordinates>-73.8256,40.707,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="486">
+                <name>CAM-081 - Jamaica Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-081&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Jamaica Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-02-28&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7018°N, 73.8081°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#487</styleUrl>
+                <Point id="485">
+                    <coordinates>-73.8081,40.7018,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="492">
+                <name>CAM-082 - Rockaway Beach</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-082&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Rockaway Beach&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-05-12&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.5754°N, 73.8192°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#493</styleUrl>
+                <Point id="491">
+                    <coordinates>-73.8192,40.5754,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="498">
+                <name>CAM-083 - Myrtle Avenue Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-083&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Myrtle Avenue Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-07-30&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6870°N, 73.9276°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#499</styleUrl>
+                <Point id="497">
+                    <coordinates>-73.9276,40.687,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="510">
+                <name>CAM-085 - Highland Park Summit</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-085&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Highland Park Summit&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-11-05&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6586°N, 73.8746°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#511</styleUrl>
+                <Point id="509">
+                    <coordinates>-73.8746,40.6586,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="516">
+                <name>CAM-086 - Sunset Park Waterfront</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-086&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Sunset Park Waterfront&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-01-18&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6347°N, 74.0089°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#517</styleUrl>
+                <Point id="515">
+                    <coordinates>-74.0089,40.6347,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="528">
+                <name>CAM-088 - Park Slope Prospect Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-088&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Park Slope Prospect Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-04-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6610°N, 73.9750°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#529</styleUrl>
+                <Point id="527">
+                    <coordinates>-73.975,40.661,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="534">
+                <name>CAM-089 - Brooklyn Heights Promenade</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-089&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Brooklyn Heights Promenade&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-02-14&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6942°N, 73.9901°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#535</styleUrl>
+                <Point id="533">
+                    <coordinates>-73.9901,40.6942,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="540">
+                <name>CAM-090 - Fulton Ferry Landing</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-090&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fulton Ferry Landing&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-10-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7027°N, 73.9887°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#541</styleUrl>
+                <Point id="539">
+                    <coordinates>-73.9887,40.7027,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="552">
+                <name>CAM-092 - Concourse Plaza</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-092&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Concourse Plaza&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-02-27&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8241°N, 73.9251°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#553</styleUrl>
+                <Point id="551">
+                    <coordinates>-73.9251,40.8241,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="558">
+                <name>CAM-093 - Grand Concourse Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-093&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Grand Concourse Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-11-08&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8198°N, 73.9258°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#559</styleUrl>
+                <Point id="557">
+                    <coordinates>-73.9258,40.8198,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="564">
+                <name>CAM-094 - Fordham Road Station</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-094&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fordham Road Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-03-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8619°N, 73.8979°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#565</styleUrl>
+                <Point id="563">
+                    <coordinates>-73.8979,40.8619,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="582">
+                <name>CAM-097 - Staten Island Greenbelt</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-097&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Staten Island Greenbelt&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-04-06&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.5826°N, 74.1505°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#583</styleUrl>
+                <Point id="581">
+                    <coordinates>-74.1505,40.5826,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="588">
+                <name>CAM-098 - Tompkinsville Park</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-098&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Tompkinsville Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-08-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6420°N, 74.0753°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#589</styleUrl>
+                <Point id="587">
+                    <coordinates>-74.0753,40.642,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="594">
+                <name>CAM-099 - Tottenville Ferry Pier</name>
+                <description>
+            &lt;h2&gt;🟢 CAM-099&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Tottenville Ferry Pier&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-02-19&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.5555°N, 74.2452°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#595</styleUrl>
+                <Point id="593">
+                    <coordinates>-74.2452,40.5555,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="3">
+            <Style id="31">
+                <IconStyle id="32">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="33">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="34">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="73">
+                <IconStyle id="74">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="75">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="76">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="97">
+                <IconStyle id="98">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="99">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="100">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="139">
+                <IconStyle id="140">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="141">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="142">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="145">
+                <IconStyle id="146">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="147">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="148">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="175">
+                <IconStyle id="176">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="177">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="178">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="217">
+                <IconStyle id="218">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="219">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="220">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="265">
+                <IconStyle id="266">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="267">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="268">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="307">
+                <IconStyle id="308">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="309">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="310">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="337">
+                <IconStyle id="338">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="339">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="340">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="367">
+                <IconStyle id="368">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="369">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="370">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="409">
+                <IconStyle id="410">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="411">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="412">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="433">
+                <IconStyle id="434">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="435">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="436">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="475">
+                <IconStyle id="476">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="477">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="478">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="505">
+                <IconStyle id="506">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="507">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="508">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="547">
+                <IconStyle id="548">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="549">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="550">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="577">
+                <IconStyle id="578">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="579">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="580">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="601">
+                <IconStyle id="602">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="603">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="604">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <name>Maintenance</name>
+            <Placemark id="30">
+                <name>CAM-005 - Union Square Station North</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-005&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Union Square Station North&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-09-05&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7359°N, 73.9911°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#31</styleUrl>
+                <Point id="29">
+                    <coordinates>-73.9911,40.7359,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="72">
+                <name>CAM-012 - Chambers Street Platform</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-012&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Chambers Street Platform&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-06-14&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7153°N, 74.0090°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#73</styleUrl>
+                <Point id="71">
+                    <coordinates>-74.009,40.7153,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="96">
+                <name>CAM-016 - City Hall Park</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-016&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; City Hall Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-10-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7127°N, 74.0060°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#97</styleUrl>
+                <Point id="95">
+                    <coordinates>-74.006,40.7127,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="138">
+                <name>CAM-023 - Central Park South Entrance</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-023&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Central Park South Entrance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-05-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7651°N, 73.9765°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#139</styleUrl>
+                <Point id="137">
+                    <coordinates>-73.9765,40.7651,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="144">
+                <name>CAM-024 - Lincoln Center Plaza</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-024&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Lincoln Center Plaza&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-06-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7725°N, 73.9835°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#145</styleUrl>
+                <Point id="143">
+                    <coordinates>-73.9835,40.7725,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="174">
+                <name>CAM-029 - SoHo Shopping Area</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-029&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; SoHo Shopping Area&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-11-08&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7233°N, 74.0020°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#175</styleUrl>
+                <Point id="173">
+                    <coordinates>-74.002,40.7233,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="216">
+                <name>CAM-036 - Brooklyn Botanic Garden</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-036&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Brooklyn Botanic Garden&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-06-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6694°N, 73.9624°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#217</styleUrl>
+                <Point id="215">
+                    <coordinates>-73.9624,40.6694,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="264">
+                <name>CAM-044 - Snug Harbor Cultural Center</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-044&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Snug Harbor Cultural Center&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-02-12&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6439°N, 74.1045°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#265</styleUrl>
+                <Point id="263">
+                    <coordinates>-74.1045,40.6439,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="306">
+                <name>CAM-051 - East Village Intersection</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-051&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; East Village Intersection&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-09-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7277°N, 73.9802°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#307</styleUrl>
+                <Point id="305">
+                    <coordinates>-73.9802,40.7277,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="336">
+                <name>CAM-056 - Christopher Street Station</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-056&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Christopher Street Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-01-28&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7369°N, 74.0023°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#337</styleUrl>
+                <Point id="335">
+                    <coordinates>-74.0023,40.7369,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="366">
+                <name>CAM-061 - Park Avenue At 42nd</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-061&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Park Avenue At 42nd&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-04-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7548°N, 73.9710°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#367</styleUrl>
+                <Point id="365">
+                    <coordinates>-73.971,40.7548,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="408">
+                <name>CAM-068 - St Patrick's Cathedral</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-068&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; St Patrick's Cathedral&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-08-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7585°N, 73.9756°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#409</styleUrl>
+                <Point id="407">
+                    <coordinates>-73.9756,40.7585,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="432">
+                <name>CAM-072 - McCarren Park</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-072&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; McCarren Park&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-08-15&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7089°N, 73.9566°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#433</styleUrl>
+                <Point id="431">
+                    <coordinates>-73.9566,40.7089,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="474">
+                <name>CAM-079 - Forest Hills Gardens</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-079&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Forest Hills Gardens&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-10-18&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7161°N, 73.8413°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#475</styleUrl>
+                <Point id="473">
+                    <coordinates>-73.8413,40.7161,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="504">
+                <name>CAM-084 - Cypress Hills Cemetery</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-084&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Cypress Hills Cemetery&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-09-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6704°N, 73.8943°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#505</styleUrl>
+                <Point id="503">
+                    <coordinates>-73.8943,40.6704,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="546">
+                <name>CAM-091 - Jane's Carousel</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-091&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Jane's Carousel&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-06-30&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7068°N, 74.0033°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#547</styleUrl>
+                <Point id="545">
+                    <coordinates>-74.0033,40.7068,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="576">
+                <name>CAM-096 - Pelham Parkway</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-096&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Pelham Parkway&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-12-12&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8508°N, 73.8614°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#577</styleUrl>
+                <Point id="575">
+                    <coordinates>-73.8614,40.8508,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="600">
+                <name>CAM-100 - Fresh Kills Park Overlook</name>
+                <description>
+            &lt;h2&gt;🟡 CAM-100&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fresh Kills Park Overlook&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-05-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.5754°N, 74.1697°W
+            &lt;/p&gt;
+        </description>
+                <styleUrl>#601</styleUrl>
+                <Point id="599">
+                    <coordinates>-74.1697,40.5754,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="4">
+            <name>Offline</name>
+        </Folder>
+        <Placemark id="12">
+            <name>CAM-002 - Times Square Station Platform </name>
+            <description>
+            &lt;h2&gt;⚪ CAM-002&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Times Square Station Platform B&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-04-22&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7582°N, 73.9857°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#13</styleUrl>
+            <Point id="11">
+                <coordinates>-73.9857,40.7582,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="54">
+            <name>CAM-009 - Brooklyn Bridge-City Hall</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-009&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Brooklyn Bridge-City Hall&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-02-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7130°N, 74.0048°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#55</styleUrl>
+            <Point id="53">
+                <coordinates>-74.0048,40.713,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="84">
+            <name>CAM-014 - Astor Place Station</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-014&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Astor Place Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-08-29&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7295°N, 73.9914°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#85</styleUrl>
+            <Point id="83">
+                <coordinates>-73.9914,40.7295,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="198">
+            <name>CAM-033 - Washington Heights Station</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-033&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Washington Heights Station&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-03-25&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8401°N, 73.9397°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#199</styleUrl>
+            <Point id="197">
+                <coordinates>-73.9397,40.8401,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="252">
+            <name>CAM-042 - Arthur Avenue Retail Market</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-042&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Arthur Avenue Retail Market&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-12-08&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8549°N, 73.8880°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#253</styleUrl>
+            <Point id="251">
+                <coordinates>-73.888,40.8549,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="324">
+            <name>CAM-054 - Nolita Shopping District</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-054&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Nolita Shopping District&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-12-05&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7197°N, 74.0002°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#325</styleUrl>
+            <Point id="323">
+                <coordinates>-74.0002,40.7197,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="384">
+            <name>CAM-064 - Avenue of Americas</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-064&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Avenue of Americas&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-06-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7495°N, 73.9860°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#385</styleUrl>
+            <Point id="383">
+                <coordinates>-73.986,40.7495,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="456">
+            <name>CAM-076 - Long Island City Waterfront</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-076&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Long Island City Waterfront&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-09-20&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.7497°N, 73.9483°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#457</styleUrl>
+            <Point id="455">
+                <coordinates>-73.9483,40.7497,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="522">
+            <name>CAM-087 - Green Wood Cemetery</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-087&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Green Wood Cemetery&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-03-10&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.6417°N, 74.0211°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#523</styleUrl>
+            <Point id="521">
+                <coordinates>-74.0211,40.6417,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="570">
+            <name>CAM-095 - New York Botanical Garden</name>
+            <description>
+            &lt;h2&gt;⚪ CAM-095&lt;/h2&gt;
+            &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; New York Botanical Garden&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-07-14&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;p style="font-size:0.9em; color:#666;"&gt;
+            Coordinates: 40.8648°N, 73.8822°W
+            &lt;/p&gt;
+        </description>
+            <styleUrl>#571</styleUrl>
+            <Point id="569">
+                <coordinates>-73.8822,40.8648,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
