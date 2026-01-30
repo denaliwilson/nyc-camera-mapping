@@ -7,7 +7,7 @@ from shapely.geometry import Point
 
 def load_cameras():
     df = pd.read_csv("data/sample_cameras.csv")
-    print(f"✅ Loaded {len(df)} cameras")
+    print(f"Loaded {len(df)} cameras")
     return df
 
 
@@ -21,7 +21,7 @@ def create_geojson(df, output_path):
     output_path : str
         Where to save GeoJSON file
     """
-    print("\n🗺️ Creating GeoJSON...")
+    print("\nCreating GeoJSON...")
 
     # Create geometry column (Point objects)
     geometry = [
@@ -36,22 +36,22 @@ def create_geojson(df, output_path):
         crs='EPSG:4326'  # WGS84 coordinate system
     )
 
-    print(f"📊 Created GeoDataFrame with {len(gdf)} features")
-    print(f"📐 Coordinate system: {gdf.crs}")
+    print(f"Created GeoDataFrame with {len(gdf)} features")
+    print(f"Coordinate system: {gdf.crs}")
 
     # Save to GeoJSON
     gdf.to_file(output_path, driver='GeoJSON')
-    print(f"✅ GeoJSON saved to: {output_path}")
+    print(f"GeoJSON saved to: {output_path}")
 
     # Show sample
-    print("\n📋 Sample features:")
+    print("\nSample features:")
     columns = ['camera_id', 'location_name', 'status', 'geometry']
     print(gdf[columns].head(3))
 
 
 def main():
     print("\n" + "=" * 60)
-    print("🗺️ GEOJSON EXPORT TOOL")
+    print("GEOJSON EXPORT TOOL")
     print("=" * 60)
 
     df = load_cameras()
@@ -59,7 +59,7 @@ def main():
     create_geojson(df, output_path)
 
     print("\n" + "=" * 60)
-    print("✅ GEOJSON EXPORT COMPLETE!")
+    print("GEOJSON EXPORT COMPLETE!")
     print("=" * 60)
     print("\nYou can:")
     print("1. Open in QGIS or ArcGIS")

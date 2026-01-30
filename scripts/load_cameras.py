@@ -39,31 +39,31 @@ def load_camera_data(filepath):
     try:
         # Check if file exists
         if not Path(filepath).exists():
-            print(f"❌ ERROR: File not found - {filepath}")
+            print(f"ERROR: File not found - {filepath}")
             print(f" Current directory: {Path.cwd()}")
             return None
 
         # Load CSV file
         df = pd.read_csv(filepath)
         print("=" * 60)
-        print("📊 CAMERA DATA LOADED SUCCESSFULLY")
+        print("CAMERA DATA LOADED SUCCESSFULLY")
         print("=" * 60)
-        print(f"✅ File: {filepath}")
-        print(f"✅ Total cameras: {len(df)}")
-        print(f"✅ Columns: {len(df.columns)}")
+        print(f"File: {filepath}")
+        print(f"Total cameras: {len(df)}")
+        print(f"Columns: {len(df.columns)}")
         return df
 
     except pd.errors.EmptyDataError:
-        print(f"❌ ERROR: File is empty - {filepath}")
+        print(f"ERROR: File is empty - {filepath}")
         return None
 
     except pd.errors.ParserError as e:
-        print(f"❌ ERROR: Could not parse CSV file")
+        print(f"ERROR: Could not parse CSV file")
         print(f" Details: {e}")
         return None
 
     except Exception as e:
-        print(f"❌ ERROR: Unexpected error loading data")
+        print(f"ERROR: Unexpected error loading data")
         print(f" Type: {type(e).__name__}")
         print(f" Details: {e}")
         return None
@@ -79,7 +79,7 @@ def display_basic_info(df):
         Camera data
     """
     print("\n" + "=" * 60)
-    print("📋 DATASET INFORMATION")
+    print("DATASET INFORMATION")
     print("=" * 60)
 
     # Column names
@@ -110,12 +110,12 @@ def validate_coordinates(df):
         Camera data with latitude and longitude columns
     """
     print("\n" + "=" * 60)
-    print("🗺️ COORDINATE VALIDATION")
+    print("COORDINATE VALIDATION")
     print("=" * 60)
 
     # Check if required columns exist
     if 'latitude' not in df.columns or 'longitude' not in df.columns:
-        print("❌ ERROR: Missing latitude or longitude columns")
+        print("ERROR: Missing latitude or longitude columns")
         return
 
     # Validate latitude
@@ -143,14 +143,14 @@ def validate_coordinates(df):
     print(f" Longitude: {NYC_BOUNDS['lon_min']}° to {NYC_BOUNDS['lon_max']}°")
 
     print(f"\nValidation Results:")
-    print(f" ✅ Valid latitude: {len(valid_lat)}/{len(df)} cameras")
-    print(f" ✅ Valid longitude: {len(valid_lon)}/{len(df)} cameras")
-    print(f" ✅ Both valid: {len(valid_both)}/{len(df)} cameras")
+    print(f" Valid latitude: {len(valid_lat)}/{len(df)} cameras")
+    print(f" Valid longitude: {len(valid_lon)}/{len(df)} cameras")
+    print(f" Both valid: {len(valid_both)}/{len(df)} cameras")
 
     # Report invalid coordinates
     if len(valid_both) < len(df):
         invalid_count = len(df) - len(valid_both)
-        print(f"\n ⚠️ {invalid_count} cameras have coordinates outside NYC bounds")
+        print(f"\n Warning: {invalid_count} cameras have coordinates outside NYC bounds")
 
         # Show which cameras are invalid
         invalid_df = df[~df.index.isin(valid_both.index)]
@@ -169,11 +169,11 @@ def display_status_summary(df):
         Camera data with status column
     """
     print("\n" + "=" * 60)
-    print("📊 CAMERA STATUS SUMMARY")
+    print("CAMERA STATUS SUMMARY")
     print("=" * 60)
 
     if 'status' not in df.columns:
-        print("❌ ERROR: No 'status' column found")
+        print("ERROR: No 'status' column found")
         return
 
     status_counts = df['status'].value_counts()
@@ -200,7 +200,7 @@ def display_sample_data(df, n=5):
         Number of rows to display (default: 5)
     """
     print("\n" + "=" * 60)
-    print(f"📸 SAMPLE DATA (First {n} cameras)")
+    print(f"SAMPLE DATA (First {n} cameras)")
     print("=" * 60)
     print()
     print(df.head(n).to_string(index=False))
@@ -220,7 +220,7 @@ def main():
     # Load data
     df = load_camera_data(filepath)
     if df is None:
-        print("\n❌ Failed to load data. Exiting.")
+        print("\nFailed to load data. Exiting.")
         sys.exit(1)
 
     # Display information
@@ -230,7 +230,7 @@ def main():
     display_sample_data(df, n=5)
 
     print("\n" + "=" * 60)
-    print("✅ DATA LOADING COMPLETE")
+    print("DATA LOADING COMPLETE")
     print("=" * 60)
     print()
 

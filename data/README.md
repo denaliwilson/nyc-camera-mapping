@@ -87,12 +87,12 @@ All coordinates validated against NYC boundaries:
 ## Data Quality
 
 ### Validation Performed
-- ✅ All coordinates within NYC bounds
-- ✅ No duplicate camera IDs
-- ✅ All required fields populated
-- ✅ Dates in valid ISO format
-- ✅ Status values use controlled vocabulary
-- ✅ Coordinates verified against Google Maps
+- All coordinates within NYC bounds
+- No duplicate camera IDs
+- All required fields populated
+- Dates in valid ISO format
+- Status values use controlled vocabulary
+- Coordinates verified against Google Maps
 
 ### Quality Metrics
 - **Completeness:** 100% (no missing values)
@@ -103,17 +103,17 @@ All coordinates validated against NYC boundaries:
 ## Usage Guidelines
 
 ### Appropriate Uses
-✅ Learning GIS analysis techniques  
-✅ Testing spatial analysis workflows  
-✅ Demonstrating data visualization methods  
-✅ Portfolio project development  
-✅ Understanding geospatial data structures
+- Learning GIS analysis techniques  
+- Testing spatial analysis workflows  
+- Demonstrating data visualization methods  
+- Portfolio project development  
+- Understanding geospatial data structures
 
 ### Inappropriate Uses
-❌ Actual security planning  
-❌ Representing real NYC Transit camera deployment  
-❌ Making operational decisions  
-❌ Publishing as actual transit data
+- Actual security planning  
+- Representing real NYC Transit camera deployment  
+- Making operational decisions  
+- Publishing as actual transit data
 
 ## Future Enhancements
 

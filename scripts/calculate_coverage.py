@@ -23,7 +23,7 @@ def load_cameras():
         crs='EPSG:4326'  # WGS84
     )
 
-    print(f"✅ Loaded {len(gdf)} cameras")
+    print(f"Loaded {len(gdf)} cameras")
     return gdf
 
 
@@ -42,7 +42,7 @@ def calculate_buffers(gdf, radius_meters):
     GeoDataFrame
         with buffer geometries
     """
-    print(f"\n📏 Calculating {radius_meters}m buffers...")
+    print(f"\nCalculating {radius_meters}m buffers...")
 
     # Project to a metric coordinate system (State Plane NY)
     # This lets us use meters instead of degrees
@@ -57,7 +57,7 @@ def calculate_buffers(gdf, radius_meters):
 
     # Project back to WGS84 for display
     buffers = buffers.to_crs('EPSG:4326')
-    print(f"✅ Created {len(buffers)} coverage zones")
+    print(f"Created {len(buffers)} coverage zones")
     return buffers
 
 
@@ -74,7 +74,7 @@ def calculate_total_coverage(buffers):
     area_sqm = area_sqft * 0.092903  # Convert sq ft to sq m
     area_sqkm = area_sqm / 1_000_000
 
-    print(f"\n📊 Coverage Statistics:")
+    print(f"\nCoverage Statistics:")
     print(f" Total coverage area: {area_sqm:,.0f} m²")
     print(f" Total coverage area: {area_sqkm:.2f} km²")
     print(f" Number of cameras: {len(buffers)}")
@@ -86,7 +86,7 @@ def calculate_total_coverage(buffers):
 
 def visualize_coverage(gdf, buffers, output_path):
     """Create visualization of coverage zones"""
-    print(f"\n🎨 Creating coverage visualization...")
+    print(f"\nCreating coverage visualization...")
 
     fig, ax = plt.subplots(figsize=(15, 12))
 
@@ -121,13 +121,13 @@ def visualize_coverage(gdf, buffers, output_path):
 
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    print(f"✅ Saved visualization to: {output_path}")
+    print(f"Saved visualization to: {output_path}")
     plt.close()
 
 
 def main():
     print("\n" + "=" * 60)
-    print("📏 COVERAGE BUFFER ANALYSIS")
+    print("COVERAGE BUFFER ANALYSIS")
     print("=" * 60)
 
     # Load cameras
@@ -141,13 +141,13 @@ def main():
 
     # Save buffers to file
     buffers.to_file("maps/camera_buffers.geojson", driver='GeoJSON')
-    print(f"\n💾 Saved buffers to: maps/camera_buffers.geojson")
+    print(f"\nSaved buffers to: maps/camera_buffers.geojson")
 
     # Visualize
     visualize_coverage(gdf, buffers, "maps/coverage_zones.png")
 
     print("\n" + "=" * 60)
-    print("✅ COVERAGE ANALYSIS COMPLETE!")
+    print("COVERAGE ANALYSIS COMPLETE!")
     print("=" * 60)
 
 

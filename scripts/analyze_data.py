@@ -27,7 +27,7 @@ def load_data(filepath):
     try:
         return pd.read_csv(filepath)
     except Exception as e:
-        print(f"❌ ERROR: Could not load {filepath}: {e}")
+        print(f"ERROR: Could not load {filepath}: {e}")
         return None
 
 
@@ -56,11 +56,11 @@ def assign_borough(lat, lon):
 def analyze_status_distribution(df):
     """Analyze camera status distribution."""
     print("\n" + "=" * 60)
-    print("📊 STATUS DISTRIBUTION ANALYSIS")
+    print("STATUS DISTRIBUTION ANALYSIS")
     print("=" * 60)
 
     if 'status' not in df.columns:
-        print("❌ No status column found")
+        print("ERROR: No status column found")
         return
 
     status_counts = df['status'].value_counts()
@@ -76,17 +76,17 @@ def analyze_status_distribution(df):
     # Calculate operational percentage
     if 'Active' in status_counts:
         operational_pct = (status_counts['Active'] / total) * 100
-        print(f"\n✅ Operational Rate: {operational_pct:.1f}%")
+        print(f"\nOperational Rate: {operational_pct:.1f}%")
 
 
 def analyze_geographic_distribution(df):
     """Analyze camera distribution across boroughs."""
     print("\n" + "=" * 60)
-    print("🗺️ GEOGRAPHIC DISTRIBUTION ANALYSIS")
+    print("GEOGRAPHIC DISTRIBUTION ANALYSIS")
     print("=" * 60)
 
     if 'latitude' not in df.columns or 'longitude' not in df.columns:
-        print("❌ No coordinate columns found")
+        print("ERROR: No coordinate columns found")
         return
 
     # Assign boroughs
@@ -121,11 +121,11 @@ def analyze_geographic_distribution(df):
 def analyze_installation_timeline(df):
     """Analyze installation dates and timeline."""
     print("\n" + "=" * 60)
-    print("📅 INSTALLATION TIMELINE ANALYSIS")
+    print("INSTALLATION TIMELINE ANALYSIS")
     print("=" * 60)
 
     if 'installation_date' not in df.columns:
-        print("❌ No installation_date column found")
+        print("ERROR: No installation_date column found")
         return
 
     # Convert to datetime
@@ -135,7 +135,7 @@ def analyze_installation_timeline(df):
     valid_dates = df[df['install_dt'].notna()]
 
     if len(valid_dates) == 0:
-        print("❌ No valid installation dates found")
+        print("ERROR: No valid installation dates found")
         return
 
     print(f"\nInstallation Date Range:")
@@ -169,11 +169,11 @@ def analyze_installation_timeline(df):
 def analyze_naming_patterns(df):
     """Analyze location naming patterns."""
     print("\n" + "=" * 60)
-    print("📝 LOCATION NAMING ANALYSIS")
+    print("LOCATION NAMING ANALYSIS")
     print("=" * 60)
 
     if 'location_name' not in df.columns:
-        print("❌ No location_name column found")
+        print("ERROR: No location_name column found")
         return
 
     # Name length statistics
@@ -228,15 +228,15 @@ def calculate_distance(lat1, lon1, lat2, lon2):
 def analyze_spatial_distribution(df):
     """Analyze spatial distribution and spacing."""
     print("\n" + "=" * 60)
-    print("📏 SPATIAL DISTRIBUTION ANALYSIS")
+    print("SPATIAL DISTRIBUTION ANALYSIS")
     print("=" * 60)
 
     if 'latitude' not in df.columns or 'longitude' not in df.columns:
-        print("❌ No coordinate columns found")
+        print("ERROR: No coordinate columns found")
         return
 
     if len(df) < 2:
-        print("❌ Need at least 2 cameras for spatial analysis")
+        print("ERROR: Need at least 2 cameras for spatial analysis")
         return
 
     # Calculate distance to nearest neighbor for each camera
@@ -280,7 +280,7 @@ def analyze_spatial_distribution(df):
 def generate_summary(df):
     """Generate overall summary statistics."""
     print("\n" + "=" * 60)
-    print("📈 SUMMARY STATISTICS")
+    print("SUMMARY STATISTICS")
     print("=" * 60)
 
     print(f"\nDataset Overview:")
@@ -311,13 +311,13 @@ def main():
 
     # Load data
     filepath = "data/sample_cameras.csv"
-    print(f"\n📂 Loading data from: {filepath}")
+    print(f"\nLoading data from: {filepath}")
     df = load_data(filepath)
 
     if df is None:
         return
 
-    print(f"✅ Loaded {len(df)} cameras")
+    print(f"Loaded {len(df)} cameras")
 
     # Run analyses
     generate_summary(df)
@@ -328,7 +328,7 @@ def main():
     analyze_naming_patterns(df)
 
     print("\n" + "=" * 60)
-    print("✅ ANALYSIS COMPLETE")
+    print("ANALYSIS COMPLETE")
     print("=" * 60)
 
 

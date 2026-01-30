@@ -6,7 +6,7 @@ import simplekml
 
 def load_cameras():
     df = pd.read_csv("data/sample_cameras.csv")
-    print(f"✅ Loaded {len(df)} cameras")
+    print(f"Loaded {len(df)} cameras")
     return df
 
 
@@ -22,7 +22,7 @@ def get_icon_color(status):
 
 def create_styled_kml(df, output_path):
     """Create KML with styled markers"""
-    print("\n🎨 Creating styled KML...")
+    print("\nCreating styled KML...")
 
     # Create KML
     kml = simplekml.Kml()
@@ -47,11 +47,11 @@ def create_styled_kml(df, output_path):
 
         # Create description
         status_emoji = {
-            'Active': '🟢',
-            'Maintenance': '🟡',
-            'Inactive': '🔴'
+            'Active': '',
+            'Maintenance': '',
+            'Inactive': ''
         }
-        emoji = status_emoji.get(row['status'], '⚪')
+        emoji = status_emoji.get(row['status'], '')
 
         description = f"""
             <h2>{emoji} {row['camera_id']}</h2>
@@ -83,10 +83,10 @@ def create_styled_kml(df, output_path):
 
     # Save
     kml.save(output_path)
-    print(f"✅ Styled KML saved to: {output_path}")
+    print(f"Styled KML saved to: {output_path}")
 
     # Print summary
-    print(f"\n📊 Summary:")
+    print("\nSummary:")
     active_count = len(df[df['status'] == 'Active'])
     maintenance_count = len(df[df['status'] == 'Maintenance'])
     inactive_count = len(df[df['status'] == 'Inactive'])
@@ -97,12 +97,12 @@ def create_styled_kml(df, output_path):
 
 def main():
     print("\n" + "=" * 60)
-    print("🎨 STYLED KML EXPORT")
+    print("STYLED KML EXPORT")
     print("=" * 60)
     df = load_cameras()
     output_path = "maps/cameras_styled.kml"
     create_styled_kml(df, output_path)
-    print("\n✅ Done! Open in Google Earth to see color-coded cameras!")
+    print("\nDone! Open in Google Earth to see color-coded cameras!")
 
 
 if __name__ == "__main__":

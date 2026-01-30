@@ -31,7 +31,7 @@ def find_coverage_gaps(gdf, buffer_meters=50):
     GeoDataFrame
         of gap polygons
     """
-    print(f"\n🔍 Finding coverage gaps...")
+    print(f"\nFinding coverage gaps...")
 
     # Project to metric
     gdf_proj = gdf.to_crs('EPSG:2263')
@@ -65,13 +65,13 @@ def find_coverage_gaps(gdf, buffer_meters=50):
         crs='EPSG:2263'
     ).to_crs('EPSG:4326')
 
-    print(f"✅ Identified coverage gaps")
+    print(f"Identified coverage gaps")
     return gaps_gdf
 
 
 def visualize_gaps(gdf, gaps_gdf, output_path):
     """Visualize coverage and gaps"""
-    print(f"\n🎨 Creating gap visualization...")
+    print(f"\nCreating gap visualization...")
 
     fig, ax = plt.subplots(figsize=(15, 12))
 
@@ -103,13 +103,13 @@ def visualize_gaps(gdf, gaps_gdf, output_path):
 
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    print(f"✅ Saved to: {output_path}")
+    print(f"Saved to: {output_path}")
     plt.close()
 
 
 def main():
     print("\n" + "=" * 60)
-    print("🔍 COVERAGE GAP ANALYSIS")
+    print("COVERAGE GAP ANALYSIS")
     print("=" * 60)
 
     gdf = load_cameras()
@@ -117,12 +117,12 @@ def main():
 
     # Save gaps
     gaps_gdf.to_file("maps/coverage_gaps.geojson", driver='GeoJSON')
-    print(f"\n💾 Saved gaps to: maps/coverage_gaps.geojson")
+    print(f"\nSaved gaps to: maps/coverage_gaps.geojson")
 
     # Visualize
     visualize_gaps(gdf, gaps_gdf, "maps/coverage_gaps.png")
 
-    print("\n✅ GAP ANALYSIS COMPLETE!")
+    print("GAP ANALYSIS COMPLETE!")
 
 
 if __name__ == "__main__":

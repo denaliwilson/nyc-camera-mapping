@@ -21,7 +21,7 @@ def detect_clusters(df, epsilon_km=0.5):
     epsilon_km : float
         Maximum distance between cameras in same cluster (km)
     """
-    print(f"\n🎯 Detecting clusters (epsilon={epsilon_km}km)...")
+    print(f"\nDetecting clusters (epsilon={epsilon_km}km)...")
 
     # Prepare coordinates
     coords = df[['latitude', 'longitude']].values
@@ -39,7 +39,7 @@ def detect_clusters(df, epsilon_km=0.5):
     n_clusters = len(set(clusters)) - (1 if -1 in clusters else 0)
     n_noise = list(clusters).count(-1)
 
-    print(f"\n📊 Cluster Analysis Results:")
+    print(f"\nCluster Analysis Results:")
     print(f" Number of clusters found: {n_clusters}")
     print(f" Cameras in clusters: {len(df[df['cluster'] != -1])}")
     print(f" Isolated cameras (noise): {n_noise}")
@@ -62,7 +62,7 @@ def detect_clusters(df, epsilon_km=0.5):
 
 def visualize_clusters(df, output_path):
     """Visualize detected clusters"""
-    print(f"\n🎨 Creating cluster visualization...")
+    print(f"\nCreating cluster visualization...")
 
     fig, ax = plt.subplots(figsize=(15, 12))
 
@@ -109,13 +109,13 @@ def visualize_clusters(df, output_path):
 
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    print(f"✅ Saved to: {output_path}")
+    print(f"Saved to: {output_path}")
     plt.close()
 
 
 def main():
     print("\n" + "=" * 60)
-    print("🎯 CLUSTER DETECTION ANALYSIS")
+    print("CLUSTER DETECTION ANALYSIS")
     print("=" * 60)
 
     df = load_cameras()
@@ -123,12 +123,12 @@ def main():
 
     # Save results
     df_clustered.to_csv("maps/camera_clusters.csv", index=False)
-    print(f"\n💾 Saved cluster assignments to: maps/camera_clusters.csv")
+    print(f"\nSaved cluster assignments to: maps/camera_clusters.csv")
 
     # Visualize
     visualize_clusters(df_clustered, "maps/camera_clusters.png")
 
-    print("\n✅ CLUSTER DETECTION COMPLETE!")
+    print("\nCLUSTER DETECTION COMPLETE!")
 
 
 if __name__ == "__main__":

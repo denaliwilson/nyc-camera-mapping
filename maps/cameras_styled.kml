@@ -1,156 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="1">
-        <Style id="13">
-            <IconStyle id="14">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="15">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="16">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="55">
-            <IconStyle id="56">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="57">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="58">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="85">
-            <IconStyle id="86">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="87">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="88">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="199">
-            <IconStyle id="200">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="201">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="202">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="253">
-            <IconStyle id="254">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="255">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="256">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="325">
-            <IconStyle id="326">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="327">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="328">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="385">
-            <IconStyle id="386">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="387">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="388">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="457">
-            <IconStyle id="458">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="459">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="460">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="523">
-            <IconStyle id="524">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="525">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="526">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
-        <Style id="571">
-            <IconStyle id="572">
-                <color>ffffffff</color>
-                <colorMode>normal</colorMode>
-                <scale>1.2</scale>
-                <heading>0</heading>
-                <Icon id="573">
-                    <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle id="574">
-                <colorMode>normal</colorMode>
-                <scale>0.8</scale>
-            </LabelStyle>
-        </Style>
         <name>NYC Camera Network (Styled)</name>
         <Folder id="2">
             <Style id="7">
@@ -1237,7 +1087,7 @@
             <Placemark id="6">
                 <name>CAM-001 - Times Square Station Platform </name>
                 <description>
-            &lt;h2&gt;🟢 CAM-001&lt;/h2&gt;
+            &lt;h2&gt; CAM-001&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Times Square Station Platform A&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-03-15&lt;/p&gt;
@@ -1254,7 +1104,7 @@
             <Placemark id="18">
                 <name>CAM-003 - Grand Central Terminal Main Co</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-003&lt;/h2&gt;
+            &lt;h2&gt; CAM-003&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Grand Central Terminal Main Concourse&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-06-10&lt;/p&gt;
@@ -1271,7 +1121,7 @@
             <Placemark id="24">
                 <name>CAM-004 - Penn Station Entrance 1</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-004&lt;/h2&gt;
+            &lt;h2&gt; CAM-004&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Penn Station Entrance 1&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-07-18&lt;/p&gt;
@@ -1288,7 +1138,7 @@
             <Placemark id="36">
                 <name>CAM-006 - Herald Square Platform</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-006&lt;/h2&gt;
+            &lt;h2&gt; CAM-006&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Herald Square Platform&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-10-12&lt;/p&gt;
@@ -1305,7 +1155,7 @@
             <Placemark id="42">
                 <name>CAM-007 - 34th Street Hudson Yards</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-007&lt;/h2&gt;
+            &lt;h2&gt; CAM-007&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; 34th Street Hudson Yards&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-11-20&lt;/p&gt;
@@ -1322,7 +1172,7 @@
             <Placemark id="48">
                 <name>CAM-008 - Columbus Circle Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-008&lt;/h2&gt;
+            &lt;h2&gt; CAM-008&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Columbus Circle Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-01-18&lt;/p&gt;
@@ -1339,7 +1189,7 @@
             <Placemark id="60">
                 <name>CAM-010 - Fulton Street Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-010&lt;/h2&gt;
+            &lt;h2&gt; CAM-010&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fulton Street Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-03-30&lt;/p&gt;
@@ -1356,7 +1206,7 @@
             <Placemark id="66">
                 <name>CAM-011 - Wall Street Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-011&lt;/h2&gt;
+            &lt;h2&gt; CAM-011&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Wall Street Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-05-08&lt;/p&gt;
@@ -1373,7 +1223,7 @@
             <Placemark id="78">
                 <name>CAM-013 - 14th Street-Union Square</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-013&lt;/h2&gt;
+            &lt;h2&gt; CAM-013&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; 14th Street-Union Square&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-07-22&lt;/p&gt;
@@ -1390,7 +1240,7 @@
             <Placemark id="90">
                 <name>CAM-015 - Canal Street Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-015&lt;/h2&gt;
+            &lt;h2&gt; CAM-015&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Canal Street Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-09-15&lt;/p&gt;
@@ -1407,7 +1257,7 @@
             <Placemark id="102">
                 <name>CAM-017 - Roosevelt Island Tramway</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-017&lt;/h2&gt;
+            &lt;h2&gt; CAM-017&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Roosevelt Island Tramway&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-11-27&lt;/p&gt;
@@ -1424,7 +1274,7 @@
             <Placemark id="108">
                 <name>CAM-018 - South Ferry Terminal</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-018&lt;/h2&gt;
+            &lt;h2&gt; CAM-018&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; South Ferry Terminal&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-12-30&lt;/p&gt;
@@ -1441,7 +1291,7 @@
             <Placemark id="114">
                 <name>CAM-019 - High Line Park Entrance</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-019&lt;/h2&gt;
+            &lt;h2&gt; CAM-019&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; High Line Park Entrance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-01-28&lt;/p&gt;
@@ -1458,7 +1308,7 @@
             <Placemark id="120">
                 <name>CAM-020 - Staten Island Ferry Terminal</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-020&lt;/h2&gt;
+            &lt;h2&gt; CAM-020&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Staten Island Ferry Terminal&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-02-25&lt;/p&gt;
@@ -1475,7 +1325,7 @@
             <Placemark id="126">
                 <name>CAM-021 - Washington Square Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-021&lt;/h2&gt;
+            &lt;h2&gt; CAM-021&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Washington Square Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-03-30&lt;/p&gt;
@@ -1492,7 +1342,7 @@
             <Placemark id="132">
                 <name>CAM-022 - Bryant Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-022&lt;/h2&gt;
+            &lt;h2&gt; CAM-022&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Bryant Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-04-15&lt;/p&gt;
@@ -1509,7 +1359,7 @@
             <Placemark id="150">
                 <name>CAM-025 - Metropolitan Museum of Art Ent</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-025&lt;/h2&gt;
+            &lt;h2&gt; CAM-025&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Metropolitan Museum of Art Entrance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-07-18&lt;/p&gt;
@@ -1526,7 +1376,7 @@
             <Placemark id="156">
                 <name>CAM-026 - Museum of Modern Art</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-026&lt;/h2&gt;
+            &lt;h2&gt; CAM-026&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Museum of Modern Art&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-08-25&lt;/p&gt;
@@ -1543,7 +1393,7 @@
             <Placemark id="162">
                 <name>CAM-027 - Broadway Theatre District</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-027&lt;/h2&gt;
+            &lt;h2&gt; CAM-027&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Broadway Theatre District&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-09-12&lt;/p&gt;
@@ -1560,7 +1410,7 @@
             <Placemark id="168">
                 <name>CAM-028 - Fifth Avenue Shopping District</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-028&lt;/h2&gt;
+            &lt;h2&gt; CAM-028&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fifth Avenue Shopping District&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-10-20&lt;/p&gt;
@@ -1577,7 +1427,7 @@
             <Placemark id="180">
                 <name>CAM-030 - Chinatown Plaza</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-030&lt;/h2&gt;
+            &lt;h2&gt; CAM-030&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Chinatown Plaza&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-12-15&lt;/p&gt;
@@ -1594,7 +1444,7 @@
             <Placemark id="186">
                 <name>CAM-031 - Little Italy Street</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-031&lt;/h2&gt;
+            &lt;h2&gt; CAM-031&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Little Italy Street&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-01-22&lt;/p&gt;
@@ -1611,7 +1461,7 @@
             <Placemark id="192">
                 <name>CAM-032 - The High Line Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-032&lt;/h2&gt;
+            &lt;h2&gt; CAM-032&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; The High Line Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-02-18&lt;/p&gt;
@@ -1628,7 +1478,7 @@
             <Placemark id="204">
                 <name>CAM-034 - Yankee Stadium Entrance</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-034&lt;/h2&gt;
+            &lt;h2&gt; CAM-034&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Yankee Stadium Entrance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-04-20&lt;/p&gt;
@@ -1645,7 +1495,7 @@
             <Placemark id="210">
                 <name>CAM-035 - Coney Island Boardwalk</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-035&lt;/h2&gt;
+            &lt;h2&gt; CAM-035&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Coney Island Boardwalk&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-05-15&lt;/p&gt;
@@ -1662,7 +1512,7 @@
             <Placemark id="222">
                 <name>CAM-037 - Prospect Park Entrance</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-037&lt;/h2&gt;
+            &lt;h2&gt; CAM-037&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Prospect Park Entrance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-07-30&lt;/p&gt;
@@ -1679,7 +1529,7 @@
             <Placemark id="228">
                 <name>CAM-038 - DUMBO Waterfront</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-038&lt;/h2&gt;
+            &lt;h2&gt; CAM-038&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; DUMBO Waterfront&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-08-18&lt;/p&gt;
@@ -1696,7 +1546,7 @@
             <Placemark id="234">
                 <name>CAM-039 - Flushing Meadows Corona Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-039&lt;/h2&gt;
+            &lt;h2&gt; CAM-039&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Flushing Meadows Corona Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-09-25&lt;/p&gt;
@@ -1713,7 +1563,7 @@
             <Placemark id="240">
                 <name>CAM-040 - Queensboro Bridge Pedestrian P</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-040&lt;/h2&gt;
+            &lt;h2&gt; CAM-040&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Queensboro Bridge Pedestrian Path&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-10-12&lt;/p&gt;
@@ -1730,7 +1580,7 @@
             <Placemark id="246">
                 <name>CAM-041 - Bronx Zoo Entrance</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-041&lt;/h2&gt;
+            &lt;h2&gt; CAM-041&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Bronx Zoo Entrance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-11-20&lt;/p&gt;
@@ -1747,7 +1597,7 @@
             <Placemark id="258">
                 <name>CAM-043 - St. George Ferry Terminal</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-043&lt;/h2&gt;
+            &lt;h2&gt; CAM-043&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; St. George Ferry Terminal&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-01-15&lt;/p&gt;
@@ -1764,7 +1614,7 @@
             <Placemark id="270">
                 <name>CAM-045 - Inwood Hill Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-045&lt;/h2&gt;
+            &lt;h2&gt; CAM-045&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Inwood Hill Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-03-20&lt;/p&gt;
@@ -1781,7 +1631,7 @@
             <Placemark id="276">
                 <name>CAM-046 - Ellis Island Arrival Point</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-046&lt;/h2&gt;
+            &lt;h2&gt; CAM-046&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Ellis Island Arrival Point&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-04-10&lt;/p&gt;
@@ -1798,7 +1648,7 @@
             <Placemark id="282">
                 <name>CAM-047 - Battery Park Entrance</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-047&lt;/h2&gt;
+            &lt;h2&gt; CAM-047&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Battery Park Entrance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-05-18&lt;/p&gt;
@@ -1815,7 +1665,7 @@
             <Placemark id="288">
                 <name>CAM-048 - Seaport District Pier 17</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-048&lt;/h2&gt;
+            &lt;h2&gt; CAM-048&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Seaport District Pier 17&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-06-25&lt;/p&gt;
@@ -1832,7 +1682,7 @@
             <Placemark id="294">
                 <name>CAM-049 - South Street Seaport</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-049&lt;/h2&gt;
+            &lt;h2&gt; CAM-049&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; South Street Seaport&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-07-22&lt;/p&gt;
@@ -1849,7 +1699,7 @@
             <Placemark id="300">
                 <name>CAM-050 - Tribeca Park Area</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-050&lt;/h2&gt;
+            &lt;h2&gt; CAM-050&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Tribeca Park Area&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-08-30&lt;/p&gt;
@@ -1866,7 +1716,7 @@
             <Placemark id="312">
                 <name>CAM-052 - Lower East Side Cultural Cente</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-052&lt;/h2&gt;
+            &lt;h2&gt; CAM-052&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Lower East Side Cultural Center&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-10-20&lt;/p&gt;
@@ -1883,7 +1733,7 @@
             <Placemark id="318">
                 <name>CAM-053 - Tompkins Square Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-053&lt;/h2&gt;
+            &lt;h2&gt; CAM-053&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Tompkins Square Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-11-10&lt;/p&gt;
@@ -1900,7 +1750,7 @@
             <Placemark id="330">
                 <name>CAM-055 - West Village Pier</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-055&lt;/h2&gt;
+            &lt;h2&gt; CAM-055&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; West Village Pier&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-01-12&lt;/p&gt;
@@ -1917,7 +1767,7 @@
             <Placemark id="342">
                 <name>CAM-057 - Hudson River Greenway Mile 3</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-057&lt;/h2&gt;
+            &lt;h2&gt; CAM-057&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Hudson River Greenway Mile 3&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-02-10&lt;/p&gt;
@@ -1934,7 +1784,7 @@
             <Placemark id="348">
                 <name>CAM-058 - Chelsea Market</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-058&lt;/h2&gt;
+            &lt;h2&gt; CAM-058&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Chelsea Market&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-02-25&lt;/p&gt;
@@ -1951,7 +1801,7 @@
             <Placemark id="354">
                 <name>CAM-059 - Madison Square Garden</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-059&lt;/h2&gt;
+            &lt;h2&gt; CAM-059&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Madison Square Garden&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-03-15&lt;/p&gt;
@@ -1968,7 +1818,7 @@
             <Placemark id="360">
                 <name>CAM-060 - Grand Central Vanderbilt Hall</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-060&lt;/h2&gt;
+            &lt;h2&gt; CAM-060&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Grand Central Vanderbilt Hall&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-04-05&lt;/p&gt;
@@ -1985,7 +1835,7 @@
             <Placemark id="372">
                 <name>CAM-062 - Lexington Avenue Line Platform</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-062&lt;/h2&gt;
+            &lt;h2&gt; CAM-062&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Lexington Avenue Line Platform&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-05-08&lt;/p&gt;
@@ -2002,7 +1852,7 @@
             <Placemark id="378">
                 <name>CAM-063 - 1st Avenue Bus Terminal</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-063&lt;/h2&gt;
+            &lt;h2&gt; CAM-063&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; 1st Avenue Bus Terminal&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-05-25&lt;/p&gt;
@@ -2019,7 +1869,7 @@
             <Placemark id="390">
                 <name>CAM-065 - Penn Plaza Concourse</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-065&lt;/h2&gt;
+            &lt;h2&gt; CAM-065&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Penn Plaza Concourse&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-06-28&lt;/p&gt;
@@ -2036,7 +1886,7 @@
             <Placemark id="396">
                 <name>CAM-066 - Madison Avenue Shopping</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-066&lt;/h2&gt;
+            &lt;h2&gt; CAM-066&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Madison Avenue Shopping&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-07-15&lt;/p&gt;
@@ -2053,7 +1903,7 @@
             <Placemark id="402">
                 <name>CAM-067 - Rockefeller Center Plaza</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-067&lt;/h2&gt;
+            &lt;h2&gt; CAM-067&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Rockefeller Center Plaza&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-08-02&lt;/p&gt;
@@ -2070,7 +1920,7 @@
             <Placemark id="414">
                 <name>CAM-069 - Park Avenue South</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-069&lt;/h2&gt;
+            &lt;h2&gt; CAM-069&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Park Avenue South&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-09-05&lt;/p&gt;
@@ -2087,7 +1937,7 @@
             <Placemark id="420">
                 <name>CAM-070 - Stuyvesant Square</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-070&lt;/h2&gt;
+            &lt;h2&gt; CAM-070&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Stuyvesant Square&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-09-22&lt;/p&gt;
@@ -2104,7 +1954,7 @@
             <Placemark id="426">
                 <name>CAM-071 - Williamsburg Bridge Plaza</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-071&lt;/h2&gt;
+            &lt;h2&gt; CAM-071&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Williamsburg Bridge Plaza&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-05-10&lt;/p&gt;
@@ -2121,7 +1971,7 @@
             <Placemark id="438">
                 <name>CAM-073 - Greenpoint Landing</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-073&lt;/h2&gt;
+            &lt;h2&gt; CAM-073&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Greenpoint Landing&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-04-22&lt;/p&gt;
@@ -2138,7 +1988,7 @@
             <Placemark id="444">
                 <name>CAM-074 - Astoria Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-074&lt;/h2&gt;
+            &lt;h2&gt; CAM-074&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Astoria Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-12-08&lt;/p&gt;
@@ -2155,7 +2005,7 @@
             <Placemark id="450">
                 <name>CAM-075 - Ditmars Boulevard Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-075&lt;/h2&gt;
+            &lt;h2&gt; CAM-075&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Ditmars Boulevard Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-03-15&lt;/p&gt;
@@ -2172,7 +2022,7 @@
             <Placemark id="462">
                 <name>CAM-077 - Gantry Plaza State Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-077&lt;/h2&gt;
+            &lt;h2&gt; CAM-077&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Gantry Plaza State Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-01-10&lt;/p&gt;
@@ -2189,7 +2039,7 @@
             <Placemark id="468">
                 <name>CAM-078 - Court Square</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-078&lt;/h2&gt;
+            &lt;h2&gt; CAM-078&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Court Square&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-08-05&lt;/p&gt;
@@ -2206,7 +2056,7 @@
             <Placemark id="480">
                 <name>CAM-080 - Kew Gardens Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-080&lt;/h2&gt;
+            &lt;h2&gt; CAM-080&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Kew Gardens Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-11-25&lt;/p&gt;
@@ -2223,7 +2073,7 @@
             <Placemark id="486">
                 <name>CAM-081 - Jamaica Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-081&lt;/h2&gt;
+            &lt;h2&gt; CAM-081&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Jamaica Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-02-28&lt;/p&gt;
@@ -2240,7 +2090,7 @@
             <Placemark id="492">
                 <name>CAM-082 - Rockaway Beach</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-082&lt;/h2&gt;
+            &lt;h2&gt; CAM-082&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Rockaway Beach&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-05-12&lt;/p&gt;
@@ -2257,7 +2107,7 @@
             <Placemark id="498">
                 <name>CAM-083 - Myrtle Avenue Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-083&lt;/h2&gt;
+            &lt;h2&gt; CAM-083&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Myrtle Avenue Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-07-30&lt;/p&gt;
@@ -2274,7 +2124,7 @@
             <Placemark id="510">
                 <name>CAM-085 - Highland Park Summit</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-085&lt;/h2&gt;
+            &lt;h2&gt; CAM-085&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Highland Park Summit&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-11-05&lt;/p&gt;
@@ -2291,7 +2141,7 @@
             <Placemark id="516">
                 <name>CAM-086 - Sunset Park Waterfront</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-086&lt;/h2&gt;
+            &lt;h2&gt; CAM-086&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Sunset Park Waterfront&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-01-18&lt;/p&gt;
@@ -2308,7 +2158,7 @@
             <Placemark id="528">
                 <name>CAM-088 - Park Slope Prospect Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-088&lt;/h2&gt;
+            &lt;h2&gt; CAM-088&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Park Slope Prospect Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-04-25&lt;/p&gt;
@@ -2325,7 +2175,7 @@
             <Placemark id="534">
                 <name>CAM-089 - Brooklyn Heights Promenade</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-089&lt;/h2&gt;
+            &lt;h2&gt; CAM-089&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Brooklyn Heights Promenade&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-02-14&lt;/p&gt;
@@ -2342,7 +2192,7 @@
             <Placemark id="540">
                 <name>CAM-090 - Fulton Ferry Landing</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-090&lt;/h2&gt;
+            &lt;h2&gt; CAM-090&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fulton Ferry Landing&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-10-22&lt;/p&gt;
@@ -2359,7 +2209,7 @@
             <Placemark id="552">
                 <name>CAM-092 - Concourse Plaza</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-092&lt;/h2&gt;
+            &lt;h2&gt; CAM-092&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Concourse Plaza&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-02-27&lt;/p&gt;
@@ -2376,7 +2226,7 @@
             <Placemark id="558">
                 <name>CAM-093 - Grand Concourse Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-093&lt;/h2&gt;
+            &lt;h2&gt; CAM-093&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Grand Concourse Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-11-08&lt;/p&gt;
@@ -2393,7 +2243,7 @@
             <Placemark id="564">
                 <name>CAM-094 - Fordham Road Station</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-094&lt;/h2&gt;
+            &lt;h2&gt; CAM-094&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fordham Road Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-03-20&lt;/p&gt;
@@ -2410,7 +2260,7 @@
             <Placemark id="582">
                 <name>CAM-097 - Staten Island Greenbelt</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-097&lt;/h2&gt;
+            &lt;h2&gt; CAM-097&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Staten Island Greenbelt&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-04-06&lt;/p&gt;
@@ -2427,7 +2277,7 @@
             <Placemark id="588">
                 <name>CAM-098 - Tompkinsville Park</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-098&lt;/h2&gt;
+            &lt;h2&gt; CAM-098&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Tompkinsville Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-08-15&lt;/p&gt;
@@ -2444,7 +2294,7 @@
             <Placemark id="594">
                 <name>CAM-099 - Tottenville Ferry Pier</name>
                 <description>
-            &lt;h2&gt;🟢 CAM-099&lt;/h2&gt;
+            &lt;h2&gt; CAM-099&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Tottenville Ferry Pier&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Active&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-02-19&lt;/p&gt;
@@ -2734,7 +2584,7 @@
             <Placemark id="30">
                 <name>CAM-005 - Union Square Station North</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-005&lt;/h2&gt;
+            &lt;h2&gt; CAM-005&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Union Square Station North&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-09-05&lt;/p&gt;
@@ -2751,7 +2601,7 @@
             <Placemark id="72">
                 <name>CAM-012 - Chambers Street Platform</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-012&lt;/h2&gt;
+            &lt;h2&gt; CAM-012&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Chambers Street Platform&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-06-14&lt;/p&gt;
@@ -2768,7 +2618,7 @@
             <Placemark id="96">
                 <name>CAM-016 - City Hall Park</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-016&lt;/h2&gt;
+            &lt;h2&gt; CAM-016&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; City Hall Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-10-20&lt;/p&gt;
@@ -2785,7 +2635,7 @@
             <Placemark id="138">
                 <name>CAM-023 - Central Park South Entrance</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-023&lt;/h2&gt;
+            &lt;h2&gt; CAM-023&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Central Park South Entrance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-05-20&lt;/p&gt;
@@ -2802,7 +2652,7 @@
             <Placemark id="144">
                 <name>CAM-024 - Lincoln Center Plaza</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-024&lt;/h2&gt;
+            &lt;h2&gt; CAM-024&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Lincoln Center Plaza&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-06-10&lt;/p&gt;
@@ -2819,7 +2669,7 @@
             <Placemark id="174">
                 <name>CAM-029 - SoHo Shopping Area</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-029&lt;/h2&gt;
+            &lt;h2&gt; CAM-029&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; SoHo Shopping Area&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-11-08&lt;/p&gt;
@@ -2836,7 +2686,7 @@
             <Placemark id="216">
                 <name>CAM-036 - Brooklyn Botanic Garden</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-036&lt;/h2&gt;
+            &lt;h2&gt; CAM-036&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Brooklyn Botanic Garden&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-06-22&lt;/p&gt;
@@ -2853,7 +2703,7 @@
             <Placemark id="264">
                 <name>CAM-044 - Snug Harbor Cultural Center</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-044&lt;/h2&gt;
+            &lt;h2&gt; CAM-044&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Snug Harbor Cultural Center&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-02-12&lt;/p&gt;
@@ -2870,7 +2720,7 @@
             <Placemark id="306">
                 <name>CAM-051 - East Village Intersection</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-051&lt;/h2&gt;
+            &lt;h2&gt; CAM-051&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; East Village Intersection&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-09-15&lt;/p&gt;
@@ -2887,7 +2737,7 @@
             <Placemark id="336">
                 <name>CAM-056 - Christopher Street Station</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-056&lt;/h2&gt;
+            &lt;h2&gt; CAM-056&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Christopher Street Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-01-28&lt;/p&gt;
@@ -2904,7 +2754,7 @@
             <Placemark id="366">
                 <name>CAM-061 - Park Avenue At 42nd</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-061&lt;/h2&gt;
+            &lt;h2&gt; CAM-061&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Park Avenue At 42nd&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-04-20&lt;/p&gt;
@@ -2921,7 +2771,7 @@
             <Placemark id="408">
                 <name>CAM-068 - St Patrick's Cathedral</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-068&lt;/h2&gt;
+            &lt;h2&gt; CAM-068&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; St Patrick's Cathedral&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-08-20&lt;/p&gt;
@@ -2938,7 +2788,7 @@
             <Placemark id="432">
                 <name>CAM-072 - McCarren Park</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-072&lt;/h2&gt;
+            &lt;h2&gt; CAM-072&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; McCarren Park&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-08-15&lt;/p&gt;
@@ -2955,7 +2805,7 @@
             <Placemark id="474">
                 <name>CAM-079 - Forest Hills Gardens</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-079&lt;/h2&gt;
+            &lt;h2&gt; CAM-079&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Forest Hills Gardens&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-10-18&lt;/p&gt;
@@ -2972,7 +2822,7 @@
             <Placemark id="504">
                 <name>CAM-084 - Cypress Hills Cemetery</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-084&lt;/h2&gt;
+            &lt;h2&gt; CAM-084&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Cypress Hills Cemetery&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-09-22&lt;/p&gt;
@@ -2989,7 +2839,7 @@
             <Placemark id="546">
                 <name>CAM-091 - Jane's Carousel</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-091&lt;/h2&gt;
+            &lt;h2&gt; CAM-091&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Jane's Carousel&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-06-30&lt;/p&gt;
@@ -3006,7 +2856,7 @@
             <Placemark id="576">
                 <name>CAM-096 - Pelham Parkway</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-096&lt;/h2&gt;
+            &lt;h2&gt; CAM-096&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Pelham Parkway&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-12-12&lt;/p&gt;
@@ -3023,7 +2873,7 @@
             <Placemark id="600">
                 <name>CAM-100 - Fresh Kills Park Overlook</name>
                 <description>
-            &lt;h2&gt;🟡 CAM-100&lt;/h2&gt;
+            &lt;h2&gt; CAM-100&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Fresh Kills Park Overlook&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Maintenance&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-05-10&lt;/p&gt;
@@ -3039,12 +2889,161 @@
             </Placemark>
         </Folder>
         <Folder id="4">
-            <name>Offline</name>
-        </Folder>
-        <Placemark id="12">
-            <name>CAM-002 - Times Square Station Platform </name>
-            <description>
-            &lt;h2&gt;⚪ CAM-002&lt;/h2&gt;
+            <Style id="13">
+                <IconStyle id="14">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="15">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="16">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="55">
+                <IconStyle id="56">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="57">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="58">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="85">
+                <IconStyle id="86">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="87">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="88">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="199">
+                <IconStyle id="200">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="201">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="202">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="253">
+                <IconStyle id="254">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="255">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="256">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="325">
+                <IconStyle id="326">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="327">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="328">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="385">
+                <IconStyle id="386">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="387">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="388">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="457">
+                <IconStyle id="458">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="459">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="460">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="523">
+                <IconStyle id="524">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="525">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="526">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="571">
+                <IconStyle id="572">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="573">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/webcam.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="574">
+                    <colorMode>normal</colorMode>
+                    <scale>0.8</scale>
+                </LabelStyle>
+            </Style>
+            <name>Inactive Cameras</name>
+            <Placemark id="12">
+                <name>CAM-002 - Times Square Station Platform </name>
+                <description>
+            &lt;h2&gt; CAM-002&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Times Square Station Platform B&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2020-04-22&lt;/p&gt;
@@ -3053,15 +3052,15 @@
             Coordinates: 40.7582°N, 73.9857°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#13</styleUrl>
-            <Point id="11">
-                <coordinates>-73.9857,40.7582,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="54">
-            <name>CAM-009 - Brooklyn Bridge-City Hall</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-009&lt;/h2&gt;
+                <styleUrl>#13</styleUrl>
+                <Point id="11">
+                    <coordinates>-73.9857,40.7582,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="54">
+                <name>CAM-009 - Brooklyn Bridge-City Hall</name>
+                <description>
+            &lt;h2&gt; CAM-009&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Brooklyn Bridge-City Hall&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-02-25&lt;/p&gt;
@@ -3070,15 +3069,15 @@
             Coordinates: 40.7130°N, 74.0048°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#55</styleUrl>
-            <Point id="53">
-                <coordinates>-74.0048,40.713,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="84">
-            <name>CAM-014 - Astor Place Station</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-014&lt;/h2&gt;
+                <styleUrl>#55</styleUrl>
+                <Point id="53">
+                    <coordinates>-74.0048,40.713,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="84">
+                <name>CAM-014 - Astor Place Station</name>
+                <description>
+            &lt;h2&gt; CAM-014&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Astor Place Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2021-08-29&lt;/p&gt;
@@ -3087,15 +3086,15 @@
             Coordinates: 40.7295°N, 73.9914°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#85</styleUrl>
-            <Point id="83">
-                <coordinates>-73.9914,40.7295,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="198">
-            <name>CAM-033 - Washington Heights Station</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-033&lt;/h2&gt;
+                <styleUrl>#85</styleUrl>
+                <Point id="83">
+                    <coordinates>-73.9914,40.7295,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="198">
+                <name>CAM-033 - Washington Heights Station</name>
+                <description>
+            &lt;h2&gt; CAM-033&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Washington Heights Station&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-03-25&lt;/p&gt;
@@ -3104,15 +3103,15 @@
             Coordinates: 40.8401°N, 73.9397°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#199</styleUrl>
-            <Point id="197">
-                <coordinates>-73.9397,40.8401,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="252">
-            <name>CAM-042 - Arthur Avenue Retail Market</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-042&lt;/h2&gt;
+                <styleUrl>#199</styleUrl>
+                <Point id="197">
+                    <coordinates>-73.9397,40.8401,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="252">
+                <name>CAM-042 - Arthur Avenue Retail Market</name>
+                <description>
+            &lt;h2&gt; CAM-042&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Arthur Avenue Retail Market&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-12-08&lt;/p&gt;
@@ -3121,15 +3120,15 @@
             Coordinates: 40.8549°N, 73.8880°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#253</styleUrl>
-            <Point id="251">
-                <coordinates>-73.888,40.8549,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="324">
-            <name>CAM-054 - Nolita Shopping District</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-054&lt;/h2&gt;
+                <styleUrl>#253</styleUrl>
+                <Point id="251">
+                    <coordinates>-73.888,40.8549,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="324">
+                <name>CAM-054 - Nolita Shopping District</name>
+                <description>
+            &lt;h2&gt; CAM-054&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Nolita Shopping District&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2024-12-05&lt;/p&gt;
@@ -3138,15 +3137,15 @@
             Coordinates: 40.7197°N, 74.0002°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#325</styleUrl>
-            <Point id="323">
-                <coordinates>-74.0002,40.7197,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="384">
-            <name>CAM-064 - Avenue of Americas</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-064&lt;/h2&gt;
+                <styleUrl>#325</styleUrl>
+                <Point id="323">
+                    <coordinates>-74.0002,40.7197,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="384">
+                <name>CAM-064 - Avenue of Americas</name>
+                <description>
+            &lt;h2&gt; CAM-064&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Avenue of Americas&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-06-10&lt;/p&gt;
@@ -3155,15 +3154,15 @@
             Coordinates: 40.7495°N, 73.9860°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#385</styleUrl>
-            <Point id="383">
-                <coordinates>-73.986,40.7495,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="456">
-            <name>CAM-076 - Long Island City Waterfront</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-076&lt;/h2&gt;
+                <styleUrl>#385</styleUrl>
+                <Point id="383">
+                    <coordinates>-73.986,40.7495,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="456">
+                <name>CAM-076 - Long Island City Waterfront</name>
+                <description>
+            &lt;h2&gt; CAM-076&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Long Island City Waterfront&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2022-09-20&lt;/p&gt;
@@ -3172,15 +3171,15 @@
             Coordinates: 40.7497°N, 73.9483°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#457</styleUrl>
-            <Point id="455">
-                <coordinates>-73.9483,40.7497,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="522">
-            <name>CAM-087 - Green Wood Cemetery</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-087&lt;/h2&gt;
+                <styleUrl>#457</styleUrl>
+                <Point id="455">
+                    <coordinates>-73.9483,40.7497,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="522">
+                <name>CAM-087 - Green Wood Cemetery</name>
+                <description>
+            &lt;h2&gt; CAM-087&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Green Wood Cemetery&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2025-03-10&lt;/p&gt;
@@ -3189,15 +3188,15 @@
             Coordinates: 40.6417°N, 74.0211°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#523</styleUrl>
-            <Point id="521">
-                <coordinates>-74.0211,40.6417,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="570">
-            <name>CAM-095 - New York Botanical Garden</name>
-            <description>
-            &lt;h2&gt;⚪ CAM-095&lt;/h2&gt;
+                <styleUrl>#523</styleUrl>
+                <Point id="521">
+                    <coordinates>-74.0211,40.6417,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="570">
+                <name>CAM-095 - New York Botanical Garden</name>
+                <description>
+            &lt;h2&gt; CAM-095&lt;/h2&gt;
             &lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; New York Botanical Garden&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; Inactive&lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Installed:&lt;/b&gt; 2023-07-14&lt;/p&gt;
@@ -3206,10 +3205,11 @@
             Coordinates: 40.8648°N, 73.8822°W
             &lt;/p&gt;
         </description>
-            <styleUrl>#571</styleUrl>
-            <Point id="569">
-                <coordinates>-73.8822,40.8648,0.0</coordinates>
-            </Point>
-        </Placemark>
+                <styleUrl>#571</styleUrl>
+                <Point id="569">
+                    <coordinates>-73.8822,40.8648,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
     </Document>
 </kml>

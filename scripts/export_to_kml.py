@@ -22,7 +22,7 @@ def load_cameras():
         Camera data
     """
     df = pd.read_csv("data/sample_cameras.csv")
-    print(f"✅ Loaded {len(df)} cameras")
+    print(f"Loaded {len(df)} cameras")
     return df
 
 
@@ -37,7 +37,7 @@ def create_kml(df, output_path):
     output_path : str
         Where to save the KML file
     """
-    print("\n📦 Creating KML file...")
+    print("\nCreating KML file...")
 
     # Create KML document
     kml = simplekml.Kml()
@@ -71,14 +71,14 @@ def create_kml(df, output_path):
 
     # Save KML file
     kml.save(output_path)
-    print(f"✅ KML saved to: {output_path}")
-    print(f"📂 File size: {len(df)} placemarks")
+    print(f"KML saved to: {output_path}")
+    print(f"File size: {len(df)} placemarks")
 
 
 def main():
     """Main execution function."""
     print("\n" + "=" * 60)
-    print("📦 KML EXPORT TOOL")
+    print("KML EXPORT TOOL")
     print("=" * 60)
 
     # Load data
@@ -89,7 +89,7 @@ def main():
     create_kml(df, output_path)
 
     print("\n" + "=" * 60)
-    print("✅ KML EXPORT COMPLETE!")
+    print("KML EXPORT COMPLETE!")
     print("=" * 60)
 
     print("\nNext steps:")

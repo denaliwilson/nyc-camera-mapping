@@ -1,6 +1,6 @@
 # NYC Security Camera Mapping
 
-## 🎯 Project Overview
+## Project Overview
 
 A comprehensive GIS analysis project mapping 100 security camera locations across New York City's five boroughs. This project demonstrates geospatial data processing, spatial analysis, and interactive mapping techniques relevant to public safety and infrastructure monitoring.
 
@@ -8,13 +8,13 @@ A comprehensive GIS analysis project mapping 100 security camera locations acros
 
 **Status Distribution:** 70% Active, 20% Maintenance, 10% Inactive
 
-## 🎨 Project Status
+## Project Status
 
-✅ **Data Collection Complete** - 100-camera dataset with accurate coordinates  
-✅ **Data Analysis** - Geographic distribution, borough analysis, temporal trends  
-🚧 **In Development** - Interactive mapping and KML export capabilities
+**Data Collection Complete** - 100-camera dataset with accurate coordinates  
+**Data Analysis** - Geographic distribution, borough analysis, temporal trends  
+**In Development** - Interactive mapping and KML export capabilities
 
-## 🛠️ Technologies & Tools
+## Technologies & Tools
 
 - **Python** - GeoPandas, Pandas, NumPy, Folium, Shapely
 - **Geospatial Analysis** - Spatial clustering, distance calculations, coordinate validation
@@ -22,7 +22,7 @@ A comprehensive GIS analysis project mapping 100 security camera locations acros
 - **Visualization** - Folium (interactive maps), Matplotlib (statistical charts)
 - **Coordinate System** - WGS84 (EPSG:4326) 
 ## 📁 Project Structure ``` nyc-camera-mapping/ ├── data/ # Raw and processed camera location data ├── scripts/ # Python scripts for data processing ├── maps/ # Output visualizations and maps ├── docs/ # Documentation and methodology └── README.md # This file ``` 
-## 🎯 Project Goals
+## Project Goals
 
 - [x] Collect and geocode 100 camera locations across NYC
 - [x] Validate coordinates and clean data (borough boundaries, accuracy checks)
@@ -33,7 +33,7 @@ A comprehensive GIS analysis project mapping 100 security camera locations acros
 - [ ] Analyze installation timeline and status trends
 - [x] Document methodology and data quality standards
 
-## 📊 Skills Demonstrated
+## Skills Demonstrated
 
 - Geospatial data collection, validation, and cleaning
 - Coordinate system (WGS84/EPSG:4326) and boundary validation
@@ -42,7 +42,7 @@ A comprehensive GIS analysis project mapping 100 security camera locations acros
 - ETL workflows for location data (CSV → GeoJSON → KML)
 - Python geospatial libraries: GeoPandas, Shapely, Folium
 - Haversine formula implementation for distance calculations
-- Data quality assurance and professional documentation ## 🚀 Getting Started
+- Data quality assurance and professional documentation ## Getting Started
 
 ### Prerequisites
 ```bash
@@ -59,7 +59,7 @@ python scripts/analyze_data.py              # Generate comprehensive analysis
 - Console reports: Status distribution, geographic analysis, temporal trends
 - Statistics: Borough breakdown, operational rates, installation timeline
 - Data files: Validated CSV in data/ directory 
-## � Dataset Information
+## Dataset Information
 
 **File:** `data/sample_cameras.csv`
 - 100 camera records across all NYC boroughs
@@ -71,7 +71,7 @@ python scripts/analyze_data.py              # Generate comprehensive analysis
 
 See [docs/data_dictionary.md](docs/data_dictionary.md) for complete field definitions and [data/README.md](data/README.md) for collection methodology.
 
-## 📝 Portfolio Context
+## Portfolio Context
 
 This project demonstrates practical skills in location intelligence and geospatial analysis:
 - Real-world data validation and cleaning workflows
@@ -79,9 +79,9 @@ This project demonstrates practical skills in location intelligence and geospati
 - Multi-borough coverage and distribution analysis
 - Temporal data analysis (5-year installation timeline)
 - Professional documentation and methodology standards 
-## 👤 Author
+## Author
 
 **Denali Wilson**
 - GitHub: [@denaliwilson](https://github.com/denaliwilson)
 - LinkedIn: [linkedin.com/in/denali-wilson/](https://www.linkedin.com/in/denali-wilson/)
-- Email: denaliwilson@gmail.com ## 📄 License This project is licensed under the MIT License - see the LICENSE file for details.
+- Email: denaliwilson@gmail.com ## License This project is licensed under the MIT License - see the LICENSE file for details.

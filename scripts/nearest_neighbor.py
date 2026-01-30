@@ -1,9 +1,6 @@
 """Nearest neighbor analysis"""
 
 import pandas as pd
-import geopandas as gpd
-from shapely.geometry import Point
-import numpy as np
 import matplotlib.pyplot as plt
 from math import radians, sin, cos, sqrt, atan2
 
@@ -21,7 +18,7 @@ def haversine_distance(lat1, lon1, lat2, lon2):
 
 def nearest_neighbor_analysis(df):
     """Calculate nearest neighbor distances for all cameras"""
-    print(f"\n📏 Calculating nearest neighbors for {len(df)} cameras...")
+    print(f"\nCalculating nearest neighbors for {len(df)} cameras...")
 
     results = []
     for idx, camera in df.iterrows():
@@ -52,7 +49,7 @@ def nearest_neighbor_analysis(df):
     results_df = pd.DataFrame(results)
 
     # Calculate statistics
-    print(f"\n📊 Nearest Neighbor Statistics:")
+    print(f"\nNearest Neighbor Statistics:")
     print(f" Minimum distance: {results_df['distance_m'].min():.0f} m")
     print(f" Maximum distance: {results_df['distance_m'].max():.0f} m")
     print(f" Mean distance: {results_df['distance_m'].mean():.0f} m")
@@ -62,20 +59,20 @@ def nearest_neighbor_analysis(df):
     # Find isolated cameras (>1km from nearest neighbor)
     isolated = results_df[results_df['distance_m'] > 1000]
     if len(isolated) > 0:
-        print(f"\n⚠️ Isolated cameras (>1km from nearest):")
+        print(f"\nIsolated cameras (>1km from nearest):")
         for _, row in isolated.iterrows():
             print(f" {row['camera_id']}: {row['distance_m']:.0f}m from nearest")
 
     # Find clustered cameras (<200m from nearest)
     clustered = results_df[results_df['distance_m'] < 200]
-    print(f"\n🎯 Clustered cameras (<200m): {len(clustered)}")
+    print(f"\nClustered cameras (<200m): {len(clustered)}")
 
     return results_df
 
 
 def visualize_nearest_neighbor(results_df, output_path):
     """Create histogram of nearest neighbor distances"""
-    print(f"\n🎨 Creating distance distribution plot...")
+    print(f"\nCreating distance distribution plot...")
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
 
@@ -117,7 +114,7 @@ def visualize_nearest_neighbor(results_df, output_path):
 
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    print(f"✅ Saved to: {output_path}")
+    print(f"Saved to: {output_path}")
     plt.close()
 
 
@@ -131,7 +128,7 @@ def main():
 
     # Save results
     results_df.to_csv("maps/nearest_neighbor_results.csv", index=False)
-    print(f"\n💾 Saved results to: maps/nearest_neighbor_results.csv")
+    print(f"\nSaved results to: maps/nearest_neighbor_results.csv")
 
     # Visualize
     visualize_nearest_neighbor(
@@ -139,7 +136,7 @@ def main():
         "maps/nearest_neighbor_distribution.png"
     )
 
-    print("\n✅ NEAREST NEIGHBOR ANALYSIS COMPLETE!")
+    print("NEAREST NEIGHBOR ANALYSIS COMPLETE!")
 
 
 if __name__ == "__main__":

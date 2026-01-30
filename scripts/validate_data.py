@@ -22,7 +22,7 @@ NYC_BOUNDS = {
 }
 
 # Allowed status values
-VALID_STATUSES = ['Active', 'Maintenance', 'Offline']
+VALID_STATUSES = ['Active', 'Maintenance', 'Inactive']
 
 # Required columns
 REQUIRED_COLUMNS = [
@@ -55,35 +55,35 @@ class ValidationReport:
     def print_report(self):
         """Print validation report."""
         print("\n" + "=" * 60)
-        print("📋 VALIDATION REPORT")
+        print("VALIDATION REPORT")
         print("=" * 60)
 
         # Passed checks
         if self.passed:
-            print(f"\n✅ PASSED ({len(self.passed)} checks):")
+            print(f"\nPASSED ({len(self.passed)} checks):")
             for msg in self.passed:
-                print(f" ✓ {msg}")
+                print(f" - {msg}")
 
         # Warnings
         if self.warnings:
-            print(f"\n⚠️ WARNINGS ({len(self.warnings)}):")
+            print(f"\nWARNINGS ({len(self.warnings)}):")
             for msg in self.warnings:
                 print(f" ! {msg}")
 
         # Errors
         if self.errors:
-            print(f"\n❌ ERRORS ({len(self.errors)}):")
+            print(f"\nERRORS ({len(self.errors)}):")
             for msg in self.errors:
-                print(f" ✗ {msg}")
+                print(f" - {msg}")
 
         # Summary
         print("\n" + "=" * 60)
         if self.errors:
-            print("❌ VALIDATION FAILED")
+            print("VALIDATION FAILED")
         elif self.warnings:
-            print("⚠️ VALIDATION PASSED WITH WARNINGS")
+            print("VALIDATION PASSED WITH WARNINGS")
         else:
-            print("✅ VALIDATION PASSED")
+            print("VALIDATION PASSED")
         print("=" * 60)
 
         return len(self.errors) == 0
@@ -94,14 +94,14 @@ def load_data(filepath):
     try:
         return pd.read_csv(filepath)
     except Exception as e:
-        print(f"❌ ERROR: Could not load {filepath}")
+        print(f"ERROR: Could not load {filepath}")
         print(f" {e}")
         sys.exit(1)
 
 
 def validate_structure(df, report):
     """Validate dataset structure."""
-    print("\n🔍 Checking dataset structure...")
+    print("\nChecking dataset structure...")
 
     # Check required columns
     missing_columns = [col for col in REQUIRED_COLUMNS if col not in df.columns]
@@ -124,7 +124,7 @@ def validate_structure(df, report):
 
 def validate_camera_ids(df, report):
     """Validate camera ID field."""
-    print("🔍 Checking camera IDs...")
+    print("Checking camera IDs...")
 
     if 'camera_id' not in df.columns:
         return
@@ -162,7 +162,7 @@ def validate_camera_ids(df, report):
 
 def validate_coordinates(df, report):
     """Validate latitude and longitude."""
-    print("🔍 Checking coordinates...")
+    print("Checking coordinates...")
 
     if 'latitude' not in df.columns or 'longitude' not in df.columns:
         return
@@ -219,7 +219,7 @@ def validate_coordinates(df, report):
 
 def validate_status(df, report):
     """Validate status field."""
-    print("🔍 Checking status values...")
+    print("Checking status values...")
 
     if 'status' not in df.columns:
         return
@@ -243,7 +243,7 @@ def validate_status(df, report):
 
 def validate_dates(df, report):
     """Validate installation_date field."""
-    print("🔍 Checking installation dates...")
+    print("Checking installation dates...")
 
     if 'installation_date' not in df.columns:
         return
@@ -281,7 +281,7 @@ def validate_dates(df, report):
 
 def validate_location_names(df, report):
     """Validate location_name field."""
-    print("🔍 Checking location names...")
+    print("Checking location names...")
 
     if 'location_name' not in df.columns:
         return
@@ -314,9 +314,9 @@ def main():
 
     # Load data
     filepath = "data/sample_cameras.csv"
-    print(f"\n📂 Loading data from: {filepath}")
+    print(f"\nLoading data from: {filepath}")
     df = load_data(filepath)
-    print(f"✅ Loaded {len(df)} cameras\n")
+    print(f"Loaded {len(df)} cameras\n")
 
     # Create validation report
     report = ValidationReport()

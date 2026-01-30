@@ -1,0 +1,73 @@
+======================================================================
+NYC TRANSIT CAMERA NETWORK - SPATIAL ANALYSIS REPORT
+======================================================================
+
+Generated: 2026-01-30 10:57:03
+Analyst: Denali Wilson
+
+======================================================================
+
+1. DATASET OVERVIEW
+----------------------------------------------------------------------
+Total Cameras: 100
+Date Range: 2020-02-14 to 2025-09-22
+
+Status Distribution:
+ Active: 72 (72.0%)
+ Maintenance: 18 (18.0%)
+ Inactive: 10 (10.0%)
+
+
+2. SPATIAL DISTRIBUTION
+----------------------------------------------------------------------
+Geographic Extent:
+ Latitude: 40.5555° to 40.8686°
+ Longitude: -74.2452° to -73.8081°
+
+
+3. NEAREST NEIGHBOR ANALYSIS
+----------------------------------------------------------------------
+Statistics (distance to nearest camera):
+ Minimum: 0 meters
+ Maximum: 10366 meters
+ Mean: 874 meters
+ Median: 416 meters
+
+Isolated Cameras (>1km from nearest): 29
+
+
+4. CLUSTER ANALYSIS
+----------------------------------------------------------------------
+Clusters Detected: 9
+Cameras in Clusters: 39
+Isolated Cameras: 61
+
+
+5. COVERAGE ANALYSIS
+----------------------------------------------------------------------
+Assumed Coverage Radius: 50 meters
+Individual Coverage Area per Camera: ~7,854 m²
+Theoretical Total Coverage: ~785,400 m²
+Note: Actual coverage less due to overlapping zones
+
+
+6. RECOMMENDATIONS
+----------------------------------------------------------------------
+• Review isolated cameras for strategic importance
+• Consider additional cameras in identified gap areas
+• Clusters may indicate high-traffic zones requiring monitoring
+• Regular maintenance needed for offline/maintenance cameras
+
+
+7. VISUALIZATIONS GENERATED
+----------------------------------------------------------------------
+• maps/coverage_zones.png - Coverage buffer zones
+• maps/coverage_gaps.png - Coverage gap analysis
+• maps/nearest_neighbor_distribution.png - Distance distribution
+• maps/camera_clusters.png - Cluster detection results
+• maps/camera_density.png - Density heatmap
+
+
+======================================================================
+END OF REPORT
+======================================================================
