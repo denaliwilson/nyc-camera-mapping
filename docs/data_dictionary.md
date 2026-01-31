@@ -5,9 +5,9 @@
 **File:** `data/sample_cameras.csv`  
 **Format:** Comma-Separated Values (CSV)  
 **Encoding:** UTF-8  
-**Last Updated:** January 23, 2026  
+**Last Updated:** January 31, 2026  
 **Total Records:** 100 cameras  
-**Date Range:** 2020-2025  
+**Date Range:** 2020-02-14 to 2025-09-22  
 **Geographic Coverage:** All 5 NYC boroughs
 
 ---
@@ -144,8 +144,8 @@
 
 - **Coordinates:** Obtained via Google Maps geocoding and geospatial reference verification
 - **Location Names:** Based on official MTA stations, NYC Parks Department, and cultural institutions
-- **Borough Distribution:** 30 Manhattan, 20 Brooklyn, 15 Queens, 15 Bronx, 10 Staten Island
-- **Status Information:** Demonstration data with realistic distributions (70% Active, 20% Maintenance, 10% Inactive)
+- **Borough Distribution:** Not stored as a field in the current dataset. To compute borough counts, add a `borough` column or derive boroughs via a spatial join with an authoritative NYC boroughs shapefile (GeoJSON/ESRI Shapefile). This allows reproducible counts and borough-based analysis.
+- **Status Information:** Active: 72 (72%), Maintenance: 18 (18%), Inactive: 10 (10%) (values verified from `data/sample_cameras.csv`)
 - **Installation Dates:** Demonstration data spanning realistic 5-year deployment timeline (2020-2025)
 
 ---
@@ -171,6 +171,8 @@
 
 ## Change Log
 
+- **2026-01-31:** Data dictionary updated: corrected date range, added exact status counts, removed inaccurate borough distribution and recommended adding a `borough` field or deriving boroughs by spatial join.
+- **2026-01-23:** Dataset expanded to 100 camera locations; installation dates and records updated.
 - **2026-01-22:** Initial dataset created with 25 camera locations
 - **2026-01-21:** Dataset structure defined with 8 sample cameras
 
