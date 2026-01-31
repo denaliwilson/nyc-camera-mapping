@@ -302,9 +302,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Project Stats
 
-![Languages](https://img.shields.io/github/languages/count/yourusername/nyc-camera-mapping)
-![Top Language](https://img.shields.io/github/languages/top/yourusername/nyc-camera-mapping)
-![Code Size](https://img.shields.io/github/languages/code-size/yourusername/nyc-camera-mapping)
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/nyc-camera-mapping)
+![Languages](https://img.shields.io/github/languages/count/denaliwilson/nyc-camera-mapping)
+![Top Language](https://img.shields.io/github/languages/top/denaliwilson/nyc-camera-mapping)
+![Code Size](https://img.shields.io/github/languages/code-size/denaliwilson/nyc-camera-mapping)
+![Last Commit](https://img.shields.io/github/last-commit/denaliwilson/nyc-camera-mapping)
 
 ---
